@@ -74,3 +74,26 @@ header {
 		}
 	}
 }
+
+
+@media screen and (max-width: 1450px) {
+	
+	.header_left {
+		flex-basis: 41%;
+	}
+	
+	
+	.header_right {
+		flex-basis: 59%;
+		padding-right: 82px;
+		a  {
+			font-size: 30px;
+			&:first-of-type {
+				margin-right: 25px;
+			}
+		}
+		
+	}
+	
+
+} /* Media Query */
