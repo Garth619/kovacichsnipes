@@ -102,6 +102,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/section-one.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section-one.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -299,6 +312,82 @@
 		"oAP": "\/fonts\/actadisplay\/stylesheet-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/fonts\/Kov_Snipes\/Kov_Snipes.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/Kov_Snipes\/Kov_Snipes-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/Kov_Snipes\/Start here files\/header.png": {
+		"ft": 32768,
+		"iS": 3167,
+		"oA": 0,
+		"oAP": "\/fonts\/Kov_Snipes\/Start here files\/header.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/fonts\/Kov_Snipes\/Start here files\/highlight.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fonts\/Kov_Snipes\/Start here files\/highlight-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/fonts\/Kov_Snipes\/Start here files\/layout.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/Kov_Snipes\/Start here files\/layout-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/Kov_Snipes\/StartHere.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/Kov_Snipes\/StartHere.html",
+		"oF": 0
+		},
+	"\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.eot",
+		"oF": 0
+		},
+	"\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.woff",
+		"oF": 0
+		},
+	"\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.woff2",
+		"oF": 0
 		},
 	"\/fonts\/worksans\/demo.html": {
 		"cB": 0,
@@ -533,7 +622,7 @@
 		"oAP": "\/images\/hero-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/hero-intl-about.jpg": {
@@ -697,6 +786,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/images\/new_sp01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_sp01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/result-01.svg": {
 		"ft": 2097152,

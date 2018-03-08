@@ -1,0 +1,104 @@
+#section_one {
+	display: flex;
+}
+
+.section_one_left {
+	background: url(#{$themePath}images/hero-img.jpg) top center no-repeat;
+	flex-grow:1;
+	background-size:cover;
+}
+
+
+.section_one_right {
+	flex-basis: 860px;
+	background: $bluedark;
+	flex-shrink:0;
+	flex-grow:0;
+	padding-left:60px;
+	padding-right:100px;
+	height:1500px;// 
+	span.large_header {
+		font-size:95px;
+		margin-top:143px;
+		line-height: 95px;
+		letter-spacing: 0.02em;
+		font-family: $actabook;
+		color:#fff;
+		display: block;
+		strong {
+			font-weight: 300;
+			color:$gold;
+		}
+	}
+}
+
+a.start_button {
+	background:$orangered;
+	float:right;
+	display: inline-block;
+	color:#fff;
+	text-decoration: none;
+	padding:26px 42px;
+	font-family: $tradegothic;
+	font-size: 22px;
+	letter-spacing: 0.1em;
+	margin-top:18px;
+	margin-bottom:105px;
+	transition: all .2s ease-in-out;
+	box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
+	&:hover {
+		background: $gold;
+	}
+}
+
+
+
+.sp_slideshow {
+	clear:both;
+	
+	.sp_single_slide {
+		box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.3);
+		padding:43px 33px;
+		display: flex;
+		.sp_svg {
+			flex-basis:190px;
+			svg {
+			
+			}
+		}
+		
+		.sp_content_wrapper {
+			padding-left:40px;
+			margin:17px 0 0;
+			max-width:405px;
+			span.sp_title {
+				display: block;
+				font-family: $workextrabold;
+				color:#fff;
+				text-transform: uppercase;
+				letter-spacing: 0.3em;
+				font-size: 18px;
+				border-bottom:1px solid $gold;
+				padding-bottom:17px;
+				margin:0px 0 25px;
+				span.number {
+					letter-spacing: 0.35em;
+					margin-right:12px;
+				}
+			}
+			span.sp_content {
+				color:#fff;
+				font-size: 17px;
+				line-height: 32px;
+				letter-spacing: 0.02em;
+				font-family: $workregular;
+			}
+		}
+	}
+}
+
+
+
+
+
+
