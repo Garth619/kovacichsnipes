@@ -177,7 +177,7 @@ a.start_button {
 	
 	.section_one_left {
 		width: calc(100% - 696px);
-		background-position-x: -70px;
+		//background-position-x: -70px;
 	}
 	
 	
@@ -203,6 +203,7 @@ a.start_button {
 	padding: 24px 36px;
 	margin-bottom:50px;
 	margin-top: 14px;
+	margin-right: 64px;
 	&:hover {
 	
 	
@@ -254,6 +255,18 @@ a.start_button {
 	}
 	
 	    
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1400px) {
+	
+	
+	.section_one_left {
+		background-position-x: -70px;
+	}
+	
 	
 } /* Media Query */
 
