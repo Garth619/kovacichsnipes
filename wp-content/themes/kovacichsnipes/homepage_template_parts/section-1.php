@@ -12,6 +12,8 @@
 		
 		<a class="start_button" href="">start free case consultation</a><!-- start_button -->
 		
+		<div class="sp_slideshow_outer">
+		
 		<div class="sp_slideshow">
 			
 			<div class="sp_single_slide">
@@ -69,6 +71,8 @@
 			</div><!-- sp_single_slide -->
 			
 		</div><!-- sp_slideshow -->
+		
+		</div><!-- sp_slideshow_outer -->
 		
 	</div><!-- section_one_right -->
 	
