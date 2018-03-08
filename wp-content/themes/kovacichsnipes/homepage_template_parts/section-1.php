@@ -36,7 +36,7 @@
 				
 				<div class="sp_svg">
 				
-					<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new_sp01.svg"); ?>
+					<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new_sp02.svg"); ?>
 				
 				</div><!-- sp_svg -->
 				
@@ -54,13 +54,13 @@
 				
 				<div class="sp_svg">
 				
-					<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new_sp01.svg"); ?>
+					<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new_sp03.svg"); ?>
 				
 				</div><!-- sp_svg -->
 				
 				<div class="sp_content_wrapper">
 					
-					<span class="sp_title"><span class="orangered number">01</span>No Upfront Fees</span><!-- sp_title -->
+					<span class="sp_title"><span class="orangered number">03</span>No Upfront Fees</span><!-- sp_title -->
 					
 					<span class="sp_content">There are no attorneys' fees unless we are able to successfully recover compensation on your behalf, and your initial consultation is always free.</span><!-- sp_content -->
 					

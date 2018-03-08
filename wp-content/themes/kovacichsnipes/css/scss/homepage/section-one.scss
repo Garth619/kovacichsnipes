@@ -77,25 +77,37 @@ a.start_button {
 	max-width:780px;
 	.sp_single_slide {
 		box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.3);
-		padding:43px 33px;
+		padding:43px 33px 43px 0;
 		margin:20px;
+		height:290px;
 		&:after {
 			content:"";
 			clear:both;
 			display: block;
 		}
 		.sp_svg {
-			width:190px;
+			width:256px;
 			float:left;
+			text-align: center;
 			svg {
-			
+				display: block;
+				margin:0 auto;
+			}
+			svg#sp_one {
+				width:187px;
+			}
+			svg#sp_two {
+				width:195px;
+				margin-top:10px;
+			}
+			svg#sp_three {
+				width:223px;
 			}
 		}
 		
 		.sp_content_wrapper {
-			padding-left:40px;
 			float:right;
-			width:calc(100% - 190px);
+			width:calc(100% - 256px);
 			margin:17px 0 0;
 			max-width:425px;
 			span.sp_title {
