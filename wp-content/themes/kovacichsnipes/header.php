@@ -82,15 +82,19 @@
 			
 		</div><!-- menu_wrapper -->
 		
-		<div class="">
+		<div class="mobile_tel">
 			
-			<a class="" href=""></a>
+			<a class="" href="">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/ico-phone.svg"/>
+				
+			</a>
 		
-		</div>
+		</div><!-- mobile_tel -->
 		
-		<div class="">
+		<div class="mobile_contact">
 			
-			<a class="" href=""></a>
+			<img src="<?php bloginfo('template_directory');?>/images/ico-email.svg"/>
 		
 		</div>
 		
