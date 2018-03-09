@@ -70,6 +70,32 @@
 		
 	</header>
 	
+	<div class="mobile_header">
+		
+		<div class="menu_wrapper">
+			
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+				
+			<span class="menu_title">Menu</span>
+			
+		</div><!-- menu_wrapper -->
+		
+		<div class="">
+			
+			<a class="" href=""></a>
+		
+		</div>
+		
+		<div class="">
+			
+			<a class="" href=""></a>
+		
+		</div>
+		
+	</div><!-- mobile_header -->
+	
 
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 			
