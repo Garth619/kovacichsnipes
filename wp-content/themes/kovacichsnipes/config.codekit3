@@ -688,6 +688,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/ico-email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/ico-email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/ico-ilawyer.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -729,6 +739,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/ico-phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/ico-phone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/ico-play-hov..svg": {
 		"ft": 2097152,
