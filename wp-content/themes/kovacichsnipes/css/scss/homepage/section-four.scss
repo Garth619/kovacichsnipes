@@ -1,0 +1,94 @@
+#section_four {
+	display: flex;
+	position: relative;
+	&:before {
+		content:"";
+		width:100%;
+		height:100%;
+		position: absolute;
+		top:0;
+		left:0;
+		background: url(#{$themePath}images/ico-pattern.png) top left repeat;
+		opacity: 0.77;
+		z-index:1;
+	}
+	.single_result.sr_one {
+		
+	}
+	.single_result.sr_two {
+		background: #e9e9e9;
+			svg {
+				margin-top:257px;
+				width: 78px;
+			}
+	}
+	.single_result.sr_three {
+			svg {
+				margin-top:267px;
+				width: 69px;
+			}
+	}
+	.single_result {
+		flex-basis: 33.333%;
+		height:915px;
+		text-align: center;
+		background: #eeeeee;
+		.results_inner {
+			position: relative;
+			z-index: 5;
+		}
+		svg {
+			width:82px;
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:265px;
+		}
+		span.amount {
+			color:$gold;
+			display: block;
+			font-family: $actamedium;
+			font-size:85px;
+			margin-top:55px;
+		}
+		span.case_type {
+			text-transform: uppercase;
+			font-size: 18px;
+			font-family: $workbold;
+			letter-spacing: 0.15em;
+			color:#39454b;
+			display: block;
+			margin-top:15px;
+		}
+		span.result_title {
+			text-transform: lowercase;
+			color:$orangered;
+			font-family: $actamediumitalic;
+			font-size: 22px;
+			letter-spacing: 0.05em;
+			display: block;
+			margin-top:30px;
+		}
+	}
+}
+
+a.view_more_button {
+	background: $orangered;
+	margin-top:73px;
+	text-decoration: none;
+	color:#fff;
+	text-transform: lowercase;
+	font-family: $tradegothic;
+	font-size: 22px;
+	letter-spacing: 0.12em;
+	padding:25px 50px;
+	display: inline-block;
+	box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: $grey;
+	}
+}
+
+
+
