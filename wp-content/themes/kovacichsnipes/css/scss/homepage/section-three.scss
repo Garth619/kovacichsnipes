@@ -20,7 +20,7 @@
 		background: $orangered;
 		width:100%;
 		clear: both;
-		padding:200px 45px;
+		padding:192px 45px;
 		&:after {
 			content:"";
 			clear:both;
@@ -44,9 +44,25 @@
 			line-height: 45px;
 			letter-spacing: 0.02em;
 			display: block;
-			width:420px;
 			float: right;
 			margin-top:65px;
+			margin-right:80px;
+			position: relative;
+			padding-left:85px;
+			width: 515px;
+			&:before {
+				content:"";
+				position: absolute;
+				top:12px;
+				left:0;
+				display: block;
+				
+				margin-top:10px;
+				width:63px;
+				height:2px;
+				background: $bluedark;
+				
+			}
 		}
 	}
 }
