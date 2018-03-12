@@ -72,3 +72,150 @@
 	background: url(#{$themePath}images/result-img.jpg) top center no-repeat;
 	background-size:cover;
 }
+
+
+
+@media screen and (max-width: 1635px) {
+	
+	
+	
+	.sec_three_left {
+		.sec_three_results_wrapper {
+			padding: 142px 55px;
+// 			margin-top: 59px;
+			span.large_header {
+				font-size: 70px;
+				line-height: 90px;
+				max-width: 610px;
+			}
+		}
+	} 
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1125px) {
+	
+	
+	#section_three {
+		flex-direction: column;
+	}
+	
+	
+	.sec_three_left, .sec_three_right {
+		flex-basis: 100%;
+	}
+	
+	.sec_three_left {
+		order:2;
+		margin-top: -195px;
+		.sec_three_results_wrapper {
+			padding: 123px 32px 109px 0px;
+			.results_inner {
+				max-width: 729px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			span.results_content {
+				margin-right:0;
+				margin-top: 40px;
+			}
+			span.large_header {
+				line-height: 82px;
+			}
+		}
+		.peace_wrapper {
+			width:195px;
+			height:195px;
+			svg {
+				width: 170px;
+			}
+		} 
+	}
+	
+	
+	    
+	
+	
+	.sec_three_right {
+		height:577px;
+		order:1;
+		background: url(#{$themePath}images/result-img-tablet.jpg) top left no-repeat;
+		background-size: 1175px;
+		
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 960px) {
+	
+	
+	.sec_three_right {
+		background-position-x: -210px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.sec_three_right {
+		display: none;
+	}
+	
+	
+	
+	.sec_three_left {
+		margin-top:0;
+		.sec_three_results_wrapper {
+			padding: 77px 41px 80px 21px;
+			.results_inner {
+				max-width: 429px;
+			}
+			span.results_content {
+				margin-top: 33px;
+				padding-left:0;
+				margin-left:0;
+				float:none;
+				max-width: 428px;
+				width:100%;
+				&:before {
+					position: static;
+					margin-bottom:15px;
+				}
+			}
+			span.large_header {
+				font-size: 45px;
+				line-height: 55px;
+			}
+		}
+		.peace_wrapper {
+			width:159px;
+			height:159px;
+			svg {
+				width: 140px;
+			}
+		} 
+	}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
