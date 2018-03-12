@@ -12,7 +12,7 @@
 			
 			<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-mountain.svg"); ?>
 			
-			<span class="large_header">Experienced trial attorneys</span><!-- large_header -->
+			<span class="large_header">Experienced<br/> trial attorneys</span><!-- large_header -->
 			
 			<span class="blockquote">For more than three decades, our attorneys have been aggressive advocates for individuals who have been injured due to the negligence of others. We have a reputation as a firm that takes on the toughest cases, going up against some of the largest corporations in the nation.</span><!-- blockquote -->
 			
@@ -21,7 +21,7 @@
 			
 		<div class="col_one">
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan sapien sed metus faucibus, non ullamcorper massa dapibus. Nullam scelerisque leo vel tempor tempor. Proin pretium euismod ipsum. Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus metus et nunc. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan sapien sed metus faucibus, non ullamcorper massa dapibus. Nullam scelerisque leo vel tempor tempor. Proin pretium euismod ipsum. Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus metus et nunc. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
 <h2>Heading Style 2</h2>
 
@@ -30,7 +30,7 @@
 		
 <h3>Heading Style 3</h3>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan sapien sed metus faucibus, non ullamcorper massa dapibus. Embedded Link Embedded Link  Rollover leo vel tempor tempor. Proin pretium euismod ipsum. Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus metus et nunc. In hac habitasse platea dictumst. Cumn ullamcorper massa dapibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan sapien sed metus faucibus, non ullamcorper massa dapibus. <a href="">Embedded Link</a> Embedded Link  Rollover leo vel tempor tempor. Proin pretium euismod ipsum. Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus metus et nunc. In hac habitasse platea dictumst. Cumn ullamcorper massa dapibus.</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan sapien sed metus faucibus, non ullamcorper massa dapibus. Nullam scelerisque leo vel tempor tempor. Proin pretium euismod ipsum. Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus metus et nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan sapien sed metus faucibus, non</p>
  

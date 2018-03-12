@@ -1,5 +1,5 @@
 #section_two {
-	
+	overflow: hidden;
 }
 
 
@@ -29,19 +29,23 @@
 	
 	.sec_two_content {
 		// column-count:3;
-		max-width:1600px;
+		max-width:1690px;
 		margin:110px auto;
-		
+		padding:0 45px;
+		position: relative;
 		&:after {
 			clear:both;
+			display: block;
+			content:"";
 		}
 	}
 	
 	
 	.intro_block {
-		width:100%;
-		max-width:1050px;
+		width:66%;
+		// max-width:1050px;
 		float:left;
+		margin-bottom:100px;
 		svg {
 			width:690px;
 			margin-left:-50px;
@@ -58,32 +62,255 @@
 			padding-bottom:45px;
 			border-bottom: 2px solid $gold;
 			margin-bottom:50px;
+			position: relative;
+			z-index: 1;
+			br {
+				display: none;
+			}
 		}
 		span.blockquote {
 			color:$gold;
-			font-size:39px;
+			font-size:38px;
 			line-height: 60px;
-			
 			font-family: $actamedium;
 		}
 	}
 	
 	
 	.col_one {
-		width:100%;
-		max-width:1050px;
+		width:66%;
+		// max-width:1050px;
 		column-count:2;
-		column-gap:95px;
+		column-gap:74px;
 		float:left;
 	}
 	
 	
 	.col_three {
-		padding-left:95px;
-		float:right;
-		margin-top: -360px;
-		width:calc(100% - 1050px);
+		padding-left:74px;
+		// float:right;
+// 		margin-top: -456px;
+		width:34%;
+		
+		// i did all this below so the thrid column stays at the top as the blockquote text drops down to new lines, very hacky to have a blockqute appear to nested in columns...
+		
+		
+		position: absolute;
+		top: 160px;
+		right:45px;
+		
+		
 	}
+	
+	
+	
+	@media screen and (max-width: 1450px) {
+	
+	
+		.sec_two_content { 
+			margin-bottom:125px;
+		}
+		
+	h1.intro {
+		font-size: 115px;
+		line-height: 124px;
+		max-width: 895px;
+		margin: 23px auto 0;
+	}
+	
+	.gold_line {
+		height: 147px;
+	}
+	
+	
+	
+	.intro_block svg {
+    margin-left: -15px;
+	}
+	
+	
+	.intro_block {
+		width:100%;
+		float:none;
+		margin-bottom: 89px;
+		span.large_header {
+			padding-bottom: 41px;
+			margin-top: -54px;
+		}
+	} 
+	
+	
+	.intro_block {
+		span.blockquote {
+			font-size: 38px;
+			line-height: 60px;
+		}
+	}
+	
+	
+	.col_one {
+    width: 100%;
+    float:none;
+   }
+   
+   
+   .col_three {
+/*
+	   float:none;
+	   margin-top:0;
+*/
+	   padding-left: 0;
+	   width:100%;
+	   position: static;
+	   top:0;
+	   right:0;
+   }
+		
+		
+		
+	} /* Media Query */
+	
+	
+	
+@media screen and (max-width: 1060px) {
+	
+	
+	h1.intro {
+		font-size: 80px;
+		line-height: 88px;
+		max-width:600px;
+		margin: 23px auto 0;
+	}
+	
+	
+	.gold_line {
+		height: 90px;
+	}
+
+	.intro_block {
+		margin-bottom: 66px;
+		svg {
+   		width:570px;
+		}
+		span.large_header {
+			margin-top: -51px;
+			margin-bottom: 46px;
+		}
+		span.blockquote {
+			font-size: 35px;
+			line-height: 50px;
+		}
+	}
+	
+	.sec_two_content {
+		margin: 78px auto 115px;
+		padding:0 52px;
+	}
+	
+	
+	.col_one {
+		column-count:1;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	.gold_line {
+		height:80px;
+	}
+	
+	
+	h1.intro {
+		font-size: 40px;
+		line-height: 45px;
+		max-width:300px;
+		margin: 19px auto 0;
+	}
+	
+	
+	
+	.intro_block {
+		margin-bottom: 56px;
+		svg {
+   		
+   		margin-left: -23px;
+		}
+		span.large_header {
+			font-size: 16px;
+			line-height: 22px;
+			letter-spacing: 0.25em;
+			padding-bottom: 17px;
+			margin-left:0;
+			margin-top: -56px;
+		}
+		span.blockquote {
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
+	
+	
+	.sec_two_content {
+		margin: 64px auto 99px;
+		padding:0 21px;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+@media screen and (max-width: 600px) {
+	
+	
+	.intro_block {
+		
+		svg {
+			width:420px;
+   		//max-width:690px;
+	
+
+		}
+	}
+	
+	
+	
+		
+} /* Media Query */
+
+
+@media screen and (max-width: 500px) {
+	
+	
+	.intro_block {
+		
+		svg {
+   		
+		}
+		span.large_header {
+			br {
+				display: block;
+			}
+			
+		}
+		span.blockquote {
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
 	
 	
 	
