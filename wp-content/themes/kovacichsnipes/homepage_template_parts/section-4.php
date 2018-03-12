@@ -12,6 +12,8 @@
 			<span class="case_type">Environmental Contamination</span><!-- case_type -->
 		
 			<span class="result_title">Verdict</span><!-- result_title -->
+			
+			<a class="view_more_button" href="">View More</a><!-- view_more_button -->
 		
 		</div><!-- results_inner -->
 		
@@ -46,6 +48,8 @@
 			<span class="case_type">traumatic brain injury</span><!-- case_type -->
 		
 			<span class="result_title">Verdict</span><!-- result_title -->
+			
+			<a class="view_more_button" href="">View More</a><!-- view_more_button -->
 		
 		</div><!-- results_inner -->
 		

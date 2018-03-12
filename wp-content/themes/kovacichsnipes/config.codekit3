@@ -789,6 +789,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/ico-pattern-two.jpg": {
+		"ft": 16384,
+		"iS": 19499,
+		"oA": 0,
+		"oAP": "\/images\/ico-pattern-two.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/ico-pattern.jpg": {
+		"ft": 16384,
+		"iS": 22288,
+		"oA": 0,
+		"oAP": "\/images\/ico-pattern.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/ico-pattern.png": {
 		"ft": 32768,
 		"iS": 0,

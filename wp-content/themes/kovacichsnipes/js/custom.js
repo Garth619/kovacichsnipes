@@ -6,7 +6,6 @@ jQuery(document).ready(function($){
   
 
 
-
 	$('.sp_slideshow').slick({
   	infinite: true,
 		slidesToShow: 1,
@@ -16,7 +15,34 @@ jQuery(document).ready(function($){
 		fade:true,
 		adaptiveHeight: true
 	});
-
+	
+	
+	
+	
+	$('#section_four').slick({
+  	infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+		slide:".single_result",
+		arrows:false,
+		dots:false,
+		responsive: [
+    {
+      breakpoint: 1220,
+      settings: {
+        infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				slide:".single_result",
+				arrows:false,
+				dots:true,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+	});
 
 
 
