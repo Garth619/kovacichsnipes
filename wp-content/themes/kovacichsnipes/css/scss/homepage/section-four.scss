@@ -1,5 +1,6 @@
 #section_four {
 	position: relative;
+/*
 	&:before {
 			content:"";
 			width:100%;
@@ -12,11 +13,21 @@
 			z-index:1;
 			pointer-events: none;
 		}
+*/
 		&:after {
 		content:"";
 		clear:both;
 		display: block;
 	}
+	
+	
+	
+	.single_result.sr_one, .single_result.sr_three {
+		a.view_more_button {
+				display: none;
+		}
+	}
+	
 	.single_result.sr_one {
 		
 	}
@@ -40,7 +51,6 @@
 		text-align: center;
 		background: #eeeeee;
 		position: relative;
-/*
 		&:before {
 			content:"";
 			width:100%;
@@ -53,10 +63,26 @@
 			z-index:1;
 			pointer-events: none;
 		}
-*/
 		.results_inner {
 			position: relative;
 			z-index: 5;
+		}
+		a.view_more_button {
+			background: $orangered;
+			margin-top:73px;
+			text-decoration: none;
+			color:#fff;
+			text-transform: lowercase;
+			font-family: $tradegothic;
+			font-size: 22px;
+			letter-spacing: 0.12em;
+			padding:25px 50px;
+			display: inline-block;
+			box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
+			transition: all .2s ease-in-out;
+			&:hover {
+				background: $grey;
+			}
 		}
 		svg {
 			width:82px;
@@ -93,23 +119,6 @@
 	}
 }
 
-a.view_more_button {
-	background: $orangered;
-	margin-top:73px;
-	text-decoration: none;
-	color:#fff;
-	text-transform: lowercase;
-	font-family: $tradegothic;
-	font-size: 22px;
-	letter-spacing: 0.12em;
-	padding:25px 50px;
-	display: inline-block;
-	box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
-	transition: all .2s ease-in-out;
-	&:hover {
-		background: $grey;
-	}
-}
 
 
 
@@ -138,6 +147,13 @@ a.view_more_button {
 	}
 	.single_result {
 		height: 667px;
+		a.view_more_button {
+			font-size:19px;
+			padding: 24px 57px;
+			&:hover {
+		
+		}
+	}
 		.results_inner {
 			
 		}
@@ -158,14 +174,190 @@ a.view_more_button {
 	}
 }
 
-a.view_more_button {
-	font-size:19px;
-	padding: 24px 57px;
-	&:hover {
-		
-	}
-}
 
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1220px) {
+	
+	
+	
+	#section_four {
+		.single_result {
+			height: 617px;
+			span.amount {
+				 margin-top: 26px;
+			}
+			span.case_type {
+				margin-top: 17px;
+			}
+			span.result_title {
+				margin-top: 33px;
+			}
+			a.view_more_button {
+				font-size:19px;
+				padding: 17px 30px;
+				margin-top: 45px;
+				&:hover {
+		
+			}
+		}
+		}
+		.single_result.sr_one {
+			svg {
+				margin-top: 115px;
+			}
+		}
+		.single_result.sr_two {
+			svg {
+				margin-top: 105px;
+			}
+		}
+		.single_result.sr_three {
+			svg {
+				margin-top: 115px;
+			}
+		}
+		.single_result.sr_one, .single_result.sr_three {
+			a.view_more_button {
+				display: inline-block;
+			}
+		}
+		.single_result.sr_two {
+			background: #eeeeee;
+		}
+		.slick-dots {
+			bottom: 70px;
+			li.slick-active {
+				button {
+					&:before {
+						color:$orangered;
+					}
+				}
+			}
+			li:hover {
+				button {
+					&:before {
+						color:$orangered;
+					}
+				}
+			}
+			li {
+				margin:0;
+				width:18px;
+				button {
+					width:18px;
+					&:before {
+						width:18px;
+						opacity: 1;
+						color: $grey;
+						font-size:28px;
+					}
+				}
+			}
+		}
+	} 
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	
+	#section_four {
+		.single_result {
+			height: 657px;
+			span.amount {
+				font-size: 56px;
+				margin-top: 30px;
+			}
+			span.case_type {
+				margin-top: 22px;
+				max-width: 200px;
+				line-height: 26px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			span.result_title {
+				font-size:27px;
+				margin-top: 28px;
+			}
+			a.view_more_button {
+				margin-top: 26px;
+				&:hover {
+		
+			}
+		}
+		}
+		.single_result.sr_one {
+			svg {
+				margin-top: 107px;
+				width:100px;
+			}
+		}
+		.single_result.sr_two {
+			svg {
+				margin-top: 103px;
+				width:90px;
+			}
+		}
+		.single_result.sr_three {
+			svg {
+				margin-top: 108px;
+				width:90px;
+			}
+		}
+		.single_result.sr_one, .single_result.sr_three {
+			a.view_more_button {
+				
+			}
+		}
+		.single_result.sr_two {
+			
+		}
+		.slick-dots {
+			bottom: 84px;
+			li.slick-active {
+				button {
+					&:before {
+						
+					}
+				}
+			}
+			li:hover {
+				button {
+					&:before {
+						
+					}
+				}
+			}
+			li {
+				width:25px;
+				button {
+					width:25px;
+					&:before {
+						width:25px;
+					}
+				}
+			}
+		}
+	} 
+	
+	
+	
 	
 	
 	
