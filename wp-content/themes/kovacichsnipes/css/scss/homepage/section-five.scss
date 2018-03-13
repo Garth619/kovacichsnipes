@@ -1,0 +1,41 @@
+#section_five {
+	
+}
+
+
+.sec_five_inner {
+	max-width:1415px;
+	margin:237px auto;
+	.sec_five_intro {
+		color:$gold;
+		font-size:55px;
+		line-height: 70px;
+		font-family: $actamedium;
+		width:100%;
+		max-width:990px;
+		display: block;
+	}
+}
+
+
+.sec_five_content_wrapper {
+	margin:115px 0 0;
+}
+
+
+.sidenote {
+	font-family: $tradegothic;
+	text-transform: uppercase;
+	font-size:22px;
+	line-height: 30px;
+	letter-spacing: 0.1em;
+	color:$bluedark;
+	display: inline-block;
+	border-top:6px solid $orangered;
+	padding:27px 0 0;
+}
+
+
+.sec_five_content {
+	
+}
