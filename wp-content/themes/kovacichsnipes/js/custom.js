@@ -43,6 +43,20 @@ jQuery(document).ready(function($){
     // instead of a settings object
   ]
 	});
+	
+	
+	
+	
+	
+	$('.sec_six_slides').slick({
+  	infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows:false,
+		dots:true,
+		fade:true,
+	});
+	
 
 
 
