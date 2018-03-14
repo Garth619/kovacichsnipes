@@ -58,7 +58,7 @@
 					background: $gold;
 					display: inline-block;
 					position: absolute;
-					top:0;
+					top: 18px;
 					right:0;
 					border-radius:50%;
 				}
@@ -77,7 +77,8 @@
 
 .menu_col_two {
 	background:$greylight;
-	justify-content: center;
+	padding-left:7%;
+	padding-right:5%;
 }
 
 
@@ -120,7 +121,7 @@
 .overlay_right {
 	background: $bluedark;
 	flex-basis: 45%;
-	padding:0 45px 75px;
+	padding:121px 45px 75px;
 	overflow-y: scroll;
 	
 	span.menu_form_title {
@@ -210,5 +211,145 @@
 		}
 	}
 }
+
+
+@media screen and (max-width: 1730px) {
+	
+	
+	.overlay_left {
+		flex-basis: 60%;
+	}
+	
+	.overlay_right {
+		flex-basis: 40%;
+	}
+	
+	.menu_col_one, .menu_col_two {
+		padding-left:5%;
+		padding-right:5%;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1575px) {
+	
+	
+	.overlay_left {
+		flex-basis: 50%;
+	}
+	
+	.overlay_right {
+		flex-basis: 50%;
+		span.menu_form_title {
+			font-size: 85px;
+			line-height: 90px;
+		}
+	}
+	
+	
+	.menu_form_wrapper {
+		margin: 42px auto 0;
+		ul {
+			li {
+				margin-bottom: 25px;
+				label {
+					margin-bottom: 17px;
+				}
+			}
+		}
+		input[type="submit"] {
+			margin-top: 14px;
+		}
+	}
+	   
+	   
+	   
+	.menu_col_one {
+		
+	} 
+	
+	
+	.menu_col_one, .menu_col_two {
+		padding-left:8%;
+		ul {
+			li {
+				font-size: 30px;
+				margin-bottom: 32px;
+			}
+		}
+	}	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1275px) {
+	
+	
+	.overlay_left {
+		flex-basis: 55%;
+	}
+	
+	.overlay_right {
+		flex-basis: 45%;
+	}
+	
+	
+	.overlay_right {
+		span.menu_form_title {
+			max-width: 450px;
+			font-size: 75px;
+			line-height: 78px;
+			margin-left:0;
+			margin-right:0;
+			
+		}
+	}
+	
+
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1145px) {
+	
+	
+	
+	.overlay_left {
+		flex-basis: 100%;
+	}
+	
+	
+	.menu_col_one {
+		flex-basis: 100%;
+		text-align: center;
+	}
+	
+	
+	.menu_col_two {
+		display: none;
+	}
+	
+	
+	.overlay_right {
+		display: none;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
 
 
