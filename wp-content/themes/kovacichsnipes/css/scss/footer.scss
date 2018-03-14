@@ -1,14 +1,19 @@
 footer {
-	background: $bluedark;
 	width:100%;
-	padding:0 45px;
 }
 
 
-.footer_inner {
+
+.form_outer {
+	background: $bluedark;
+	
+}
+
+
+.form_inner {
 	max-width:1110px;
 	margin:0 auto;
-	padding:156px 0;
+	padding:156px 0 90px;
 	span.footer_title {
 		color:$gold;
 		font-family: $actabook;
@@ -98,13 +103,25 @@ footer {
 		letter-spacing: 0.12em;
 		text-transform: lowercase;
 		box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
-		padding:24px 49px;
+		padding:21px 49px;
 		margin-top:27px;
 		background: $orangered;
 		transition: all .2s ease-in-out;
 		cursor: pointer;
 		&:hover {
 			background:$gold;
+		}
+	}
+	span.required {
+		color:$gold;
+		text-transform: uppercase;
+		font-family: $workextrabold;
+		font-size:14px;
+		letter-spacing: 0.25em;
+		float:right;
+		margin-top:-43px;
+		span {
+			color:$orangered;
 		}
 	}
 }
@@ -122,4 +139,272 @@ footer {
 	margin-top:8px;
 }
 
+
+.footer_location {
+	text-align: center;
+	span.footer_goldline {
+		width:1px;
+		height:95px;
+		background: $gold;
+		display: block;
+		margin-left:auto;
+		margin-right: auto;
+	}
+	span.firm_name {
+		text-transform: uppercase;
+		color:$orangered;
+		font-size:15px;
+		letter-spacing: 0.3em;
+		font-family: $workextrabold;
+		display: block;
+		margin:40px 0 25px;
+	}
+	a.footer_adress, a.footer_phone {
+		color:$bluedark;
+		font-size:30px;
+		text-decoration: none;
+		line-height: 38px;
+		display: block;
+		font-family: $actabook;
+		margin-left:auto;
+		margin-right:auto;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:$orangered;
+		}
+	}
+	a.footer_adress {
+		max-width: 300px;
+	}
+	a.footer_phone {
+		letter-spacing: 0.05em;
+		margin-top:25px;
+	}
+}
+
+
+ul.social_links {
+	list-style: none;
+}
+
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+	
+	
+	.form_inner {
+		padding: 111px 50px 31px;
+		max-width: 1210px;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+.form_inner {
+	
+	span.footer_title {
+		font-size: 113px;
+		line-height: 118px;
+	}
+	span.footer_description {
+		font-size: 18px;
+		line-height: 42px;
+		margin-top:23px;
+		max-width: 486px;
+		&:before {
+			
+		}
+	}
+	.form_wrapper {
+		
+		ul {
+			display: block;
+			li#field_1_4 {
+				padding-top: 13px
+			}
+			li {
+				margin-bottom: 50px;
+				label {
+					margin-bottom: 18px;
+					span.gfield_required {
+						
+					}
+				}
+				input, textarea {
+					
+					&:focus {
+						
+					}
+				}
+				textarea {
+					
+				}
+			}
+		}
+	}
+	input[type="submit"] {
+		font-size: 19px;
+		padding: 15px 49px;
+		margin-top: 31px;
+		&:hover {
+			
+		}
+	}
+	span.required {
+		margin-top: -36px;
+		span {
+			
+		}
+	}
+}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+.form_inner {
+	padding: 83px 20px 65px;
+	span.footer_title {
+		font-size: 72px;
+		line-height: 75px;
+		max-width: 430px;
+	}
+	span.footer_description {
+		display: none;
+		&:before {
+			
+		}
+	}
+	.form_wrapper {
+		padding: 94px 0;
+		ul {
+			
+			li#field_1_4 {
+				
+			}
+			li {
+				
+				label {
+					
+					span.gfield_required {
+						
+					}
+				}
+				input, textarea {
+					
+					&:focus {
+						
+					}
+				}
+				textarea {
+					
+				}
+			}
+		}
+	}
+	input[type="submit"] {
+		padding: 15px 29px;
+		&:hover {
+			
+		}
+	}
+	span.required {
+		
+		span {
+			
+		}
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 455px) {
+	
+	
+	
+.form_inner {
+	padding: 83px 18px 65px;
+	span.footer_title {
+		max-width: 337px;
+	}
+	span.footer_description {
+		
+		&:before {
+			
+		}
+	}
+	.form_wrapper {
+		padding: 98px 0px 31px;
+		ul {
+			
+			li#field_1_4 {
+				
+			}
+			li {
+				
+				label {
+					
+					span.gfield_required {
+						
+					}
+				}
+				input, textarea {
+					
+					&:focus {
+						
+					}
+				}
+				textarea {
+					
+				}
+			}
+		}
+	}
+	input[type="submit"] {
+		
+		&:hover {
+			
+		}
+	}
+	span.required {
+		
+		span {
+			
+		}
+	}
+}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
 
