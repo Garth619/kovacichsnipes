@@ -4,7 +4,30 @@
 
 jQuery(document).ready(function($){
   
+	
+	
+	// menu 
+	
+	
+	
 
+	
+	
+	$('.drop_down_overlay ul#menu-top-menu >li.menu-item-has-children > a').on('click', function(e) {
+	  
+	
+		$(".menu_col_two").empty();
+		
+		
+		$(this).next('ul.sub-menu').clone().appendTo('.menu_col_two').fadeIn();
+	
+	
+	});
+	
+	
+	
+	
+	
 
 	$('.sp_slideshow').slick({
   	infinite: true,

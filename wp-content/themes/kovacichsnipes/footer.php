@@ -52,7 +52,7 @@
 			
 				<ul class="copyright_left">
 					
-					<li>© 2018 by Kovacich Snipes, P.C. All rights reserved.</li>
+					<li>&copy; <?php echo date("Y"); ?> by Kovacich Snipes, P.C. All rights reserved.</li>
 					<li><a href="">Disclaimer</a></li>
 					<li><a href="">Privacy Policy</a></li>
 					
