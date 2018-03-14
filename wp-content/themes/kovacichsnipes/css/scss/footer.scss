@@ -142,6 +142,7 @@ footer {
 
 .footer_location {
 	text-align: center;
+	padding-bottom:75px;
 	span.footer_goldline {
 		width:1px;
 		height:95px;
@@ -185,6 +186,18 @@ footer {
 
 ul.social_links {
 	list-style: none;
+	margin-top:90px;
+	li {
+		display: inline-block;
+		font-size:25px;
+		font-family: $actabook;
+		text-transform: lowercase;
+		margin:0 18px;
+		a {
+			color:$gold;
+			text-decoration: none;
+		}
+	}
 }
 
 
@@ -200,6 +213,44 @@ ul.social_links {
 		padding: 111px 50px 31px;
 		max-width: 1210px;
 	}
+	
+	
+	
+	
+.footer_location {
+	
+	span.footer_goldline {
+		height: 81px;
+	}
+	span.firm_name {
+		margin-top: 40px;
+	}
+	a.footer_adress, a.footer_phone {
+		
+		&:hover {
+			
+		}
+	}
+	a.footer_adress {
+		
+	}
+	a.footer_phone {
+		
+	}
+}
+
+
+ul.social_links {
+	 margin-top: 83px;
+	li {
+		
+		a {
+			
+		}
+	}
+}
+
+
 	
 	
 	
@@ -336,7 +387,46 @@ ul.social_links {
 }
 	
 	
-	
+
+
+
+
+
+.footer_location {
+	padding-bottom: 62px;
+	span.footer_goldline {
+		height: 60px;
+	}
+	span.firm_name {
+		
+	}
+	a.footer_adress, a.footer_phone {
+		font-size: 28px;
+		margin-top: 22px;
+		&:hover {
+			
+		}
+	}
+	a.footer_adress {
+		
+	}
+	a.footer_phone {
+		
+	}
+}
+
+
+ul.social_links {
+	margin-top: 42px;
+	li {
+		font-size: 18px;
+		margin: 0 6px;
+		a {
+			
+		}
+	}
+}
+
 	
 	
 	

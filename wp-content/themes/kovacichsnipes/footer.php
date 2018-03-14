@@ -37,7 +37,7 @@
 			
 			<li><a href="">Google+</a></li>
 			<li><a href="">Facebook</a></li>
-			<li><a href=""><Linkedin</a></li>
+			<li><a href="">Linkedin</a></li>
 			
 		</ul><!-- social_links -->
 		
