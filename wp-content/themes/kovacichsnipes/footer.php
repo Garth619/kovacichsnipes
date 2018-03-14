@@ -44,6 +44,31 @@
 		
 	</div><!-- footer_location -->
 	
+	
+	<div class="copyright">
+		
+		<div class="copyright_inner">
+			
+			
+				<ul class="copyright_left">
+					
+					<li>© 2018 by Kovacich Snipes, P.C. All rights reserved.</li>
+					<li><a href="">Disclaimer</a></li>
+					<li><a href="">Privacy Policy</a></li>
+					
+				</ul><!-- copyright_left -->
+				
+				
+				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
+				
+					<img class="" src="<?php bloginfo('template_directory');?>/images/ico-ilawyer.svg"/>
+				
+				</a><!-- ilawyer -->
+		
+		</div><!-- copyright_inner -->
+		
+	</div><!-- copyright -->
+	
 </footer>
 
 
