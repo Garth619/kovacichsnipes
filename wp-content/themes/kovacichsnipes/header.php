@@ -37,7 +37,7 @@
 	
 	
 		
-	<header>
+	<header id="header_trigger">
 		
 		<div class="header_left">
 			
@@ -142,7 +142,15 @@
 	
 	</div><!-- drop_down_wrapper -->
 	
-
+	<div class="fixed_menu_wrapper">
+	
+		<span class="menu_bar"></span><!-- menu_bar -->
+		<span class="menu_bar"></span><!-- menu_bar -->
+		<span class="menu_bar"></span><!-- menu_bar -->
+				
+		<span class="menu_title">Menu</span>
+		
+	</div><!-- menu_wrapper -->
 
 
 			
