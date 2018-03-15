@@ -8,9 +8,30 @@ jQuery(document).ready(function($){
 	
 	// menu 
 	
-	
 		
-		var windowWidth = $(window).width();
+		$('.menu_wrapper').on('click', function(e) {
+		  
+				$('.drop_down_overlay').addClass('open');
+		
+		});
+		
+		
+		$('.menu_close').on('click', function(e) {
+		  
+					$('.drop_down_overlay').addClass('close');
+				
+				
+					$('.drop_down_overlay').delay(1300).queue(function(){
+     
+						$(this).removeClass('open close').dequeue();
+  
+					});
+				
+				});
+		
+		
+		
+	var windowWidth = $(window).width();
 	
 	
 	
@@ -35,7 +56,11 @@ jQuery(document).ready(function($){
 	    else {
 		    
 		    
-		    $('.drop_down_overlay ul#menu-top-menu >li.menu-item-has-children > a').on('click', function(e) {
+		    
+		    
+		    
+		    
+		   $('.drop_down_overlay ul#menu-top-menu >li.menu-item-has-children > a').on('click', function(e) {
 	  
 	
 					$(".menu_col_two").empty();

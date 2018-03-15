@@ -104,9 +104,11 @@
 		
 		<div class="drop_down_overlay">
 			
-			<div class="menu_close"></div><!-- menu_close -->
+			
 			
 			<div class="overlay_left">
+				
+				<div class="menu_close"></div><!-- menu_close -->
 				
 				<div class="menu_col_one">
 					
