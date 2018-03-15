@@ -9,23 +9,52 @@ jQuery(document).ready(function($){
 	// menu 
 	
 	
+		
+		var windowWidth = $(window).width();
 	
-
 	
 	
-	$('.drop_down_overlay ul#menu-top-menu >li.menu-item-has-children > a').on('click', function(e) {
+		function checkWidthcase() {
+	    
+	    if (windowWidth < 1145) {
+	        
+	      
+	    	$('.drop_down_overlay ul#menu-top-menu >li.menu-item-has-children > a').on('click', function(e) {
 	  
 	
-		$(".menu_col_two").empty();
+					$(this).next('ul.sub-menu').toggleClass('open');
+					
+					$(this).toggleClass('active');
+	
+	
+				});
+	    	   		
+	    		
+	    }
+	    
+	    else {
+		    
+		    
+		    $('.drop_down_overlay ul#menu-top-menu >li.menu-item-has-children > a').on('click', function(e) {
+	  
+	
+					$(".menu_col_two").empty();
 		
 		
-		$(this).next('ul.sub-menu').clone().appendTo('.menu_col_two').fadeIn();
+					$(this).next('ul.sub-menu').clone().appendTo('.menu_col_two').fadeIn();
+					
+					
+				});
+		    
+		    
+		    
+	    }
+	    
+  
+	};
+		
 	
-	
-	});
-	
-	
-	
+	checkWidthcase();
 	
 	
 
