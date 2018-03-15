@@ -61,9 +61,9 @@ jQuery(document).ready(function($){
             //Example -> createWaypoint("section-2", null, null, null, test, true);
 
 
-
-  
 						createWaypoint("header_trigger", ".fixed_menu_wrapper", "visible", -100, null, true);
+						
+						createWaypoint("header_trigger", ".mobile_header, #section_one, .drop_down_overlay", "visible", -87, null, true);
   
   
   

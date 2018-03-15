@@ -496,6 +496,11 @@
 	}
 	
 	
+	.drop_down_overlay.visible {
+		margin-top:-87px
+	}
+	
+	
 	
 	.drop_down_overlay.open {
 		transition: all 900ms cubic-bezier(0.17, 0.66, 0.34, 0.98);

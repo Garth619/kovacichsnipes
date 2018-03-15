@@ -347,7 +347,9 @@ a.start_button {
 
 @media screen and (max-width: 767px) {
 	
-	
+	#section_one.visible {
+		margin-top:87px;
+	}
 	
 	.section_one_right {
 		background-size:contain;
