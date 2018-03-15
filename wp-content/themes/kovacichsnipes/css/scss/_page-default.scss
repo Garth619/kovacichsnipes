@@ -1,3 +1,21 @@
 .int_main {
 	min-height: 500px;
 }
+
+
+.two_column {
+	display: flex;
+}
+
+
+.sidebar {
+	flex-basis: 485px;
+	flex-shrink:0;
+	background: url(#{$themePath}images/ico-pattern.jpg) top left repeat;
+}
+
+
+.container {
+	flex-grow: 1;
+	padding:120px 150px 180px;
+}
