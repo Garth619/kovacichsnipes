@@ -30,6 +30,13 @@
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
+	"\/banner-internal.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/banner-internal.php",
+		"oF": 0
+		},
 	"\/category.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -85,6 +92,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_int-banner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_int-banner.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-default.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-default.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -752,6 +785,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/banner-one.jpg": {
+		"ft": 16384,
+		"iS": 314210,
+		"oA": 0,
+		"oAP": "\/images\/banner-one.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-img.jpg": {
