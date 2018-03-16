@@ -209,8 +209,25 @@ var windowWidth = $(window).width();
 		fade:true,
 	});
 	
-
-
-
+	
+	
+	// banner/header conditional
+	
+	
+	
+	if ($(".int_banner_wrapper")[0]){
+   	
+   	$('header').addClass('banner');
+   
+  }
+  
+  
+  else {
+	  
+	  $('header').addClass('no-banner');
+	  
+  }
+  
+ 
 
 }); // document ready

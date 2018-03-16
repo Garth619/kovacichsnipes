@@ -1,16 +1,7 @@
 <div class="sidebar">
 	
 	
-	
-	<ul>
-		<li><a class="" href="">Practice Areas</a></li>
-		<li><a class="" href="">Practice Areas</a></li>
-		<li><a class="" href="">Practice Areas</a></li>
-		<li><a class="" href="">Practice Areas</a></li>
-		<li><a class="" href="">Practice Areas</a></li>
-		<li><a class="" href="">Practice Areas</a></li>
-		<li><a class="" href="">Practice Areas</a></li>
-	</ul>
+	<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
 	
 	
 	

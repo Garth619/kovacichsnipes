@@ -125,6 +125,58 @@ header {
 
 
 
+
+
+.header_mail_wrapper {
+	display: none;
+	background: $greylight;
+	height:100%;
+	width:119px;
+	padding-top:24px;
+	margin-left:41px;
+	img {
+		width:62px;
+		height: auto;
+		margin:0 auto;
+		display: block;
+	}
+}
+
+
+
+body:not(.page-template-page-home) {
+	header.no-banner {
+		.header_left {
+			background: $bluedark;
+			flex-basis: 400px;
+			a.logo {
+				border-left:0;
+			}
+			.menu_wrapper {
+				background: $orangered;
+				height:100%;
+				padding-top:25px;
+				span.menu_bar {
+					background:#fff;
+				}
+				span.menu_title {
+					color:#fff;
+				}
+			}
+		}
+		.header_right {
+			flex-basis: 100%;
+			padding-right:0;
+		}
+		.header_mail_wrapper {
+			display: block;
+		}
+		
+	}
+}
+
+
+
 @media screen and (max-width: 1450px) {
 	
 	.header_left {
@@ -162,7 +214,77 @@ header {
 } /* Media Query */
 
 
+@media screen and (max-width: 1175px) {
+	
+	
+	
+	
+body:not(.page-template-page-home) {
+	header.no-banner {
+		.header_left {
+			
+			a.logo {
+				
+			}
+			.menu_wrapper {
+				
+				span.menu_bar {
+					
+				}
+				span.menu_title {
+					
+				}
+			}
+		}
+		.header_right {
+			
+		}
+		.header_mail_wrapper {
+			margin-left: 14px;
+		}
+		
+	}
+}
+
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1125px) {
+	
+	
+	
+
+	body:not(.page-template-page-home) {
+		.header_left {
+			background: $bluedark;
+/*
+			.menu_wrapper {
+				background: $orangered;
+				height:100%;
+				span.menu_bar {
+					background: #fff;
+				}
+				span.menu_title {
+					color:#fff;
+				}
+			}
+*/
+		}
+		.header_right {
+			background: $bluedark;
+			a {
+				color:#fff;
+			}
+		}
+	}
+
 	
 	
 	header {
@@ -193,13 +315,15 @@ header {
 	
 	.header_right {
 		background: #fff;
-		flex-direction: column;
 		text-align: right;
-		align-items: flex-end;
 		padding-right: 27px;
-		justify-content: center;
 		flex-basis: auto;
 		flex-grow:1;
+		.tel_wrapper {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+		}
 		a {
 			color:#1f2932;
 			font-size:26px;

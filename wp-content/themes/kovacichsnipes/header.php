@@ -61,9 +61,21 @@
 		
 		<div class="header_right">
 			
-			<a class="" href="tel:(406)564-1743">(406)564-1743</a>
+			<div class="tel_wrapper">
 			
-			<a class="" href="tel:(866) 630-8868">(866) 630-8868</a>
+				<a class="" href="tel:(406)564-1743">(406)564-1743</a>
+			
+				<a class="" href="tel:(866) 630-8868">(866) 630-8868</a>
+			
+			</div><!-- tel_wrapper -->
+			
+			<div class="header_mail_wrapper">
+				
+				
+				<img src="<?php bloginfo('template_directory');?>/images/ico-email.svg"/>
+				
+				
+			</div><!-- header_mail_wrapper -->
 			
 		</div><!-- header_right -->
 		
