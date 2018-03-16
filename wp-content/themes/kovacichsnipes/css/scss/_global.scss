@@ -1,3 +1,19 @@
+.int_main {
+	min-height: 500px;
+}
+
+.one_col {
+	padding:0 75px;
+}
+
+.two_column {
+	display: flex;
+}
+
+
+
+
+
 .alignleft,
 img.alignleft {
 	display: inline;
@@ -164,7 +180,7 @@ h1.internal_header_mount {
 	font-size: 120px;
 	font-family: $actamedium;
 	letter-spacing: 0.04em;
-	margin:160px 0;
+	margin:160px 0 80px;
 	&:after {
 		content:"";
 		display: block;
