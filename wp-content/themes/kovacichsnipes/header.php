@@ -154,15 +154,27 @@
 	
 	</div><!-- drop_down_wrapper -->
 	
-	<div class="fixed_menu_wrapper">
 	
-		<span class="menu_bar"></span><!-- menu_bar -->
-		<span class="menu_bar"></span><!-- menu_bar -->
-		<span class="menu_bar"></span><!-- menu_bar -->
-				
-		<span class="menu_title">Menu</span>
+	
+	<div class="fixed_menu_wrapper">
 		
-	</div><!-- menu_wrapper -->
+		<div class="fixed_menu">
+	
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+				
+			<span class="menu_title">Menu</span><!-- menu_title -->
+		
+		</div><!-- fixed_menu -->
+		
+		<div class="fixed_email">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/ico-email.svg"/>
+			
+		</div><!-- fixed_email -->
+		
+	</div><!-- fixed_menu_wrapper -->
 
 
 			

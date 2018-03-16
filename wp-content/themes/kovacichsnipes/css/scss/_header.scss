@@ -83,37 +83,51 @@ header {
 
 
 .fixed_menu_wrapper {
-	width: 98px;
-	height:90px;
-	text-align: center;
-	cursor: pointer;
-	background: $orangered;
+	opacity: 0;
+	transition: opacity 500ms linear;
 	position: fixed;
 	top:50%;
 	left:0;
 	z-index:1;
-	padding-top:22px;
-	opacity: 0;
-	transition: all .2s linear;
-	 box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
-	&:hover {
-		background: $gold;
-	}
-	span.menu_bar {
+	width: 98px;
+	.fixed_menu {
 		width:100%;
-		height:4px;
-		background: #fff;
-		display: block;
-		margin:0 auto 7px;
-		max-width:52px;
+		height:90px;
+		text-align: center;
+		cursor: pointer;
+		background: $orangered;
+		padding-top:22px;
+		box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
+		&:hover {
+			background: $gold;
+		}
+		span.menu_bar {
+			width:100%;
+			height:4px;
+			background: #fff;
+			display: block;
+			margin:0 auto 7px;
+			max-width:52px;
+		}
+		span.menu_title {
+			color:#fff;
+			text-transform: uppercase;
+			font-family: $workblack;
+			font-size: 15px;
+			letter-spacing: 0.15em;
+			display: block
+		}
 	}
-	span.menu_title {
-		color:#fff;
-		text-transform: uppercase;
-		font-family: $workblack;
-		font-size: 15px;
-		letter-spacing: 0.15em;
-		display: block
+	.fixed_email {
+		background: $bluedark;
+		height:90px;
+		width:100%;
+		padding-top:20px;
+		img {
+			width:52px;
+			display: block;
+			margin:0px auto 0;
+		}
 	}
 }
 
@@ -122,6 +136,52 @@ header {
 .fixed_menu_wrapper.visible {
 	opacity: 1;
 }
+
+
+
+body.page-template-page-home {
+	.fixed_email {
+		display: none;
+	}
+}
+
+
+body:not(.page-template-page-home) {
+	
+		.fixed_menu_wrapper {
+			width:90px;
+			top:43%;
+			.fixed_menu {
+				padding-top: 24px;
+				height: 83px;
+				&:hover {
+			
+				}
+				span.menu_bar {
+					height:3px;
+					margin-bottom:5px;
+					max-width: 46px;
+				}
+				span.menu_title {
+					font-size: 13px;
+				}
+			}
+			.fixed_email {
+				height: 83px;
+				opacity: 1;
+				transition: all 300ms linear;
+				img {
+					
+				}
+			}
+			.fixed_email.hide {
+				opacity: 0;
+				
+			}
+		}
+}
+
+
 
 
 
