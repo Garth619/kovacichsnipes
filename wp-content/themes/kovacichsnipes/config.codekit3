@@ -2179,6 +2179,13 @@
 		"oAP": "\/page-home.php",
 		"oF": 0
 		},
+	"\/page-padirectory.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-padirectory.php",
+		"oF": 0
+		},
 	"\/page.php": {
 		"cB": 0,
 		"ft": 8192,

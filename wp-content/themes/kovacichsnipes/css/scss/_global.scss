@@ -156,6 +156,27 @@ span.orangered {
 }
 
 
+h1.internal_header_mount {
+	color:$orangered;
+	text-align: center;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 120px;
+	font-family: $actamedium;
+	letter-spacing: 0.04em;
+	margin:160px 0;
+	&:after {
+		content:"";
+		display: block;
+		background: url(#{$themePath}images/new-mountain.svg) top center no-repeat;
+		// background-size: 660px;
+		width:660px;
+		height:155px;
+		margin:-160px auto 0;
+	}
+}
+
+
 
 @media screen and (max-width: 1450px) {
 	
@@ -166,6 +187,7 @@ span.orangered {
 			font-size: 99px;
 			line-height: 95px;
 			padding-bottom: 62px;
+			
 		}
 	}
 	
