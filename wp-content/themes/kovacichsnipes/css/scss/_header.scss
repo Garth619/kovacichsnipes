@@ -262,27 +262,34 @@ body:not(.page-template-page-home) {
 	
 
 	body:not(.page-template-page-home) {
-		.header_left {
-			background: $bluedark;
-/*
-			.menu_wrapper {
-				background: $orangered;
-				height:100%;
-				span.menu_bar {
-					background: #fff;
-				}
-				span.menu_title {
-					color:#fff;
+		.header_mail_wrapper {
+			display: block;
+		}
+		header.no-banner, header.banner {
+			.header_left {
+				background: $bluedark;
+				.menu_wrapper {
+					background: $orangered;
+					height:100%;
+					width:98px;
+					padding-top:24px;
+					span.menu_bar {
+						background: #fff;	
+					}
+					span.menu_title {
+						color:#fff;
+					}
 				}
 			}
-*/
-		}
 		.header_right {
 			background: $bluedark;
+			padding:0;
 			a {
 				color:#fff;
 			}
 		}
+		}
+		
 	}
 
 	
@@ -349,6 +356,23 @@ body:not(.page-template-page-home) {
 
 
 @media screen and (max-width: 767px) {
+	
+	
+	
+	body:not(.page-template-page-home) {
+		header.no-banner, header.banner {
+			.header_left {
+				flex-basis: 100%;
+				background: #fff;
+			}
+			.header_right {
+				a {
+				
+				}
+			}
+		}
+	}
+	
 	
 	
 	

@@ -27,6 +27,7 @@
 				text-decoration: none;
 				color:$bluedark;
 				transition: all .2s ease-in-out;
+				display: inline-block;
 				&:hover {
 					color:$gold;
 				}
@@ -77,16 +78,86 @@
 	.sidebar {
 		flex-basis: 100%;
 		order:2;
-	}
+		padding: 78px 45px 28px;
+			ul {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				max-width: 800px;
+				margin-left:auto;
+				margin-right:auto;
+				li {
+					flex-basis: 30.333%;
+				}
+			}
+		}
 	
 	.container {
 		flex-basis: 100%;
 		order:1;
-		padding: 92px 55px;
+		padding: 92px 55px 50px;
 	}
 	
 	
 	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+	.sidebar {
+		
+			ul {
+				
+				li {
+					flex-basis: 43%;
+				}
+			}
+		}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.int_main.visible {
+		margin-top:87px;
+	}
+	
+	.container {
+		padding: 52px 20px;
+	}
+	
+	
+	
+	
+	
+	.sidebar {
+		  padding: 50px 45px 28px;
+			ul {
+				
+				li {
+					flex-basis: 100%;
+				}
+			}
+		}
+	
+	
+	
+	
+	
+	    
 	
 	
 	
