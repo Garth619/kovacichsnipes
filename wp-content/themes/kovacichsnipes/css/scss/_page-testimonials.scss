@@ -1,0 +1,128 @@
+.testimonials_page_wrapper {
+	max-width:1605px;
+	margin:0px auto 40px;
+	padding-top:55px;
+	column-count:2;
+	column-gap:100px;
+}
+
+
+.single_testi_page {
+	text-align: center;
+	border:0;
+	border-top:2px solid $gold;
+	// border-bottom:2px solid $gold;
+	padding:55px 0;
+	display: inline-block;
+	width:100%;
+	span.testi_page_content {
+		font-size: 32px;
+		line-height: 56px;
+		font-family: $actabook;
+		letter-spacing: 0.02em;
+		display: block;
+		&:before {
+			content:"";
+			background: url(#{$themePath}/images/quote.svg) top left no-repeat;
+			background-size:45px 45px;
+			width:45px;
+			height: 45px;
+			display: block;
+			font-size:150px;
+			font-family: $actabook;
+			margin:0 auto 73px;
+		}
+	}
+	span.test_page_name {
+		color:$gold;
+		text-transform: uppercase;
+		font-family: $workbold;
+		font-size:18px;
+		letter-spacing: 0.15em;
+		display: block;
+		margin-top:48px;
+		margin-bottom:35px;
+	}
+}
+
+
+
+@media screen and (max-width: 1315px) {
+	
+	
+	
+.testimonials_page_wrapper {
+	max-width:905px;
+	margin-bottom:0px;
+	padding-top:55px;
+	column-count:1;
+	column-gap:0px;
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1060px) {
+
+
+
+.testimonials_page_wrapper {
+	padding-top:0;
+}
+	
+	
+.single_testi_page {
+	padding: 44px 0;
+	span.testi_page_content {
+		font-size: 29px;
+		line-height: 47px;
+		&:before {
+			margin: 0 auto 41px;
+		}
+	}
+	span.test_page_name {
+		margin-bottom: 14px;
+		margin-top: 34px;
+	}
+}
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+.testimonials_page_wrapper {
+	max-width: 465px;
+}
+	
+.single_testi_page {
+	padding: 30px 0;
+	span.testi_page_content {
+		font-size: 24px;
+		line-height: 40px;
+		&:before {
+			background-size: 37px;
+			width: 37px;
+			height: 37px;
+			margin: 0 auto 26px;
+		}
+	}
+	span.test_page_name {
+		font-size: 15px;
+	}
+}
+
+	
+	
+	
+} /* Media Query */
+
