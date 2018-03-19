@@ -52,9 +52,20 @@ jQuery(document).ready(function($){
   
   
   
+  // case results hover
   
+  
+
 	
 	
+/*
+	$('.single_int_cr').on('mouseenter', function(e) {
+	  
+			$(this).addClass('hover');	  
+	  
+	});
+	
+*/
 	
 
 

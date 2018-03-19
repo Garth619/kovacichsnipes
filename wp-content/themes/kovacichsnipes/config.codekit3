@@ -109,6 +109,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-case-results.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-case-results.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-default.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -956,6 +969,39 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/ico-pattern-a.png": {
+		"ft": 32768,
+		"iS": 12771,
+		"oA": 0,
+		"oAP": "\/images\/ico-pattern-a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ico-pattern-b.png": {
+		"ft": 32768,
+		"iS": 12819,
+		"oA": 0,
+		"oAP": "\/images\/ico-pattern-b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ico-pattern-c.png": {
+		"ft": 32768,
+		"iS": 13056,
+		"oA": 0,
+		"oAP": "\/images\/ico-pattern-c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/ico-pattern-two.jpg": {
 		"ft": 16384,
@@ -2219,6 +2265,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/loop.php",
+		"oF": 0
+		},
+	"\/page-caseresults.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-caseresults.php",
 		"oF": 0
 		},
 	"\/page-home.php": {

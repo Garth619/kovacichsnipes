@@ -1,0 +1,125 @@
+.cr_intro_page {
+	text-align: center;
+	border-top:2px solid $gold;
+	padding-top:45px;
+	max-width:1045px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-35px;
+	span.cr_intro {
+		text-transform: uppercase;
+		color:$bluedark;
+		font-family: $workextrabold;
+		font-size: 18px;
+		letter-spacing: 0.5em;
+		display: block;
+		margin-bottom:25px;
+		
+	}
+	.cr_intro_content {
+		font-size: 18px;
+		font-family: $workregular;
+		color:#555555;
+		line-height: 32px;
+		max-width: 815px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+
+
+.cr_page_wrapper {
+	max-width: 1680px;
+	margin:142px auto 0;
+	display: flex;
+	flex-grow: 0;
+	flex-wrap:wrap;
+	position: relative;
+	.single_int_cr {
+		flex-basis: 33.33333%;
+		text-align: center;
+		height:568px;
+		transition: background .2s ease-in-out;
+		position: relative;
+
+		&:nth-of-type(2n + 1) {
+			.single_cr_inner_first_state {
+				background:  url(#{$themePath}images/ico-pattern-b.png) top left repeat;
+			}
+			
+		}
+		&:nth-of-type(2n + 2) {
+			.single_cr_inner_first_state {
+				background: url(#{$themePath}images/ico-pattern-a.png) top left repeat;
+			}
+		}
+		.single_cr_inner_first_state, .single_cr_outer_second_state {
+			position: absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			
+		}
+		.single_cr_inner_first_state {
+			z-index: 1;
+			padding:183px 45px 0;
+		}
+		.single_cr_outer_second_state {
+			z-index: 3;
+			background:  url(#{$themePath}images/ico-pattern-c.png) top left repeat;
+			//display: none;
+			.single_cr_inner_second_state {
+				position: absolute;
+				bottom:0;
+				left:0;
+				width:100%;
+			}
+		}
+		span.cr_int_amount {
+			color:$gold;
+			display: block;
+			font-size: 85px;
+			font-family: $actamedium;
+			margin-bottom:15px;
+		}
+		span.cr_int_title {
+			text-transform: uppercase;
+			color:#39454b;
+			font-family: $workbold;
+			line-height: 25px;
+			display: block;
+			font-size: 18px;
+			letter-spacing: 0.085em;
+		}
+		span.cr_int_result {
+			color:$orangered;
+			text-transform: lowercase;
+			font-family: $actamediumitalic;
+			font-size:22px;
+			letter-spacing: 0.05em;
+			display: block;
+			margin:37px 0 0;
+		}
+		span.cr_int_description {
+			color:#fff;
+			font-family: $workregular;
+			font-size: 17px;
+			line-height: 32px;
+			max-width: 450px;
+			margin-left:auto;
+			margin-right:auto;
+			display: block;
+			&:before {
+				content:"";
+				width:45px;
+				height:1px;
+				background: $bluedark;
+				margin-left:auto;
+				margin-right:auto;
+				display: block;
+			}
+		}
+	}
+}
