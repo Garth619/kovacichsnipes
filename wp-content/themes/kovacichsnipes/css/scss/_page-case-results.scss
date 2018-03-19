@@ -70,11 +70,13 @@
 			z-index: 3;
 			background:  url(#{$themePath}images/ico-pattern-c.png) top left repeat;
 			//display: none;
+			
 			.single_cr_inner_second_state {
 				position: absolute;
 				bottom:0;
 				left:0;
 				width:100%;
+				// maybe flex this and then have it just fade in
 			}
 		}
 		span.cr_int_amount {
