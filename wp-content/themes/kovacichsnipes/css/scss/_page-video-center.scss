@@ -1,0 +1,106 @@
+.video_center {
+	max-width:1630px;
+	margin:128px auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.single_video_wrapper {
+	flex-basis: 31.5%;
+	border-top:2px solid $gold;
+	padding-top:26px;
+	&:hover {
+		.play_wrapper {
+			background: rgba(165, 125, 76, 0.8);
+			.play_inner {
+				.play_circle {
+					
+				}
+			}
+		}
+	}
+	.video_inner_wrapper {
+		position: relative;
+		.my_wistia {
+			width:100%;
+			height:280px;
+			display: block;
+		}
+	}
+	
+}
+
+
+
+.play_wrapper {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.25);
+	pointer-events: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: background 500ms ease;
+	.play_inner {
+		svg {
+			width:168px;
+			height:auto;
+			.play_button-cls-1{
+				isolation:isolate;
+			}
+			.play_button-cls-2{
+				opacity:0.72;
+				mix-blend-mode:multiply;
+			}
+			.play_button-cls-3{
+				fill:#fff;
+			}
+			.play_button-cls-4{
+				fill:#b43301;
+			}
+			.play_button-cls-5{
+				fill:#a57d4c;
+			}
+		}
+/*
+		.play_circle {
+			width:70px;
+			height:70px;
+			background: #fff;
+			border-radius: 50%;
+			box-shadow: 0px 10px 22px -10px rgba(0,0,0,0.75);
+			position: relative;
+			&:before {
+				content:"";
+				display: block;
+				width: 0; 
+				height: 0; 
+				border-top: 13px solid transparent;
+				border-bottom: 13px solid transparent;
+				border-left: 19px solid $orangered;
+				position: relative;
+				top:22px;
+				left:28px;
+			}
+			&:after {
+				content:"";
+				width:150px;
+				height:3px;
+				background: $gold;
+				display: block;
+				position: absolute;
+				top:33px;
+				left:-41px;
+				z-index: -1;
+			}
+		}
+*/
+	}
+}

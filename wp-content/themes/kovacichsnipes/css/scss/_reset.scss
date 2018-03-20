@@ -37,3 +37,13 @@ input, textarea {
 	-webkit-appearance: none;
 	border-radius: 0;
 }
+
+
+.wistia_click_to_play {
+   width: 100% !important;
+   height: 100% !important;
+ }
+
+.video-center-item-thumbnail .wistia_click_to_play div div {
+	display: none !important;
+}

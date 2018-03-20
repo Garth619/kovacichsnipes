@@ -20,24 +20,53 @@ function my_jquery_enqueue() {
 
 
  function load_my_styles_scripts() {
+     
      // Load my stylesheet
+     
      wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 1, 'all' ); 
 
      // Load my javascripts
+     
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
      
      
+     // Load Home
+     
      if(is_front_page()) {
 	     
-	      wp_enqueue_script( 'jquery-home', get_template_directory_uri() . '/js/home-min.js', array('jquery'), '', true );
+	     wp_enqueue_script( 'jquery-home', get_template_directory_uri() . '/js/home-min.js', array('jquery'), '', true );
 	     
      }
+     
+     // Load Internal
      
      else {
 	     
 	      wp_enqueue_script( 'jquery-internal', get_template_directory_uri() . '/js/internal-min.js', array('jquery'), '', true );
 	     
      }
+		 
+		 
+		 // Load Wistia
+		 
+		 if(is_page_template('page-videocenter.php')) {
+	     
+	     wp_enqueue_script( 'jquery-wistia', get_template_directory_uri() . '/js/E-v1-min.js', array('jquery'), '', true );
+     
+     }
+	     
+	     
+	     
+    
+     
+     
+     
+     
+     
+   
+     
+     
+     
  }
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
