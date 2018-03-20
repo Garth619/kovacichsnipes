@@ -35,17 +35,13 @@
 				
 				</div><!-- single_cr_inner_first_state -->
 				
-				<div class="single_cr_outer_second_state">
+				<div class="single_cr_inner_second_state">
 					
-					<div class="single_cr_inner_second_state">
+					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
 					
-						<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
 					
-						<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-					</div><!-- single_cr_inner_second_state -->
-				
-				</div><!-- single_cr_outer_second_state -->
+				</div><!-- single_cr_inner_second_state -->
 				
 			</div><!-- single_int_cr -->
 			
@@ -62,19 +58,16 @@
 				
 				</div><!-- single_cr_inner_first_state -->
 				
-				<div class="single_cr_outer_second_state">
+				<div class="single_cr_inner_second_state">
 					
-					<div class="single_cr_inner_second_state">
+					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
 					
-						<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
 					
-						<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-					</div><!-- single_cr_inner_second_state -->
-				
-				</div><!-- single_cr_outer_second_state -->
+				</div><!-- single_cr_inner_second_state -->
 				
 			</div><!-- single_int_cr -->
+			
 			
 			<div class="single_int_cr">
 				
@@ -88,19 +81,16 @@
 				
 				</div><!-- single_cr_inner_first_state -->
 				
-				<div class="single_cr_outer_second_state">
+				<div class="single_cr_inner_second_state">
 					
-					<div class="single_cr_inner_second_state">
+					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
 					
-						<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
 					
-						<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-					</div><!-- single_cr_inner_second_state -->
-				
-				</div><!-- single_cr_outer_second_state -->
+				</div><!-- single_cr_inner_second_state -->
 				
 			</div><!-- single_int_cr -->
+			
 			
 			<div class="single_int_cr">
 				
@@ -114,19 +104,16 @@
 				
 				</div><!-- single_cr_inner_first_state -->
 				
-				<div class="single_cr_outer_second_state">
+				<div class="single_cr_inner_second_state">
 					
-					<div class="single_cr_inner_second_state">
+					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
 					
-						<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
 					
-						<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-					</div><!-- single_cr_inner_second_state -->
-				
-				</div><!-- single_cr_outer_second_state -->
+				</div><!-- single_cr_inner_second_state -->
 				
 			</div><!-- single_int_cr -->
+			
 			
 			<div class="single_int_cr">
 				
@@ -140,19 +127,16 @@
 				
 				</div><!-- single_cr_inner_first_state -->
 				
-				<div class="single_cr_outer_second_state">
+				<div class="single_cr_inner_second_state">
 					
-					<div class="single_cr_inner_second_state">
+					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
 					
-						<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
 					
-						<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-					</div><!-- single_cr_inner_second_state -->
-				
-				</div><!-- single_cr_outer_second_state -->
+				</div><!-- single_cr_inner_second_state -->
 				
 			</div><!-- single_int_cr -->
+			
 			
 			<div class="single_int_cr">
 				
@@ -166,19 +150,16 @@
 				
 				</div><!-- single_cr_inner_first_state -->
 				
-				<div class="single_cr_outer_second_state">
+				<div class="single_cr_inner_second_state">
 					
-					<div class="single_cr_inner_second_state">
+					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
 					
-						<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
 					
-						<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-					</div><!-- single_cr_inner_second_state -->
-				
-				</div><!-- single_cr_outer_second_state -->
+				</div><!-- single_cr_inner_second_state -->
 				
 			</div><!-- single_int_cr -->
+			
 			
 			<div class="single_int_cr">
 				
@@ -192,19 +173,16 @@
 				
 				</div><!-- single_cr_inner_first_state -->
 				
-				<div class="single_cr_outer_second_state">
+				<div class="single_cr_inner_second_state">
 					
-					<div class="single_cr_inner_second_state">
+					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
 					
-						<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
 					
-						<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-					</div><!-- single_cr_inner_second_state -->
-				
-				</div><!-- single_cr_outer_second_state -->
+				</div><!-- single_cr_inner_second_state -->
 				
 			</div><!-- single_int_cr -->
+			
 			
 			<div class="single_int_cr">
 				
@@ -218,19 +196,16 @@
 				
 				</div><!-- single_cr_inner_first_state -->
 				
-				<div class="single_cr_outer_second_state">
+				<div class="single_cr_inner_second_state">
 					
-					<div class="single_cr_inner_second_state">
+					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
 					
-						<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
 					
-						<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-					</div><!-- single_cr_inner_second_state -->
-				
-				</div><!-- single_cr_outer_second_state -->
+				</div><!-- single_cr_inner_second_state -->
 				
 			</div><!-- single_int_cr -->
+			
 			
 			<div class="single_int_cr">
 				
@@ -244,20 +219,18 @@
 				
 				</div><!-- single_cr_inner_first_state -->
 				
-				<div class="single_cr_outer_second_state">
+				<div class="single_cr_inner_second_state">
 					
-					<div class="single_cr_inner_second_state">
+					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
 					
-						<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
 					
-						<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-					</div><!-- single_cr_inner_second_state -->
-				
-				</div><!-- single_cr_outer_second_state -->
+				</div><!-- single_cr_inner_second_state -->
 				
 			</div><!-- single_int_cr -->
-							
+			
+			
+										
 						
 						
 		</div><!-- cr_page_wrapper -->

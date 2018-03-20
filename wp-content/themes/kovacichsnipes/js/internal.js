@@ -58,14 +58,21 @@ jQuery(document).ready(function($){
 
 	
 	
-/*
+
 	$('.single_int_cr').on('mouseenter', function(e) {
 	  
 			$(this).addClass('hover');	  
 	  
 	});
 	
-*/
+	
+	$('.single_int_cr').on('mouseleave', function(e) {
+	  
+			$(this).removeClass('hover');	  
+	  
+	});
+	
+
 	
 
 
