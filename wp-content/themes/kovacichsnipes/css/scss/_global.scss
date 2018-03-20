@@ -5,6 +5,7 @@ body {
 
 .int_main {
 	min-height: 570px;
+	overflow-x: hidden;
 }
 
 .one_col {
@@ -338,7 +339,7 @@ img.aligncenter {
 	
 body.page-template-page-padirectory-regular h1.internal_header_mount, h1.internal_header_mount {
 	font-size: 45px;
-	margin: 110px 0 -11px;
+	margin: 98px 0 -11px;
 	&:after {
 		margin-top: -96px;
 		width: 458px;

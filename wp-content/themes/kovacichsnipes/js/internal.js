@@ -56,21 +56,49 @@ jQuery(document).ready(function($){
   
   
 
+		
+		var windowWidth = $(window).width();
 	
+	
+	
+		function checkCaseresults() {
+	    
+	    if (windowWidth < 1060) {
+		    
+		    
+		    $('.single_int_cr').on('click', function(e) {
+	  
+			 		$(this).toggleClass('hover');	  
+	  
+				});
+	
+	
+			}
+	   	
+	   	else {
+		   	
+		   	$('.single_int_cr').on('mouseenter', function(e) {
+	  
+			 		$(this).addClass('hover');	  
+	  
+				});
+	
+	
+				$('.single_int_cr').on('mouseleave', function(e) {
+	  
+					$(this).removeClass('hover');	  
+					
+				});
+	 			
+	 		} 
+	    
+		};
+		
+	
+	checkCaseresults();
 	
 
-	$('.single_int_cr').on('mouseenter', function(e) {
-	  
-			$(this).addClass('hover');	  
-	  
-	});
-	
-	
-	$('.single_int_cr').on('mouseleave', function(e) {
-	  
-			$(this).removeClass('hover');	  
-	  
-	});
+		
 	
 
 	
