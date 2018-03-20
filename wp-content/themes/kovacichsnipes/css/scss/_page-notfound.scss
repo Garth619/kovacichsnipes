@@ -21,6 +21,7 @@ body.error404 {
 	max-width:1040px;
 	margin-left:auto;
 	margin-right:auto;
+	margin-bottom:140px;
 	span.error_title {
 		text-transform: uppercase;
 		color:$bluedark;
@@ -51,7 +52,7 @@ body.error404 {
 body.error404 {
 
 	h1.internal_header_mount {
-		font-size:100px;
+		font-size:135px;
 		
 	}
 	
@@ -60,11 +61,15 @@ body.error404 {
 
 
 .error_wrapper {
-	max-width:750px;
+	max-width:550px;
+	padding-top:0;
+	margin-top:-25px;
+	margin-bottom:115px;
 	span.error_title {
-		
+		margin-bottom: 31px;
 		&:after {
-			
+			width:520px;
+			margin: -66px auto -53px;
 		}
 	}
 	span.error_content {
@@ -93,6 +98,9 @@ body.error404 {
 		font-size: 80px;
 		
 	}
+	.int_main {
+		min-height: 510px;
+	}
 	
 }
 
@@ -103,6 +111,7 @@ body.error404 {
 .error_wrapper {
 	padding-top: 81px;
 	max-width: 500px;
+	margin-bottom:0;
 	span.error_title {
 		margin-bottom: 32px;
 		font-size: 17px;
