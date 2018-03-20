@@ -1,22 +1,45 @@
 .video_center {
-	max-width:1630px;
 	margin:128px auto;
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
+	max-width: 1603px;
 }
 
 
 .single_video_wrapper {
-	flex-basis: 31.5%;
+	width: 31.8%;
+	text-align: center;
 	border-top:2px solid $gold;
-	padding-top:26px;
+	padding-top:24px;
+	margin-right:2.3%;
+	height: 412px;
+	margin-bottom:40px;
+	&:nth-of-type(3n + 3) {
+		margin-right:0;
+	}
 	&:hover {
 		.play_wrapper {
 			background: rgba(165, 125, 76, 0.8);
 			.play_inner {
-				.play_circle {
-					
+				svg {
+					.play_button-cls-1{
+						
+					}
+					.play_button-cls-2{
+						fill:#fff;
+					}
+					.play_button-cls-3{
+						opacity: 0;
+					}
+					.play_button-cls-4{
+						fill:none;
+						stroke-alignment:inner;
+						stroke-width:3;
+						stroke:#fff;
+					}
+					.play_button-cls-5{
+						fill:#fff;
+					}
 				}
 			}
 		}
@@ -25,11 +48,18 @@
 		position: relative;
 		.my_wistia {
 			width:100%;
-			height:280px;
+			height:283px;
 			display: block;
 		}
 	}
-	
+	span.video_title {
+		font-size: 28px;
+		color:$bluedark;
+		font-family: $actabook;
+		line-height: 32px;
+		margin-top:23px;
+		display: block;
+	}
 }
 
 
@@ -56,51 +86,383 @@
 				isolation:isolate;
 			}
 			.play_button-cls-2{
-				opacity:0.72;
-				mix-blend-mode:multiply;
+				fill:#a57d4c;
+				transition: all .1s ease-in-out;
 			}
 			.play_button-cls-3{
+				opacity:0.72;mix-blend-mode:multiply;
+			}.play_button-cls-4{
 				fill:#fff;
-			}
-			.play_button-cls-4{
-				fill:#b43301;
+				stroke-width:3;
+				transition: all .2s ease-in-out;
 			}
 			.play_button-cls-5{
-				fill:#a57d4c;
+				fill:#b43301;
+				transition: all .2s ease-in-out;
 			}
 		}
-/*
-		.play_circle {
-			width:70px;
-			height:70px;
-			background: #fff;
-			border-radius: 50%;
-			box-shadow: 0px 10px 22px -10px rgba(0,0,0,0.75);
-			position: relative;
-			&:before {
-				content:"";
-				display: block;
-				width: 0; 
-				height: 0; 
-				border-top: 13px solid transparent;
-				border-bottom: 13px solid transparent;
-				border-left: 19px solid $orangered;
-				position: relative;
-				top:22px;
-				left:28px;
-			}
-			&:after {
-				content:"";
-				width:150px;
-				height:3px;
-				background: $gold;
-				display: block;
-				position: absolute;
-				top:33px;
-				left:-41px;
-				z-index: -1;
-			}
-		}
-*/
 	}
 }
+
+
+@media screen and (max-width: 1340px) {
+	
+	
+	
+	
+.video_center {
+	
+}
+
+
+.single_video_wrapper {
+	width: 48%;
+	margin-right:4%;
+	&:nth-of-type(3n + 3) {
+		margin-right:4%;
+	}
+	&:nth-of-type(2n + 2) {
+		margin-right:0%;
+	}
+	&:hover {
+		.play_wrapper {
+			
+			.play_inner {
+				svg {
+					.play_button-cls-1{
+						
+					}
+					.play_button-cls-2{
+						
+					}
+					.play_button-cls-3{
+						
+					}
+					.play_button-cls-4{
+						
+					}
+					.play_button-cls-5{
+						
+					}
+				}
+			}
+		}
+	}
+	.video_inner_wrapper {
+		
+		.my_wistia {
+			
+		}
+	}
+	span.video_title {
+		
+	}
+}
+
+
+
+.play_wrapper {
+	
+	.play_inner {
+		svg {
+			
+			.play_button-cls-1{
+				isolation:isolate;
+			}
+			.play_button-cls-2{
+				
+			}
+			.play_button-cls-3{
+				
+			}.play_button-cls-4{
+				
+			}
+			.play_button-cls-5{
+				
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+	
+	.video_center {
+		margin: 54px auto 0;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 999px) {
+	
+	
+	
+	.video_center {
+	
+}
+
+
+.single_video_wrapper {
+	width:100%;
+	height:auto;
+	margin-right:0;
+	&:nth-of-type(3n + 3) {
+		margin-right:0;
+	}
+	&:nth-of-type(2n + 2) {
+		margin-right:0;
+	}
+	&:hover {
+		.play_wrapper {
+			
+			.play_inner {
+				svg {
+					.play_button-cls-1{
+						
+					}
+					.play_button-cls-2{
+						
+					}
+					.play_button-cls-3{
+						
+					}
+					.play_button-cls-4{
+						
+					}
+					.play_button-cls-5{
+						
+					}
+				}
+			}
+		}
+	}
+	.video_inner_wrapper {
+		
+		.my_wistia {
+			height: 432px;
+		}
+	}
+	span.video_title {
+		
+	}
+}
+
+
+
+.play_wrapper {
+	
+	.play_inner {
+		svg {
+			width:225px;
+			.play_button-cls-1{
+				isolation:isolate;
+			}
+			.play_button-cls-2{
+				
+			}
+			.play_button-cls-3{
+				
+			}.play_button-cls-4{
+				
+			}
+			.play_button-cls-5{
+				
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	.video_center {
+	  max-width: 570px;
+	  margin-top:0;
+}
+
+
+.single_video_wrapper {
+	
+	&:nth-of-type(3n + 3) {
+		
+	}
+	&:nth-of-type(2n + 2) {
+		
+	}
+	&:hover {
+		.play_wrapper {
+			
+			.play_inner {
+				svg {
+					.play_button-cls-1{
+						
+					}
+					.play_button-cls-2{
+						
+					}
+					.play_button-cls-3{
+						
+					}
+					.play_button-cls-4{
+						
+					}
+					.play_button-cls-5{
+						
+					}
+				}
+			}
+		}
+	}
+	.video_inner_wrapper {
+		
+		.my_wistia {
+			height:325px;
+		}
+	}
+	span.video_title {
+		font-size: 25px;
+		line-height: 29px;
+	}
+}
+
+
+
+.play_wrapper {
+	
+	.play_inner {
+		svg {
+			width:200px;
+			.play_button-cls-1{
+				isolation:isolate;
+			}
+			.play_button-cls-2{
+				
+			}
+			.play_button-cls-3{
+				
+			}.play_button-cls-4{
+				
+			}
+			.play_button-cls-5{
+				
+			}
+		}
+	}
+}
+
+
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 500px) {
+	
+	
+		
+	.video_center {
+	  
+}
+
+
+.single_video_wrapper {
+	
+	&:nth-of-type(3n + 3) {
+		
+	}
+	&:nth-of-type(2n + 2) {
+		
+	}
+	&:hover {
+		.play_wrapper {
+			
+			.play_inner {
+				svg {
+					.play_button-cls-1{
+						
+					}
+					.play_button-cls-2{
+						
+					}
+					.play_button-cls-3{
+						
+					}
+					.play_button-cls-4{
+						
+					}
+					.play_button-cls-5{
+						
+					}
+				}
+			}
+		}
+	}
+	.video_inner_wrapper {
+		
+		.my_wistia {
+			height: 290px;
+		}
+	}
+	span.video_title {
+		
+	}
+}
+
+
+
+.play_wrapper {
+	
+	.play_inner {
+		svg {
+			width:170px;
+			.play_button-cls-1{
+				isolation:isolate;
+			}
+			.play_button-cls-2{
+				
+			}
+			.play_button-cls-3{
+				
+			}.play_button-cls-4{
+				
+			}
+			.play_button-cls-5{
+				
+			}
+		}
+	}
+}
+	
+	
+	
+	
+	
+	
+} /* Media Query */

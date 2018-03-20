@@ -33,10 +33,9 @@
 					
 				</div><!-- video_inner_wrapper -->
 				
+				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
 				
 			</div><!-- single_video_wrapper -->
-			
-			
 			
 			
 			<div class="single_video_wrapper">
@@ -45,7 +44,11 @@
 					
 					<div class="play_wrapper">
 						
-						
+						<div class="play_inner">
+							
+							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
+							
+						</div><!-- play_inner -->
 						
 					</div><!-- play_wrapper -->
 					
@@ -57,11 +60,9 @@
 					
 				</div><!-- video_inner_wrapper -->
 				
+				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
 				
 			</div><!-- single_video_wrapper -->
-			
-			
-			
 			
 			
 			<div class="single_video_wrapper">
@@ -70,7 +71,11 @@
 					
 					<div class="play_wrapper">
 						
-						
+						<div class="play_inner">
+							
+							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
+							
+						</div><!-- play_inner -->
 						
 					</div><!-- play_wrapper -->
 					
@@ -82,11 +87,9 @@
 					
 				</div><!-- video_inner_wrapper -->
 				
+				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
 				
 			</div><!-- single_video_wrapper -->
-			
-			
-			
 			
 			
 			<div class="single_video_wrapper">
@@ -95,7 +98,11 @@
 					
 					<div class="play_wrapper">
 						
-						
+						<div class="play_inner">
+							
+							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
+							
+						</div><!-- play_inner -->
 						
 					</div><!-- play_wrapper -->
 					
@@ -107,11 +114,9 @@
 					
 				</div><!-- video_inner_wrapper -->
 				
+				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
 				
 			</div><!-- single_video_wrapper -->
-			
-			
-			
 			
 			
 			<div class="single_video_wrapper">
@@ -120,7 +125,11 @@
 					
 					<div class="play_wrapper">
 						
-						
+						<div class="play_inner">
+							
+							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
+							
+						</div><!-- play_inner -->
 						
 					</div><!-- play_wrapper -->
 					
@@ -132,10 +141,9 @@
 					
 				</div><!-- video_inner_wrapper -->
 				
+				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
 				
 			</div><!-- single_video_wrapper -->
-			
-			
 			
 			
 			<div class="single_video_wrapper">
@@ -144,7 +152,11 @@
 					
 					<div class="play_wrapper">
 						
-						
+						<div class="play_inner">
+							
+							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
+							
+						</div><!-- play_inner -->
 						
 					</div><!-- play_wrapper -->
 					
@@ -156,9 +168,10 @@
 					
 				</div><!-- video_inner_wrapper -->
 				
+				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
 				
 			</div><!-- single_video_wrapper -->
-			
+		
 			
 		</div><!-- video_center -->		
 			
