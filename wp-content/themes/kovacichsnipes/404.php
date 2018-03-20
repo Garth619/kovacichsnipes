@@ -1,12 +1,30 @@
 <?php get_header(); ?>
-
 	
-				
-<h1 class="entry-title">Not Found</h1>
-				
-				
-<p>Apologies, but the page you requested could not be found.</p>
-				
-<?php // get_sidebar(); ?>
+
+	<div class="int_main one_col">
+		
+		
+		<h1 class="internal_header_mount">404</h1><!-- internal_header_mount -->
+		
+		<div class="error_wrapper content">
 			
+			<span class="error_title">Page Not Found</span><!-- error_title -->
+			
+			<span class="error_content">The page you were looking for appears to have been moved, deleted or does not exist.<br/> You could go back to where you were or head straight to our home page</span><!-- error_content -->
+			
+		</div><!-- error_wrapper -->
+
+		
+		<div class="container content">
+			
+			
+						
+		</div><!-- container -->
+		
+		
+	</div><!-- int_main -->
+
+
+
 <?php get_footer(); ?>
+

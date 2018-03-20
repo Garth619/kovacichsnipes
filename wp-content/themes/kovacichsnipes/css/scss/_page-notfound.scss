@@ -1,0 +1,151 @@
+body.error404 {
+
+	h1.internal_header_mount {
+		
+		&:after {
+			display: none;
+		}
+	}
+	.container {
+		padding: 120px 75px 17px 150px;
+	}
+	.one_col {
+		padding-bottom:0;
+	}
+}
+
+
+.error_wrapper {
+	text-align: center;
+	padding-top:40px;
+	max-width:1040px;
+	margin-left:auto;
+	margin-right:auto;
+	span.error_title {
+		text-transform: uppercase;
+		color:$bluedark;
+		font-family: $workextrabold;
+		letter-spacing: 0.5em;
+		display: block;
+		font-size:18px;
+		border-bottom:2px solid $gold;
+		margin-bottom:50px;
+		&:after {
+			content:"";
+			display: block;
+			background: url(#{$themePath}images/new-mountain.svg) top center no-repeat;
+			width:660px;
+			height:155px;
+			margin: -101px auto -19px;
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+	
+	
+body.error404 {
+
+	h1.internal_header_mount {
+		font-size:100px;
+		
+	}
+	
+}
+
+
+
+.error_wrapper {
+	max-width:750px;
+	span.error_title {
+		
+		&:after {
+			
+		}
+	}
+	span.error_content {
+		br {
+			display: none;
+		}
+	}
+}
+
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+
+
+
+body.error404 {
+
+	h1.internal_header_mount {
+		font-size: 80px;
+		
+	}
+	
+}
+
+
+
+
+
+.error_wrapper {
+	padding-top: 81px;
+	max-width: 500px;
+	span.error_title {
+		margin-bottom: 32px;
+		font-size: 17px;
+		line-height: 21px;
+		letter-spacing: 0.2em;
+		&:after {
+			width:450px;
+			margin: -78px auto -49px;
+		}
+	}
+	span.error_content {
+		br {
+			
+		}
+	}
+}
+
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 496px) {
+	
+.error_wrapper {
+	
+	span.error_title {
+		
+		&:after {
+			margin-left: -20px;
+			width: 463px;
+			//margin-top: -92px;
+		}
+	}
+	span.error_content {
+		br {
+			
+		}
+	}
+}
+	
+	   
+	
+	
+	
+} /* Media Query */
