@@ -14,9 +14,11 @@ get_header(); ?>
 		
 		<div class="profile_wrapper">
 		
-		<div class="profile_img_wrapper">
+		<div class="profile_img_wrapper profile_desktop">
 				
 				<img class="profile_page_img" src="<?php bloginfo('template_directory');?>/images/intl-profile-snipes.jpg"/>
+				
+				<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-peace.svg"); ?>
 				
 			</div><!-- profile_img_wrapper -->
 		
@@ -28,6 +30,15 @@ get_header(); ?>
 			<h1 class="int_intro"><?php the_title();?></h1><!-- int_intro -->
 			
 			<span class="profile_position">Partner</span><!-- profile_position -->
+			
+			
+			<div class="profile_img_wrapper profile_mobile">
+				
+				<img class="profile_page_img" src="<?php bloginfo('template_directory');?>/images/intl-profile-snipes.jpg"/>
+				
+				<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-peace.svg"); ?>
+				
+			</div><!-- profile_img_wrapper -->
 			
 			
 			<p>Ben Snipes is a plaintiff's personal injury attorney, specializing in toxic tort claims and employment injuries. His practice presently focuses on asbestos related diseases, mesothelioma cases and catastrophic work injuries. In addition to a traditional tort practice, Mr. Snipes carries a significant Qui Tam/False Claims Act whistleblower and workers' compensation caseload. </p>
