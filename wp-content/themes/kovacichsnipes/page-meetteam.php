@@ -8,15 +8,15 @@
 		
 		<h1 class="internal_header_mount"><?php the_title();?></h1><!-- internal_header_mount -->
 		
-		<div class="cr_intro_page">
+		<div class="team_intro_page">
 			
-			<div class="cr_intro_content">
+			<div class="team_intro_content">
 				
 				<p>We have a reputation as a firm that takes on the toughest cases, going up against some of the largest corporations in the nation. Many of our attorneys have received very prestigious awards and honors from our peers in the local legal community.</p>
 				
-			</div><!-- cr_intro_content -->
+			</div><!-- team_intro_content -->
 			
-		</div><!-- cr_intro_page -->
+		</div><!-- team_intro_page -->
 		
 		<div class="meet_the_team">
 			
