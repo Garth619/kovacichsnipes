@@ -18,7 +18,19 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	<?php the_content();?>
+				<div class="single_post">
+					
+					<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+					
+					<div class="meta">February 1, 2018  |  Personal Injury</div><!-- meta -->
+					
+					<div class="post_excerpt"><?php echo wp_trim_words( get_the_content(), 32, '...' );?>
+						
+						<a class="read_more" href="<?php the_permalink();?>">Read More</a><!-- read_more -->
+						
+					</div><!-- post_excerpt -->
+					
+				</div><!-- single_post -->
 			
 		<?php edit_post_link( __( 'Edit'), '', '' ); ?>
 			

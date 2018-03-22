@@ -1,0 +1,48 @@
+body.blog {
+	.content {
+		h1.int_intro {
+			padding-bottom: 53px;
+		}
+		h2 {
+			font-size:35px;
+			a {
+				color:$orangered;
+				text-decoration: none;
+				transition: all .2s ease-in-out;
+				&:hover {
+					color:$gold;
+				}
+			}
+		}
+	}
+}
+
+
+.post_feed {
+	margin:10px 0 0;
+	max-width:1035px;
+}
+
+
+.single_post {
+	padding-bottom:82px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-top:50px;
+	&:last-of-type {
+		border:none;
+	}
+	.read_more {
+		display: block;
+		text-transform: lowercase;
+	}
+}
+
+
+.meta {
+	text-transform: uppercase;
+	color:$bluedark;
+	font-family: $workextrabold;
+	font-size:16px;
+	letter-spacing: 0.25em;
+}
+
