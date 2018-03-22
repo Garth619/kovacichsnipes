@@ -196,6 +196,10 @@ ul.social_links {
 		a {
 			color:$gold;
 			text-decoration: none;
+			transition: all .2s ease-in-out;
+			&:hover {
+				color:$orangered;
+			}
 		}
 	}
 }

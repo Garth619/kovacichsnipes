@@ -98,6 +98,7 @@ header {
 		background: $orangered;
 		padding-top:22px;
 		box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
+		transition: all .2s ease-in-out;
 		&:hover {
 			background: $gold;
 		}

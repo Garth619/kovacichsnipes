@@ -72,7 +72,49 @@
 </footer>
 
 
+<?php if(is_page_template('page-contact.php')) { ?>
 
+
+<script>
+                        var map;
+                        function initMap() {
+                            var myLatLng = {lat: 33.848348, lng: -84.376568};
+
+                            map = new google.maps.Map(document.getElementById('googlemap'), {
+                                center: myLatLng,
+                                zoom:15,
+                                scrollwheel:false,
+                                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                                styles: [
+                                    {
+                                        "stylers": [
+                                            { "saturation": -100 },
+                                            { "lightness": 30 }
+                                        ]
+                                    }
+                                ]
+
+                            });
+
+                            var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+
+                            var marker = new google.maps.Marker({
+                                position: myLatLng,
+                                map: map,
+                                animation: google.maps.Animation.DROP,
+                                icon: image
+                            });
+                        }
+                    </script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqGovw_sWeG307Tg20vOhhT93_vkZDCM4&callback=initMap" async defer></script>
+
+
+
+
+<?php } ?>
 
 <?php wp_footer();?>
 
