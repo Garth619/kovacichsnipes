@@ -261,6 +261,36 @@
 } /* Media Query */
 
 
+
+@media screen and (max-width: 1175px) {
+	
+.contact_right {
+	.contact_right_inner {
+		margin-top:130px;
+		h1.contact_intro {
+			font-size: 80px;
+			line-height: 75px;
+			position: relative;
+			padding-bottom: 26px;
+			&:before {
+				width: 163px;
+				height: 160px;
+				top: -125px;
+				left:-55px;
+				position: absolute;
+				
+			}
+		}
+	}
+}
+	
+	
+	  
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1060px) {
 	
 	
@@ -279,7 +309,106 @@
 	.contact_right {
 		order:1;
 		padding-bottom:34px;
+		text-align: center;
+		.contact_right_inner {
+			margin-left:auto;
+			margin-right:auto;
+			margin-top: 16px;
+			h1.contact_intro {
+				display: inline-block;
+				padding-left: 10%;
+				padding-right:10%;
+				&:before {
+					width: 163px;
+					height: 160px;
+					display: block;
+					margin-left:auto;
+					margin-right:auto;
+					position: static;
+				}
+			}
+			span.contact_description {
+				max-width: 490px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			a.contact_address {
+				margin-left:auto;
+				margin-right:auto;
+			}
+			a.contact_address, a.contact_tel {
+				margin-left:auto;
+				margin-right:auto;
+			}
+		}
 	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.contact_left {
+		height:300px;
+		 #googlemap {
+			 
+		 }
+	}	
+	
+	
+.contact_right {
+	padding-left:21px;
+	padding-right:21px;
+	.contact_right_inner {
+		h1.contact_intro {
+			font-size: 40px;
+			line-height: 45px;
+			padding-bottom: 22px;
+
+			&:before {
+				width:90px;
+				height: 90px;
+				position: relative;
+				top:4px;left:0;
+			}
+		}
+		span.contact_subheader {
+			font-size: 15px;
+		}
+		a.contact_address {
+			line-height: 38px;
+		}
+		a.contact_address, a.contact_tel {
+			 font-size: 28px;
+		}
+		span.contact_description {
+			 margin-bottom: 40px;
+		}
+		ul.contact_social {
+			
+			li {
+				display: block;
+				margin:0 0 25px;
+				&:last-of-type {
+					
+				}
+				&:before {
+					
+				}
+				a {
+					
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+}
+	
 	
 	
 	
