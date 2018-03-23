@@ -215,7 +215,7 @@ var windowWidth = $(window).width();
 	
 	
 	
-	if ($(".int_banner_wrapper")[0]){
+	if ($(".int_banner_wrapper, .about_banner_wrapper")[0]){
    	
    	$('header').addClass('banner');
    

@@ -1,0 +1,99 @@
+.about_page_wrapper {
+	
+}
+
+
+span.about_page_goldline {
+	width:1px;
+	height:170px;
+	background: $gold;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+h1.about_title {
+	font-size: 150px;
+	color:$orangered;
+	font-family: $actamedium;
+	font-weight:300;
+	font-style:normal;
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 145px;
+	display: block;
+	margin:55px 0;
+}
+
+
+
+
+
+.about_page_wrapper {
+	
+}
+
+
+.about_page_content_wrapper {
+	display: flex;
+	padding:48px 0 0;
+}
+
+
+.about_page_image {
+	flex-basis:602px;
+	flex-shrink: 0;
+	flex-grow:0;
+		img {
+			display: block;
+			max-width:100%;
+			height:auto;
+		}
+}
+
+
+.about_page_content {
+	flex-grow:1;
+	padding:0 6%;
+	// max-width:1150px;
+	margin-top:-15px;
+}
+
+
+.about_page_content.content {
+	blockquote {
+		padding-top:0;
+		max-width:900px;
+	}
+}
+
+
+
+.about_page_blockquote {
+	border-top:7px solid $orangered;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: $tradegothic;
+	color:$bluedark;
+	font-size:22px;
+	letter-spacing: 0.1em;
+	line-height: 30px;
+	padding-top:30px;
+	max-width:292px;
+	padding-right:10px;
+	margin-bottom:86px;
+}
+
+
+.about_page_col {
+	width:45%;
+	margin:50px 0 115px;
+	float:left;
+	&:last-of-type {
+		margin:40px 0 40px 37px;
+		
+	}
+}
+
+

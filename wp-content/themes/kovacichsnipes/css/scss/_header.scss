@@ -204,6 +204,12 @@ body:not(.page-template-page-home) {
 }
 
 
+body.page-template-page-about {
+	.header_right {
+		flex-basis: 58%;
+	}
+}
+
 
 body:not(.page-template-page-home) {
 	header.banner {

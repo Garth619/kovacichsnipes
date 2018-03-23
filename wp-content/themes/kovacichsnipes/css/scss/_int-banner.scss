@@ -54,6 +54,86 @@
 }
 
 
+// about banner
+
+
+
+.about_banner_wrapper {
+	width:100%;
+	height:734px;
+	display:flex;
+}
+
+
+.about_banner_image {
+	background: url(#{$themePath}images/hero-intl-about.jpg) top center no-repeat;
+	background-size:cover;
+	flex-basis: 52%;
+}
+
+
+
+
+
+.about_banner_content_wrapper {
+	background: $bluedark;
+	flex-basis: 48%;
+	flex-shrink: 0;
+	padding:0 45px 0 165px;
+	display: flex;
+// 	justify-content: center;
+	// align-items: center;
+	
+	span.about_banner_content {
+		display: block;
+		color:#fff;
+		font-family: $actabook;
+		font-size: 70px;
+		line-height: 75px;
+		letter-spacing: 0.02em;
+		max-width: 655px;
+		padding-top:52px;
+		&:before {
+			content:"";
+			display: block;
+			width: 666px;
+			height: 123px;
+			background: url(#{$themePath}images/new-mountain.svg);
+			opacity: 0.055;
+			left:-165px;
+			top:55px;
+			position: relative;
+		}
+		strong {
+			font-weight: 300;
+			color:$gold;
+		}
+	}
+	a.about_start_button {
+		background: $orangered;
+		color:#fff;
+		text-transform: lowercase;
+		font-size:22px;
+		font-family: $tradegothic;
+		text-decoration: none;
+		letter-spacing: 0.1em;
+		padding:24px 43px;
+		display: inline-block;
+		box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
+		transition: all .2s ease-in-out;
+		margin-top:30px;
+		&:hover {
+			background: $gold;
+		}
+	}
+}
+
+
+
+
+
+
+// hero-intl-about
 
 
 @media screen and (max-width: 1515px) {
