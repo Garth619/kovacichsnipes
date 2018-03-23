@@ -50,11 +50,50 @@
 						
 					</div><!-- about_page_col -->
 					
-					
 				</div><!-- about_page_content -->
 				
 			</div><!-- about_page_content_wrapper -->
 			
+			
+			<div class="about_page_slider_section">
+				
+				<span class="about_page_awards">Awards</span><!-- about_page_awards -->
+				
+				<div class="about_page_slider">
+					
+					<div class="about_page_single_slide">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/aw-01.png"/>
+						
+					</div><!-- about_page_single_slide -->
+					
+					<div class="about_page_single_slide">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/aw-02.png"/>
+						
+					</div><!-- about_page_single_slide -->
+					
+					<div class="about_page_single_slide">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/aw-03.png"/>
+						
+					</div><!-- about_page_single_slide -->
+					
+					<div class="about_page_single_slide">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/aw-04.png"/>
+						
+					</div><!-- about_page_single_slide -->
+					
+					<div class="about_page_single_slide">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/aw-05.png"/>
+						
+					</div><!-- about_page_single_slide -->
+					
+				</div><!-- about_page_slider -->
+				
+			</div><!-- about_page_slider_section -->
 			
 		</div><!-- about_page_wrapper -->
 		

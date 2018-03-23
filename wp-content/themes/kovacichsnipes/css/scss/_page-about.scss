@@ -97,3 +97,33 @@ h1.about_title {
 }
 
 
+.about_page_slider_section {
+	padding:120px 0;
+	text-align: center;
+	background: url(#{$themePath}images/ico-pattern-a.png) top left repeat;
+	span.about_page_awards {
+		color:$gold;
+		font-family: $actabold;
+		font-size:85px;
+		letter-spacing: 0.02em;
+		margin-bottom:75px;
+		display: block;
+	}
+}
+
+
+.about_page_slider {
+	max-width:1745px;
+	margin-left:auto;
+	margin-right:auto;
+	.about_page_single_slide {
+		text-align: center;
+		img {
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+		}
+	}
+}
+
+
