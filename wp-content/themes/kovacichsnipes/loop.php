@@ -22,8 +22,8 @@
 					
 					<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
 					
-					<div class="meta">February 1, 2018  |  Personal Injury</div><!-- meta -->
-					
+					<div class="meta"><?php $pfx_date = get_the_date(); echo $pfx_date ?>  |  <?php echo get_the_category_list();?></div><!-- meta -->
+										
 					<div class="post_excerpt"><?php echo wp_trim_words( get_the_content(), 32, '...' );?>
 						
 						<a class="read_more" href="<?php the_permalink();?>">Read More</a><!-- read_more -->

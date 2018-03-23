@@ -2,7 +2,7 @@
 	
 	
 	
-	<?php // get_template_part( 'banner', 'internal' ); ?>
+	<?php get_template_part( 'banner', 'internal' ); ?>
 	
 	
 	<div class="int_main two_column">

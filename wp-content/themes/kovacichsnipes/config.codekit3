@@ -2487,6 +2487,13 @@
 		"oAP": "\/search.php",
 		"oF": 0
 		},
+	"\/sidebar-blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar-blog.php",
+		"oF": 0
+		},
 	"\/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,

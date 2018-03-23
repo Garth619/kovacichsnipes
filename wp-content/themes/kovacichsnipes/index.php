@@ -1,15 +1,13 @@
 <?php get_header(); ?>
 
 
-
-
 <?php get_template_part( 'banner', 'internal' ); ?>
 	
 	
 	<div class="int_main two_column">
 		
 		
-		<?php get_sidebar(); ?>
+		<?php get_sidebar('blog'); ?>
 		
 		<div class="container content">
 			

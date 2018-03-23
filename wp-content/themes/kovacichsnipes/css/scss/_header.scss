@@ -206,6 +206,25 @@ body:not(.page-template-page-home) {
 
 
 body:not(.page-template-page-home) {
+	header.banner {
+		.header_left {
+			a.logo {
+				border-left:none;
+			}
+			.menu_wrapper {
+				background:$orangered;
+				height:100%;
+				padding-top:26px;
+				span.menu_bar {
+					background:#fff;
+				}
+				span.menu_title {
+					color: #fff;
+				}
+			}
+		}
+	}
+	
 	header.no-banner {
 		.header_left {
 			background: $bluedark;

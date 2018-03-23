@@ -8,5 +8,4 @@
 </div><!-- sidebar -->
 
 
-	<?php // dynamic_sidebar( 'sidebar' ); ?>
 			
