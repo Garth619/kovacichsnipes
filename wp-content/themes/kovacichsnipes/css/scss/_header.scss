@@ -206,7 +206,7 @@ body:not(.page-template-page-home) {
 
 body.page-template-page-about {
 	.header_right {
-		flex-basis: 58%;
+		flex-basis: 59%;
 	}
 }
 
@@ -433,6 +433,15 @@ body:not(.page-template-page-home) {
 					margin-right: 9px;
 				}
 			}
+		}
+	}
+	
+	
+	.header_mail_wrapper {
+		width: 89px;
+		margin-left: 26px;
+		img {
+			width: 53px;
 		}
 	}
 	

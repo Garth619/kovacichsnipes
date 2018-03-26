@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "07B29FE0-AAD1-4D27-A550-9DF62AFEF46E"
+		"uuidString": "A4736EB7-045F-46B4-BE76-D3B1DD4375DB"
 		}
 	],
 "creatorBuild": "26330",
@@ -412,7 +412,7 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/fonts\/actadisplay\/ActaDisplayW01-Black.woff": {
@@ -600,80 +600,80 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/fonts\/Kov_Snipes\/Kov_Snipes.css": {
+	"\/fonts\/kov_snipes\/Kov_Snipes.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/fonts\/Kov_Snipes\/Kov_Snipes-min.css",
+		"oAP": "\/fonts\/kov_snipes\/Kov_Snipes-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/fonts\/Kov_Snipes\/Start here files\/header.png": {
+	"\/fonts\/kov_snipes\/Start here files\/header.png": {
 		"ft": 32768,
 		"iS": 3167,
 		"oA": 0,
-		"oAP": "\/fonts\/Kov_Snipes\/Start here files\/header.png",
+		"oAP": "\/fonts\/kov_snipes\/Start here files\/header.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/fonts\/Kov_Snipes\/Start here files\/highlight.js": {
+	"\/fonts\/kov_snipes\/Start here files\/highlight.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/fonts\/Kov_Snipes\/Start here files\/highlight-min.js",
+		"oAP": "\/fonts\/kov_snipes\/Start here files\/highlight-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/fonts\/Kov_Snipes\/Start here files\/layout.css": {
+	"\/fonts\/kov_snipes\/Start here files\/layout.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/fonts\/Kov_Snipes\/Start here files\/layout-min.css",
+		"oAP": "\/fonts\/kov_snipes\/Start here files\/layout-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/fonts\/Kov_Snipes\/StartHere.html": {
+	"\/fonts\/kov_snipes\/StartHere.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/fonts\/Kov_Snipes\/StartHere.html",
+		"oAP": "\/fonts\/kov_snipes\/StartHere.html",
 		"oF": 0
 		},
-	"\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.eot": {
+	"\/fonts\/kov_snipes\/webfonts\/35F9F5_0_0.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.eot",
+		"oAP": "\/fonts\/kov_snipes\/webfonts\/35F9F5_0_0.eot",
 		"oF": 0
 		},
-	"\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.ttf": {
+	"\/fonts\/kov_snipes\/webfonts\/35F9F5_0_0.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.ttf",
+		"oAP": "\/fonts\/kov_snipes\/webfonts\/35F9F5_0_0.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.woff": {
+	"\/fonts\/kov_snipes\/webfonts\/35F9F5_0_0.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.woff",
+		"oAP": "\/fonts\/kov_snipes\/webfonts\/35F9F5_0_0.woff",
 		"oF": 0
 		},
-	"\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.woff2": {
+	"\/fonts\/kov_snipes\/webfonts\/35F9F5_0_0.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/fonts\/Kov_Snipes\/webfonts\/35F9F5_0_0.woff2",
+		"oAP": "\/fonts\/kov_snipes\/webfonts\/35F9F5_0_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/worksans\/demo.html": {
@@ -899,8 +899,8 @@
 		"oA": 0,
 		"oAP": "\/images\/aw-02.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -949,32 +949,32 @@
 		},
 	"\/images\/hero-img.jpg": {
 		"ft": 16384,
-		"iS": 639054,
+		"iS": 165934,
 		"oA": 0,
 		"oAP": "\/images\/hero-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-intl-about-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 374975,
 		"oA": 0,
 		"oAP": "\/images\/hero-intl-about-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-intl-about.jpg": {
 		"ft": 16384,
-		"iS": 658377,
+		"iS": 200787,
 		"oA": 0,
 		"oAP": "\/images\/hero-intl-about.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-intl.jpg": {
@@ -1009,12 +1009,12 @@
 		},
 	"\/images\/hero.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 821862,
 		"oA": 0,
 		"oAP": "\/images\/hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/ico-buffalo.svg": {
@@ -1049,12 +1049,12 @@
 		},
 	"\/images\/ico-logo.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 6806,
 		"oA": 0,
 		"oAP": "\/images\/ico-logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1103,32 +1103,32 @@
 		},
 	"\/images\/ico-pattern-two.jpg": {
 		"ft": 16384,
-		"iS": 19499,
+		"iS": 16630,
 		"oA": 0,
 		"oAP": "\/images\/ico-pattern-two.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/ico-pattern.jpg": {
 		"ft": 16384,
-		"iS": 22288,
+		"iS": 19535,
 		"oA": 0,
 		"oAP": "\/images\/ico-pattern.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/ico-pattern.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 6470,
 		"oA": 0,
 		"oAP": "\/images\/ico-pattern.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1164,82 +1164,82 @@
 		},
 	"\/images\/intl-about-1.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 161389,
 		"oA": 0,
 		"oAP": "\/images\/intl-about-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl-about-2.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 941995,
 		"oA": 0,
 		"oAP": "\/images\/intl-about-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl-about-3.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 786469,
 		"oA": 0,
 		"oAP": "\/images\/intl-about-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl-about-4.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 1213621,
 		"oA": 0,
 		"oAP": "\/images\/intl-about-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl-img-about.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 180592,
 		"oA": 0,
 		"oAP": "\/images\/intl-img-about.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl-img-video.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 32446,
 		"oA": 0,
 		"oAP": "\/images\/intl-img-video.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl-profile-kov.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 259044,
 		"oA": 0,
 		"oAP": "\/images\/intl-profile-kov.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl-profile-ross.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 250692,
 		"oA": 0,
 		"oAP": "\/images\/intl-profile-ross.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl-profile-snipes.jpg": {
@@ -1254,32 +1254,32 @@
 		},
 	"\/images\/intl-staff-1.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 146813,
 		"oA": 0,
 		"oAP": "\/images\/intl-staff-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl-staff-2.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 227261,
 		"oA": 0,
 		"oAP": "\/images\/intl-staff-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl-staff-3.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 176400,
 		"oA": 0,
 		"oAP": "\/images\/intl-staff-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/new-buffalo.svg": {
@@ -1494,32 +1494,32 @@
 		},
 	"\/images\/testimonial-mobile.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 266295,
 		"oA": 0,
 		"oAP": "\/images\/testimonial-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/testimonial-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 451686,
 		"oA": 0,
 		"oAP": "\/images\/testimonial-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/testimonial.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 133367,
 		"oA": 0,
 		"oAP": "\/images\/testimonial.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/untitled file": {
@@ -1573,7 +1573,7 @@
 		"oA": 0,
 		"oAP": "\/js\/E-v1-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/home-min.js": {
@@ -2498,12 +2498,12 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 57403,
+		"iS": 168898,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2558,10 +2558,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 542138298,
+	"creationDate": 543725213,
 	"displayValue": "kovacichsnipes",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-jake"
+	"iconImageName": "meme-lotr"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

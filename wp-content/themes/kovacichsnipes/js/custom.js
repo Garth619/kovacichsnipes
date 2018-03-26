@@ -217,7 +217,22 @@ var windowWidth = $(window).width();
 		slidesToShow: 3,
 		slidesToScroll: 3,
 		arrows:false,
-		dots:true
+		dots:true,
+		responsive: [
+    {
+      breakpoint: 1165,
+      settings: {
+        infinite: true,
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				arrows:false,
+				dots:true,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 	});
 	
 	

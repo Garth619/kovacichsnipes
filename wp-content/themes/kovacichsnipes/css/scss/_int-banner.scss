@@ -133,7 +133,51 @@
 
 
 
-// hero-intl-about
+@media screen and (max-width: 1665px) {
+	
+	
+	
+	
+	
+	
+	.about_banner_image {
+		flex-basis:auto;
+		width:797px;
+/*
+		flex-shrink:0;
+		flex-grow:0;
+*/
+	}
+	
+	
+	
+	.about_banner_content_wrapper {
+		flex-basis:auto;
+		width: calc(100% - 797px);
+		overflow: hidden;
+		padding: 0 45px 0 66px;
+		display: block;
+		// overflow: hidden;
+	}
+	
+	
+	.about_banner_content_wrapper {
+		span.about_banner_content {
+			&:before {
+				left: -23px;
+			}
+			font-size: 56px;
+			line-height: 62px;
+			max-width: 565px;
+			
+		}
+	}
+	
+	
+	    
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 1515px) {
@@ -151,9 +195,97 @@
 } /* Media Query */
 
 
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1435px) {
+	
+	.about_banner_wrapper {
+    height: 595px;
+   }
+	
+	
+	.about_banner_content_wrapper {
+		padding: 0 0px 0 7%;
+		span.about_banner_content {
+			&:before {
+				width: 520px;
+				height: 97px;
+			}
+			padding-top:25px;
+		}
+	}
+	
+	
+	.about_banner_image {
+		 width: 676px;
+	}
+
+	
+	.about_banner_content_wrapper {
+		width: calc(100% - 676px);
+	}
+   
+
+
+
+
+
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1350px) {
+	
+	
+	.about_banner_content_wrapper {
+		padding: 0 0px 0 4%;
+		span.about_banner_content {
+			&:before {
+			
+			}
+			
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1275px) {
+	
+	
+	
+	
+	
+	.about_banner_content_wrapper {
+		display: none;
+	}
+	
+	.about_banner_image {
+		width:100%;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
 @media screen and (max-width: 1175px) {
 	
-	
+
 	
 	.int_banner_wrapper {
 		display: none;
@@ -163,3 +295,29 @@
 	
 } /* Media Query */
 
+
+
+@media screen and (max-width: 1099px) {
+	
+	.about_banner_wrapper {
+    height: 460px;
+	}
+	
+	.about_banner_image {
+		background-position-y: -30px;
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1000px) {
+	
+	
+	.about_banner_wrapper {
+    height: 390px;
+	}
+	
+	
+	
+} /* Media Query */
