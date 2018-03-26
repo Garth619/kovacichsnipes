@@ -228,6 +228,16 @@ var windowWidth = $(window).width();
 				arrows:false,
 				dots:true,
       }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:false,
+				dots:true,
+      }
     }
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
@@ -254,6 +264,38 @@ var windowWidth = $(window).width();
 	  $('header').addClass('no-banner');
 	  
   }
+  
+  
+  
+  // scroll free consultation
+  
+  
+  // Consultation Scroll 
+
+
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 600);
+        return false;
+      }
+    }
+  });
+});
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 	

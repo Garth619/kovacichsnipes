@@ -71,9 +71,11 @@
 			
 			<div class="header_mail_wrapper">
 				
-				
+				<a class="" href="#footer_trigger">
+					
 				<img src="<?php bloginfo('template_directory');?>/images/ico-email.svg"/>
 				
+				</a>
 				
 			</div><!-- header_mail_wrapper -->
 			
@@ -107,8 +109,12 @@
 			</div><!-- mobile_tel -->
 		
 			<div class="mobile_contact">
-			
+				
+				<a href="#footer_trigger">
+					
 				<img src="<?php bloginfo('template_directory');?>/images/ico-email.svg"/>
+				
+				</a>
 		
 			</div>
 		
@@ -170,7 +176,11 @@
 		
 		<div class="fixed_email">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/ico-email.svg"/>
+			<a class="" href="#footer_trigger">
+			
+				<img src="<?php bloginfo('template_directory');?>/images/ico-email.svg"/>
+			
+			</a>
 			
 		</div><!-- fixed_email -->
 		

@@ -36,6 +36,9 @@
 		display: block;
 		padding-left:72px;
 		padding-right:95px;
+		br.tablet_break {
+			display: none;
+		}
 		strong {
 			font-weight: 300;
 			color:$gold;
@@ -55,7 +58,7 @@ a.start_button {
 	font-size: 22px;
 	letter-spacing: 0.1em;
 	margin-top:18px;
-	margin-bottom:82px;
+	margin-bottom: 96px;
 	transition: all .2s ease-in-out;
 	box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
 	&:hover {
@@ -270,7 +273,7 @@ a.start_button {
 	
 	
 	.section_one_left {
-		background-position-x: -170px;
+		background-position-x: -90px;
 	}
 	
 	
@@ -296,20 +299,23 @@ a.start_button {
 		width:100%;
 		float:none;
 		padding-bottom:0;
-		background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url(#{$themePath}images/hero-img.jpg) top center no-repeat;
-		background-size:cover;
+		background: url(#{$themePath}images/hero-tablet.jpg) top center no-repeat;
 		text-align: center;
-		background-size: 1170px;
-		background-position-y: -100px;
+		background-size: 1197px;
+		
+		// background-position-y: -100px;
 		span.large_header {
 			margin:0;
-			font-size:55px;
-			line-height: 60px;
+			font-size:50px;
+			line-height: 55px;
 			letter-spacing: 0.02em;
-			padding:115px 45px 0;
+			padding: 130px 45px 0;
 			max-width:700px;
 			margin-left:auto;
 			margin-right:auto;
+			br.tablet_break {
+				display:inline;
+			}
 		}
 	}
 	
@@ -319,7 +325,7 @@ a.start_button {
 		float:none;
 		font-size: 17px;
 		padding:19px 29px;
-		margin:22px auto 87px;
+		margin: 30px auto 90px;
 	}
 	
 	
@@ -352,12 +358,12 @@ a.start_button {
 	}
 	
 	.section_one_right {
-		background-size:contain;
-		background-position-y: -65px;
+		background: url(#{$themePath}images/hero-mobile.jpg) top center;
+		// background-position-y: -65px;
 		span.large_header {
 			font-size:39px;
 			line-height: 48px;
-			padding: 125px 20px 0;
+			padding: 121px 20px 0;
 			letter-spacing: 0.02em;
 			max-width: 450px;
 		}
@@ -411,9 +417,11 @@ a.start_button {
 	}
 } 
 
+a.start_button {
+	margin: 26px auto 82px;
+}
 
-
-
+    
 
 
 
@@ -422,31 +430,22 @@ a.start_button {
 	
 	
 	
-	@media screen and (max-width: 535px) {
-		
-		.section_one_right {
-			background-position-y: -55px;
-		}
-		
-		
-	} /* Media Query */
-	
+
 	
 	
 	@media screen and (max-width: 487px) {
 		
 		
+/*
 		.section_one_right {
 			background-position-y: -45px;
 			background-size:cover;
 			background-size: 487px;
 		}
+*/
 		
 		
-		a.start_button {
-			margin: 22px auto 75px;
-		}
-		
+			
 		
 		
 		

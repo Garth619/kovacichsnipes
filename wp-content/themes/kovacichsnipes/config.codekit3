@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "A4736EB7-045F-46B4-BE76-D3B1DD4375DB"
+		"uuidString": "0E4A247E-E0D4-4A15-8EAE-0885E647A146"
 		}
 	],
 "creatorBuild": "26330",
@@ -412,7 +412,7 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/fonts\/actadisplay\/ActaDisplayW01-Black.woff": {
@@ -895,12 +895,12 @@
 		},
 	"\/images\/aw-02.png": {
 		"ft": 32768,
-		"iS": 18888,
+		"iS": 8355,
 		"oA": 0,
 		"oAP": "\/images\/aw-02.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -949,7 +949,7 @@
 		},
 	"\/images\/hero-img.jpg": {
 		"ft": 16384,
-		"iS": 165934,
+		"iS": 248957,
 		"oA": 0,
 		"oAP": "\/images\/hero-img.jpg",
 		"oF": 0,
@@ -1004,12 +1004,12 @@
 		"oAP": "\/images\/hero-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/hero.jpg": {
 		"ft": 16384,
-		"iS": 821862,
+		"iS": 822772,
 		"oA": 0,
 		"oAP": "\/images\/hero.jpg",
 		"oF": 0,
@@ -1573,7 +1573,7 @@
 		"oA": 0,
 		"oAP": "\/js\/E-v1-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/home-min.js": {
@@ -2558,10 +2558,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 543725213,
+	"creationDate": 543790587,
 	"displayValue": "kovacichsnipes",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-lotr"
+	"iconImageName": "meme-cryingJordan"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

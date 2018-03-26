@@ -8,9 +8,9 @@
 	
 	<div class="section_one_right">
 		
-		<span class="large_header">We take on the most <strong>complex personal injury</strong> claims.</span><!-- large_header -->
+		<span class="large_header">We take on the<br class="tablet_break"> most <strong>complex personal injury</strong> claims.</span><!-- large_header -->
 		
-		<a class="start_button" href="">start free case consultation</a><!-- start_button -->
+		<a class="start_button" href="#footer_trigger">start free case consultation</a><!-- start_button -->
 		
 		<div class="sp_slideshow_outer">
 		

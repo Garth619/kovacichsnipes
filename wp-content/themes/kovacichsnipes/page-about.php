@@ -21,6 +21,10 @@
 				
 				<div class="about_page_image">
 					
+					
+					
+					<div class="about_page_image_inner">
+					
 					<img src="<?php bloginfo('template_directory');?>/images/intl-about-1.jpg"/>
 					
 					<div class="about_peace">
@@ -28,6 +32,10 @@
 						<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-peace.svg"); ?>
 						
 					</div><!-- about_peace -->
+					
+					</div><!-- about_page_inner -->
+					
+					<blockquote>The Law firm that other firms trust with their toughest cases</blockquote>
 					
 				</div><!-- about_page_image -->
 				
