@@ -69,14 +69,31 @@ get_header(); ?>
 				
 					<div class="single_accolade">
 					
-						<span class="accolade_title">Education</span><!-- accolade_title -->
+						<span class="accolade_title">Honors And awards</span><!-- accolade_title -->
 					
 						<ul>
-							<li>University of Montana School of Law, Missoula, Montana: J.D. - 2008</li>
-							<li>University of Montana - Western, Dillon, Montana: B.S. magna cum laude, Honors: With Honors, Honors: Football Scholarship, Major: Business Administration</li>
+							<li> AV (Preeminent) Peer Review Rated</li>
+							<li>National Trial Lawyers Top 100</li>
+							<li>National Trial Lawyers Top 40 Under 40</li>
 						</ul>
 					
 					</div><!-- single_accolade -->
+					
+					<div class="single_accolade">
+					
+						<span class="accolade_title">Professional Associations and memberships</span><!-- accolade_title -->
+					
+						<ul>
+							<li>Montana Trial Lawyers Association, Member, 2008 - Present</li>
+							<li>Montana State Bar, Member, 2008 - Present</li>
+							<li>American Association for Justice, Member</li>
+							<li>Federal Bar Association (Montana Chapter), Board of Directors, 2016 - Present</li>
+							<li>Cascade County Bar Association, Member/Executive Officer (2009)</li>
+						</ul>
+					
+					</div><!-- single_accolade -->
+				
+					
 				
 				</div><!-- accolades_col -->
 				
@@ -85,22 +102,23 @@ get_header(); ?>
 				
 					<div class="single_accolade">
 					
-						<span class="accolade_title">Education</span><!-- accolade_title -->
+						<span class="accolade_title">Bar Admissions</span><!-- accolade_title -->
 					
 						<ul>
-							<li>University of Montana School of Law, Missoula, Montana: J.D. - 2008</li>
-							<li>University of Montana - Western, Dillon, Montana: B.S. magna cum laude, Honors: With Honors, Honors: Football Scholarship, Major: Business Administration</li>
+							<li>Montana, 2008</li>
+							<li>U.S. District Court District of Montana, 2008</li>
+							<li>U.S. Court of Appeals 9th Circuit, 2010</li>
 						</ul>
 					
 					</div><!-- single_accolade -->
-				
+					
 					<div class="single_accolade">
 					
-						<span class="accolade_title">Education</span><!-- accolade_title -->
+						<span class="accolade_title">Pro Bono Activities</span><!-- accolade_title -->
 					
 						<ul>
-							<li>University of Montana School of Law, Missoula, Montana: J.D. - 2008</li>
-							<li>University of Montana - Western, Dillon, Montana: B.S. magna cum laude, Honors: With Honors, Honors: Football Scholarship, Major: Business Administration</li>
+							<li>Cascade County Law Clinic (Board of Directors)</li>
+							<li>Big Brothers Big Sisters, Great Falls (Board of Directors, President, 2012-2014)</li>
 						</ul>
 					
 					</div><!-- single_accolade -->

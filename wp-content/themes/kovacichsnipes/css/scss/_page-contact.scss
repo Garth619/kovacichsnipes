@@ -84,10 +84,16 @@ body.page-template-page-contact {
 			max-width:315px;
 			text-decoration: none;
 			transition: all .2s ease-in-out;
-			margin-bottom:44px;
+			
 			&:hover {
 				color:$orangered;
 			}
+		}
+		a.contact_address {
+			margin-bottom:0;
+		}
+		a.contact_tel {
+			margin-bottom:44px;
 		}
 		a.get_directions {
 			background:$orangered;
@@ -253,7 +259,10 @@ body.page-template-page-contact {
 			a.get_directions {
 				margin: 13px 0 43px;
 			}
-			a.contact_address, a.contact_tel {
+			a.contact_address {
+				
+			}
+			a.contact_tel {
 				margin-bottom: 23px;
 			}
 			.contact_description {
@@ -373,8 +382,7 @@ body.page-template-page-contact {
 		h1.contact_intro {
 			font-size: 40px;
 			line-height: 45px;
-			padding-bottom: 22px;
-
+			padding-bottom: 12px;
 			&:before {
 				width:90px;
 				height: 90px;

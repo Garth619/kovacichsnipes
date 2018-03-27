@@ -252,6 +252,10 @@ body:not(.page-template-page-home) {
 				background: $orangered;
 				height:100%;
 				padding-top:25px;
+				transition: all .2s ease-in-out;
+				&:hover {
+					background:$gold;
+				}
 				span.menu_bar {
 					background:#fff;
 				}

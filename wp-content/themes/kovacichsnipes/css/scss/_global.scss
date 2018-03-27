@@ -185,11 +185,28 @@ span.orangered {
 body.page-template-page-padirectory-regular {
 	h1.internal_header_mount {
 		font-size: 120px;
+		margin: 160px 0 104px;
 		&:after {
-			margin:-160px auto 0;
+			margin:-170px auto 0;
 		}
 	}
 }
+
+
+
+
+body.page-template-page-caseresults {
+	h1.internal_header_mount {
+		margin: 160px 0 111px;
+		&:after {
+		
+		}
+	}
+}
+
+
+
+
 
 h1.internal_header_mount {
 	color:$orangered;
@@ -199,14 +216,14 @@ h1.internal_header_mount {
 	font-size: 135px;
 	font-family: $actamedium;
 	letter-spacing: 0.04em;
-	margin:160px 0 80px;
+	margin: 160px 0 140px;
 	&:after {
 		content:"";
 		display: block;
-		background: url(#{$themePath}images/new-mountain.svg) top center no-repeat;
+		background: url(#{$themePath}images/new-mountain2.svg) top center no-repeat;
 		width:660px;
-		height:155px;
-		margin:-180px auto -30px;
+		height: 138px;
+		margin:-200px auto -30px;
 	}
 }
 
@@ -286,6 +303,7 @@ body.page-template-page-padirectory-regular h1.internal_header_mount,	h1.interna
 	margin: 125px 0 45px;
 	&:after {
 		margin: -139px auto 0;
+		width: 560px;
 	}
 }
 
@@ -296,7 +314,14 @@ body.page-template-page-padirectory-regular h1.internal_header_mount,	h1.interna
 
 	
 	
-	
+body.page-template-page-caseresults {
+	h1.internal_header_mount {
+		margin-bottom:50px;
+		&:after {
+		
+		}
+	}
+}	
 	
 	
 	
@@ -346,9 +371,21 @@ body.page-template-page-padirectory-regular h1.internal_header_mount, h1.interna
 	margin: 98px 0 -11px;
 	&:after {
 		margin-top: -96px;
-		width: 458px;
+		width: 418px;
 	}
 }
+
+
+	
+body.page-template-page-caseresults {
+	h1.internal_header_mount {
+		margin: 101px 0 10px;
+		&:after {
+		
+		}
+	}
+}	
+	
 
 	
 
@@ -363,7 +400,7 @@ body.page-template-page-padirectory-regular h1.internal_header_mount, h1.interna
 
 
 
-@media screen and (max-width: 496px) {
+@media screen and (max-width: 450px) {
 	
 	
 	
@@ -371,11 +408,27 @@ body.page-template-page-padirectory-regular h1.internal_header_mount, h1.interna
 body.page-template-page-padirectory-regular h1.internal_header_mount, h1.internal_header_mount {
 	
 	&:after {
-		margin-left:-20px;
-		width: 496px;
-		margin-top: -92px;
+
+
+    margin-left: -18px;
+    width: 450px;
+    height: 120px;
+		margin-top: -96px;
 	}
 }
+
+
+
+
+	
+body.page-template-page-caseresults {
+	h1.internal_header_mount {
+		 margin: 101px 0 20px;
+		&:after {
+		
+		}
+	}
+}	
 	
 	
 	

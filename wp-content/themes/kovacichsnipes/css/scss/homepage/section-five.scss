@@ -48,11 +48,13 @@
 	display: flex;
 	justify-content: space-between;
 	padding-left:7%;
+	flex-grow:1;
 }
 
 
 .sec_five_col {
 		flex-basis:46%;
+	
 }
 
 

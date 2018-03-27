@@ -21,6 +21,7 @@
 	}
 	svg {
 		width:233px;
+		height: 235px;
 		margin:-145px 0 0 -95px;
 	}
 }
@@ -185,9 +186,15 @@
 		.container {
 			padding-left:0;
 		}
+		
 		.content {
+			span.profile_position {
+				font-size:16px;
+				letter-spacing: 0.3em;
+			}
 			.accolades {
 				display: block;
+				margin-top: 60px;
 				.accolades_col {
 					width:100%;
 					margin-right:0;
@@ -203,7 +210,7 @@
 	
 	
 	
-	
+
 	
 	
 	
