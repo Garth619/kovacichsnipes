@@ -25,10 +25,10 @@
 	background: $bluedark;
 	flex-shrink:0;
 	flex-grow:0;
-	padding-bottom: 74px;
+	padding-bottom: 80px;
 	span.large_header {
 		font-size:95px;
-		margin-top:143px;
+		margin-top: 152px;
 		line-height: 95px;
 		letter-spacing: 0.02em;
 		font-family: $actabook;
@@ -57,8 +57,8 @@ a.start_button {
 	font-family: $tradegothic;
 	font-size: 22px;
 	letter-spacing: 0.1em;
-	margin-top:18px;
-	margin-bottom: 96px;
+	margin-top:22px;
+	margin-bottom: 86px;
 	transition: all .2s ease-in-out;
 	box-shadow: 6.889px 11.025px 31.68px 1.32px rgba(0, 0, 0, 0.2);
 	&:hover {
@@ -372,7 +372,7 @@ a.start_button {
 
 
 .sp_slideshow_outer {
-	padding: 22px 0 48px;
+	padding: 22px 0 40px;
 }
 
 .sp_slideshow {
@@ -402,6 +402,7 @@ a.start_button {
 				text-align: center;
 				padding-bottom:23px;
 				margin: 0px 0 22px;
+				letter-spacing: 0.28em;
 				span.number {
 					display: block;
 					margin-bottom:8px;

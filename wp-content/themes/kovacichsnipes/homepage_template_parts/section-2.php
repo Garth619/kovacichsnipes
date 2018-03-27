@@ -10,7 +10,7 @@
 		<div class="intro_block">
 			
 			
-			<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-mountain.svg"); ?>
+			<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-mountain2.svg"); ?>
 			
 			<span class="large_header">Experienced<br/> trial attorneys</span><!-- large_header -->
 			

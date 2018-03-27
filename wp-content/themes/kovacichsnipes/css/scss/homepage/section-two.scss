@@ -22,7 +22,7 @@
 		font-style: normal;
 		text-align: center;
 		max-width: 995px;
-		margin:40px auto 0;
+		margin: 38px auto 0;
 		line-height: 145px;
 	}
 	
@@ -30,7 +30,7 @@
 	.sec_two_content {
 		// column-count:3;
 		max-width:1690px;
-		margin:110px auto;
+		margin: 103px auto 209px;
 		padding:0 45px;
 		position: relative;
 		&:after {
@@ -47,8 +47,8 @@
 		float:left;
 		margin-bottom:100px;
 		svg {
-			width:690px;
-			margin-left:-50px;
+			width: 663px;
+			margin-left: -38px;
 		}
 		span.large_header {
 			display: block;
@@ -57,9 +57,9 @@
 			color:#23272b;
 			font-size:18px;
 			letter-spacing: 0.5em;
-			margin-top:-50px;
-			margin-left:9px;
-			padding-bottom:45px;
+			margin-top: -68px;
+			padding-left: 18px;
+			padding-bottom: 43px;
 			border-bottom: 2px solid $gold;
 			margin-bottom:50px;
 			position: relative;
@@ -88,15 +88,13 @@
 	
 	.col_three {
 		padding-left:91px;
-		// float:right;
-// 		margin-top: -456px;
 		width:34%;
 		
 		// i did all this below so the thrid column stays at the top as the blockquote text drops down to new lines, very hacky to have a blockqute appear to nested in columns...
 		
 		
 		position: absolute;
-		top: 142px;
+		top: 129px;
 		right:45px;
 		
 		
@@ -109,6 +107,7 @@
 	
 		.sec_two_content { 
 			margin-bottom:125px;
+			padding: 0 75px;
 		}
 		
 	h1.intro {
@@ -133,8 +132,9 @@
 		width:100%;
 		float:none;
 		margin-bottom: 89px;
+		max-width: 1020px;
 		span.large_header {
-			padding-bottom: 41px;
+			padding-bottom: 34px;
 			margin-top: -54px;
 		}
 	} 
@@ -179,21 +179,22 @@
 		font-size: 80px;
 		line-height: 88px;
 		max-width:600px;
-		margin: 23px auto 0;
+		margin: 8px auto 0;
 	}
 	
 	
 	.gold_line {
-		height: 90px;
+    height: 82px;
 	}
 
 	.intro_block {
 		margin-bottom: 66px;
 		svg {
    		width:570px;
+   		margin-left: -35px;
 		}
 		span.large_header {
-			margin-top: -51px;
+			margin-top: -66px;
 			margin-bottom: 46px;
 		}
 		span.blockquote {

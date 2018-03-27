@@ -142,7 +142,7 @@ footer {
 
 .footer_location {
 	text-align: center;
-	padding-bottom:75px;
+	padding-bottom: 69px;
 	span.footer_goldline {
 		width:1px;
 		height:95px;
@@ -186,7 +186,7 @@ footer {
 
 ul.social_links {
 	list-style: none;
-	margin-top:90px;
+	margin-top: 84px;
 	li {
 		display: inline-block;
 		font-size:25px;
@@ -382,10 +382,11 @@ a.ilawyer {
 	
 	
 .form_inner {
-	
+	padding: 111px 50px 58px;
 	span.footer_title {
 		font-size: 113px;
 		line-height: 118px;
+		letter-spacing: 0.03em;
 	}
 	span.footer_description {
 		font-size: 18px;
@@ -397,7 +398,7 @@ a.ilawyer {
 		}
 	}
 	.form_wrapper {
-		
+		padding: 59px 0;
 		ul {
 			display: block;
 			li#field_1_4 {
@@ -529,7 +530,8 @@ a.ilawyer {
 		}
 	}
 	.form_wrapper {
-		padding: 94px 0;
+		padding: 86px 0 34px;
+		
 		ul {
 			
 			li#field_1_4 {
@@ -672,7 +674,7 @@ a.ilawyer {
 		}
 	}
 	.form_wrapper {
-		padding: 98px 0px 31px;
+		//padding: 98px 0px 31px;
 		ul {
 			
 			li#field_1_4 {

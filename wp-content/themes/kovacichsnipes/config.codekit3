@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "0E4A247E-E0D4-4A15-8EAE-0885E647A146"
+		"uuidString": "46DE8006-1F57-4131-BB10-FA927D25AF45"
 		}
 	],
 "creatorBuild": "26330",
@@ -999,12 +999,12 @@
 		},
 	"\/images\/hero-tablet.jpg": {
 		"ft": 16384,
-		"iS": 461417,
+		"iS": 108678,
 		"oA": 0,
 		"oAP": "\/images\/hero-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero.jpg": {
@@ -1302,6 +1302,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/new-mountain2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-mountain2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/new-peace.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1381,6 +1391,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/pin.png": {
+		"ft": 32768,
+		"iS": 2118,
+		"oA": 0,
+		"oAP": "\/images\/pin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/placeholder.jpg": {
 		"ft": 16384,
@@ -2558,10 +2579,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 543790587,
+	"creationDate": 543809561,
 	"displayValue": "kovacichsnipes",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-cryingJordan"
+	"iconImageName": "brackets_teal"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -75,28 +75,39 @@
 <?php if(is_page_template('page-contact.php')) { ?>
 
 
-<script>
+										<script>
                         var map;
                         function initMap() {
-                            var myLatLng = {lat: 33.848348, lng: -84.376568};
+                            var myLatLng = {lat: 47.5090611, lng: -111.2981139};
 
                             map = new google.maps.Map(document.getElementById('googlemap'), {
                                 center: myLatLng,
-                                zoom:15,
+                                zoom:16,
                                 scrollwheel:false,
                                 mapTypeId: google.maps.MapTypeId.ROADMAP,
                                 styles: [
                                     {
                                         "stylers": [
-                                            { "saturation": -100 },
-                                            { "lightness": 30 }
+                                           { "saturation": -100 },
+                                           { "lightness": 30 }
                                         ]
-                                    }
-                                ]
+                                    },
+                                    {
+																			featureType: "poi",
+																			elementType: "labels",
+																			stylers: [
+																				{ visibility: "off" }
+																			]
+    																}
+																	]
+																});
+                            
+                            
+                            
+         
+                            
 
-                            });
-
-                            var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+                            var image = 'http://kovacich-snipes.com/wp-content/themes/kovacichsnipes/images/pin.png';
 
                             var marker = new google.maps.Marker({
                                 position: myLatLng,

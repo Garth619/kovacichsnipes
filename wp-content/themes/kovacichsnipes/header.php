@@ -63,15 +63,15 @@
 			
 			<div class="tel_wrapper">
 			
-				<a class="" href="tel:(406)564-1743">(406)564-1743</a>
+				<a class="tel_link" href="tel:(406)564-1743">(406)564-1743</a>
 			
-				<a class="" href="tel:(866) 630-8868">(866) 630-8868</a>
+				<a class="tel_link" href="tel:(866) 630-8868">(866) 630-8868</a>
 			
 			</div><!-- tel_wrapper -->
 			
 			<div class="header_mail_wrapper">
 				
-				<a class="" href="#footer_trigger">
+				<a class="mail_scroll" href="#footer_trigger">
 					
 				<img src="<?php bloginfo('template_directory');?>/images/ico-email.svg"/>
 				
