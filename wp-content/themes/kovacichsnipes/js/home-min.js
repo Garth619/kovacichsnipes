@@ -1,1 +1,1 @@
-jQuery(document).ready(function($){});
+jQuery(document).ready(function($){function e(e,n,t,o,i,l){var c=new Waypoint({element:document.getElementById(e),handler:function(e){"down"===e?(jQuery(n).addClass(t),"function"==typeof i&&i.call()):l&&(jQuery(n).removeClass(t),"function"==typeof i&&i.call())},offset:o})}e("section_two","#section_two","visible",300,null,!0),e("sec_two_mountain_trig","#sec_two_mountain_trig","visible",400,null,!0),e("section_three","#section_three","visible",400,null,!0)});

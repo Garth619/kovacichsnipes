@@ -156,6 +156,10 @@ var windowWidth = $(window).width();
 	
 	checkWidthcase();
 	
+
+
+	$('header, #section_one').addClass('ready');
+	
 	
 
 	$('.sp_slideshow').slick({

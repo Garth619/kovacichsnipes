@@ -104,10 +104,10 @@
                             
                             
                             
-         
+															
                             
 
-                            var image = 'http://kovacich-snipes.com/wp-content/themes/kovacichsnipes/images/pin.png';
+                            var image = '<?php bloginfo('template_directory');?>/images/pin.png';
 
                             var marker = new google.maps.Marker({
                                 position: myLatLng,

@@ -51,6 +51,19 @@
 		"oAP": "\/category.php",
 		"oF": 0
 		},
+	"\/css\/scss\/_animation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_animation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_dropdown-menu.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -112,6 +125,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_int-banner.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_keyframe.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_keyframe.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1302,6 +1328,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/new-mountain2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-mountain2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/new-peace.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1381,6 +1417,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/pin.png": {
+		"ft": 32768,
+		"iS": 2118,
+		"oA": 0,
+		"oAP": "\/images\/pin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/placeholder.jpg": {
 		"ft": 16384,

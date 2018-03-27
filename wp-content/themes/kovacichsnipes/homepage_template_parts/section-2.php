@@ -4,7 +4,7 @@
 	
 	<h1 class="intro">Montana Personal Injury Attorneys</h1>
 	
-	<div class="sec_two_content content">
+	<div id="sec_two_mountain_trig" class="sec_two_content content">
 		
 
 		<div class="intro_block">
