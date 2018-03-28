@@ -46,19 +46,19 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 
 
 						
-					createWaypoint("section_two", "#section_two", "visible", 300, null, true);
+					createWaypoint("section_two", "#section_two", "visible", 300, null, false);
 					
-					createWaypoint("sec_two_mountain_trig", "#sec_two_mountain_trig", "visible", 400, null, true);
+					createWaypoint("sec_two_mountain_trig", "#sec_two_mountain_trig", "visible", 400, null, false);
 					
-					createWaypoint("section_three", "#section_three", "visible", 400, null, true);
+					createWaypoint("section_three", "#section_three", "visible", 400, null, false);
 					
-					createWaypoint("section_four", "#section_four", "visible", 400, null, true);
+					createWaypoint("section_four", "#section_four", "visible", 400, null, false);
 					
-					createWaypoint("section_five", "#section_five", "visible", 400, null, true);
+					createWaypoint("section_five", "#section_five", "visible", 400, null, false);
 					
-					createWaypoint("section_six", "#section_six", "visible", 400, null, true);
+					createWaypoint("section_six", "#section_six", "visible", 400, null, false);
 					
-					createWaypoint("footer_trigger", "#footer_trigger", "visible", 400, null, true);
+					createWaypoint("footer_trigger", "#footer_trigger", "visible", 400, null, false);
 
 
 						

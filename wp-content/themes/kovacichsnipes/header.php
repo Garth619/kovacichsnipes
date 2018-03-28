@@ -100,7 +100,7 @@
 		
 			<div class="mobile_tel">
 			
-				<a class="" href="">
+				<a class="" href="tel:(406)564-1743">
 				
 					<img src="<?php bloginfo('template_directory');?>/images/ico-phone.svg"/>
 				
