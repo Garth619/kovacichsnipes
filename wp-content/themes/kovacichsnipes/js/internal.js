@@ -48,8 +48,10 @@ jQuery(document).ready(function($){
 
 						createWaypoint("footer_trigger", ".fixed_email", "hide", 600, null, true);
 						
+						createWaypoint("about_page_wrapper_trigger", "#about_page_wrapper_trigger", "visible", 400, null, true);
+						
 					
-  
+ 
   
   
   // case results hover

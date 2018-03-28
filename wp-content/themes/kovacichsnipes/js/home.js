@@ -52,9 +52,44 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 					
 					
 					createWaypoint("section_three", "#section_three", "visible", 400, null, true);
+					
+					createWaypoint("section_four", "#section_four", "visible", 400, null, true);
+					
+					createWaypoint("section_five", "#section_five", "visible", 400, null, true);
+					
+					createWaypoint("section_six", "#section_six", "visible", 400, null, true);
+					
+					
+						createWaypoint("footer_trigger", "#footer_trigger", "visible", 400, null, true);
 
 
+						
+						
+						
+						 var resizeTimerInternal;
+						 
+						 	$(window).on('resize', function() {
 
+						 		clearTimeout(resizeTimerInternal)
+
+						 		resizeTimerInternal = setTimeout(function() {
+
+        							
+        							
+/*
+        							var lists2 = $(".bio-lists-2").html();
+											
+											$(lists2).prependTo(".bio-lists-1");
+*/
+
+
+        							
+        							
+        				
+        				}, 1000)
+
+    				});
+						
 
 
 }); // Document Ready

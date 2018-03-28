@@ -158,7 +158,7 @@ var windowWidth = $(window).width();
 	
 
 
-	$('header, #section_one').addClass('ready');
+	$('header, #section_one, .about_banner_wrapper, .int_banner_wrapper').addClass('ready');
 	
 	
 

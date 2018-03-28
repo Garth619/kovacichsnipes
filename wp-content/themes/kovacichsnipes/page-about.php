@@ -9,7 +9,7 @@
 	<div class="int_main about_outer">
 		
 		
-		<div class="about_page_wrapper">
+		<div id="about_page_wrapper_trigger" class="about_page_wrapper">
 			
 			
 			<span class="about_page_goldline"></span><!-- about_page_goldline -->
