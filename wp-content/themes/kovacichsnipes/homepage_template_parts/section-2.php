@@ -39,8 +39,10 @@
 			
 			
 			<div class="col_three">
+				
+				<div class="col_three_inner">
 									
-					<h2>Lorem metus puraus amer numm donec tempor </h2>
+					<h2>Col Three Lorem metus puraus amer numm donec tempor </h2>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan sapien sed metus faucibus, non ullamcorper massa dapibus. Nullam scelerisque leo vel tempor tempor. Proin pretium euismod ipsum. Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus metus et nunc. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing</p>
 
@@ -50,8 +52,9 @@
 <p>Lorem elit. Cras accumsan sapien sed metus faucibus, non ullamcorper massa dapibus. Nullam scelerisque leo vel tempor tempor. Proin pretium euismod ipsum. Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus metus et nunc. In hac habitasse platea dictumst.</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan sapien sed metus faucibus, non ullamcorper massa dapibus. Nullam scelerisque leo vel tempor tempor. Proin pretium euismod ipsum. Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus metus et nunc. In hac habitasse platea dictumst.</p> 
+					</div><!-- col_three_inner -->
 											
-				</div><!-- col -->
+				</div><!-- col_three -->
 		
 		
 	</div><!-- sec_two_content -->

@@ -50,7 +50,6 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 					
 					createWaypoint("sec_two_mountain_trig", "#sec_two_mountain_trig", "visible", 400, null, true);
 					
-					
 					createWaypoint("section_three", "#section_three", "visible", 400, null, true);
 					
 					createWaypoint("section_four", "#section_four", "visible", 400, null, true);
@@ -59,13 +58,55 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 					
 					createWaypoint("section_six", "#section_six", "visible", 400, null, true);
 					
+					createWaypoint("footer_trigger", "#footer_trigger", "visible", 400, null, true);
+
+
+						
+						
+						
+						
+						
+						function columnCheck() {
+							
+							if (jQuery(window).width() < 1450) {
+								
+								
+									var colthreeContent = $(".col_three").html();
+											
+									$(colthreeContent).appendTo(".col_one");
+											
+									$('.col_three').empty();
+
+        
+    					
+    					} else {
+	    					
+	    						
+/*
+									var colthreeInnercontent = $(".col_three_inner").html();
+									
+									$(colthreeInnercontent).appendTo(".col_three");
+									
+									
+									$('.col_three_inner').hide();
+*/
+    					
+    					
+    					}
 					
-						createWaypoint("footer_trigger", "#footer_trigger", "visible", 400, null, true);
+						}
 
+						
+						
+						
+						columnCheck();
+						
+						
+						
+						
 
 						
-						
-						
+/*
 						 var resizeTimerInternal;
 						 
 						 	$(window).on('resize', function() {
@@ -75,20 +116,18 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 						 		resizeTimerInternal = setTimeout(function() {
 
         							
-        							
-/*
-        							var lists2 = $(".bio-lists-2").html();
-											
-											$(lists2).prependTo(".bio-lists-1");
-*/
+        							columnCheck();
 
-
+												
         							
-        							
-        				
-        				}, 1000)
+        			}, 1000)
 
     				});
+*/
+
+    				
+    				
+    			
 						
 
 
