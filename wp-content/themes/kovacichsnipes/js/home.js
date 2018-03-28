@@ -58,7 +58,7 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 					
 					createWaypoint("section_six", "#section_six", "visible", 400, null, false);
 					
-					createWaypoint("footer_trigger", "#footer_trigger", "visible", 400, null, false);
+					
 
 
 						

@@ -65,8 +65,7 @@ jQuery(document).ready(function($){
 						
 						createWaypoint("header_trigger", ".mobile_header, #section_one, .drop_down_overlay, .int_main", "visible", -87, null, true);
   
-  
-  
+						createWaypoint("footer_trigger", "#footer_trigger", "visible", 400, null, false);
   
 	
 	
