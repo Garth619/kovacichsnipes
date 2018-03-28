@@ -52,7 +52,7 @@ jQuery(document).ready(function($){
 
 						
 						
-						createWaypoint("about_page_wrapper_trigger", "#about_page_wrapper_trigger", "visible", 400, null, true);
+						createWaypoint("about_page_wrapper_trigger", "#about_page_wrapper_trigger", "visible", 400, null, false);
 
 
 
