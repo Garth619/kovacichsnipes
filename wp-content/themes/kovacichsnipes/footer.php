@@ -28,16 +28,16 @@
 		<span class="firm_name">Kovacich Snipes</span><!-- firm_name -->
 		
 		
-		<a class="footer_adress" href="">725 3rd Ave. North Great Falls, MT 59401</a><!-- footer_adress -->
+		<a class="footer_adress" href="https://www.google.com/maps/place/Kovacich+Snipes,+P.C./@47.5087709,-111.2962268,17z/data=!4m13!1m7!3m6!1s0x5342378d9eda4aab:0x2a1872701e35bc32!2s725+3rd+Ave+N,+Great+Falls,+MT+59401!3b1!8m2!3d47.5087709!4d-111.2940381!3m4!1s0x5342378d9efd9693:0x7d3a0451238a6b43!8m2!3d47.508791!4d-111.294033" target="_blank">725 3rd Ave. North Great Falls, MT 59401</a><!-- footer_adress -->
 		
 		<a class="footer_phone" href="tel;(406) 564-1743">(406) 564-1743</a><!-- footer_phone -->
 		
 		
 		<ul class="social_links">
 			
-			<li><a href="">Google+</a></li>
-			<li><a href="">Facebook</a></li>
-			<li><a href="">Linkedin</a></li>
+			<li><a href="" target="_blank">Google+</a></li>
+			<li><a href="https://www.facebook.com/KovacichSnipes/" target="_blank">Facebook</a></li>
+			<li><a href="https://www.linkedin.com/company/lewis-slovak-kovacich-&-marr-p.c." target="_blank">Linkedin</a></li>
 			
 		</ul><!-- social_links -->
 		

@@ -13,7 +13,7 @@
 		
 			<span class="result_title">Verdict</span><!-- result_title -->
 			
-			<a class="view_more_button" href="">View More</a><!-- view_more_button -->
+			<a class="view_more_button" href="<?php the_permalink(20);?>">View More</a><!-- view_more_button -->
 		
 		</div><!-- results_inner -->
 		
@@ -31,7 +31,7 @@
 		
 			<span class="result_title">settlement</span><!-- result_title -->
 			
-			<a class="view_more_button" href="">View More</a><!-- view_more_button -->
+			<a class="view_more_button" href="<?php the_permalink(20);?>">View More</a><!-- view_more_button -->
 		
 		</div><!-- results_inner -->
 		
@@ -49,7 +49,7 @@
 		
 			<span class="result_title">Verdict</span><!-- result_title -->
 			
-			<a class="view_more_button" href="">View More</a><!-- view_more_button -->
+			<a class="view_more_button" href="<?php the_permalink(20);?>">View More</a><!-- view_more_button -->
 		
 		</div><!-- results_inner -->
 		

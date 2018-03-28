@@ -23,7 +23,7 @@
 			
 			<div class="single_att_wrapper">
 				
-				<a href="">
+				<a href="<?php the_permalink(16);?>">
 				
 					<div class="single_att_inner">
 						
@@ -43,7 +43,7 @@
 			
 			<div class="single_att_wrapper no-profile">
 				
-				<a href="">
+				<a href="<?php the_permalink(16);?>">
 				
 					<div class="single_att_inner">
 						
@@ -63,7 +63,7 @@
 			
 			<div class="single_att_wrapper">
 				
-				<a href="">
+				<a href="<?php the_permalink(16);?>">
 				
 					<div class="single_att_inner">
 						
@@ -83,7 +83,7 @@
 			
 			<div class="single_att_wrapper">
 				
-				<a href="">
+				<a href="<?php the_permalink(16);?>">
 				
 					<div class="single_att_inner">
 						
@@ -103,7 +103,7 @@
 			
 			<div class="single_att_wrapper">
 				
-				<a href="">
+				<a href="<?php the_permalink(16);?>">
 				
 					<div class="single_att_inner">
 						
@@ -123,7 +123,7 @@
 			
 			<div class="single_att_wrapper">
 				
-				<a href="">
+				<a href="<?php the_permalink(16);?>">
 				
 					<div class="single_att_inner">
 						
@@ -143,7 +143,7 @@
 			
 			<div class="single_att_wrapper">
 				
-				<a href="">
+				<a href="<?php the_permalink(16);?>">
 				
 					<div class="single_att_inner">
 						
@@ -163,7 +163,7 @@
 			
 			<div class="single_att_wrapper">
 				
-				<a href="">
+				<a href="<?php the_permalink(16);?>">
 				
 					<div class="single_att_inner">
 						

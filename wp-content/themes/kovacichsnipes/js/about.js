@@ -1,9 +1,13 @@
 
 
 jQuery(document).ready(function($){
-	
-	
-	
+
+
+
+
+
+
+
 	
 	  
    function createWaypoint (triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
@@ -46,64 +50,12 @@ jQuery(document).ready(function($){
             //Example -> createWaypoint("section-2", null, null, null, test, true);
 
 
-						createWaypoint("footer_trigger", ".fixed_email", "hide", 600, null, true);
 						
-						// createWaypoint("about_page_wrapper_trigger", "#about_page_wrapper_trigger", "visible", 400, null, true);
 						
-					
- 
-  
-  
-  // case results hover
-  
-  
+						createWaypoint("about_page_wrapper_trigger", "#about_page_wrapper_trigger", "visible", 400, null, true);
 
-		
-		var windowWidth = $(window).width();
-	
-	
-	
-		function checkCaseresults() {
-	    
-	    if (windowWidth < 1060) {
-		    
-		    
-		    $('.single_int_cr').on('click', function(e) {
-	  
-			 		$(this).toggleClass('hover');	  
-	  
-				});
-	
-	
-			}
-	   	
-	   	else {
-		   	
-		   	$('.single_int_cr').on('mouseenter', function(e) {
-	  
-			 		$(this).addClass('hover');	  
-	  
-				});
-	
-	
-				$('.single_int_cr').on('mouseleave', function(e) {
-	  
-					$(this).removeClass('hover');	  
-					
-				});
-	 			
-	 		} 
-	    
-		};
-		
-	
-	checkCaseresults();
-	
 
-		
-	
 
-	
 
 
 
