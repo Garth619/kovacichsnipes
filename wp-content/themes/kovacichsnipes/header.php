@@ -32,12 +32,43 @@
 
 <style type="text/css">
 	
+	
+	.section_one_left {
+		background: url(<?php the_field( 'section_one_desktop_image' ); ?>) top center no-repeat;
+		background-size:cover;
+	}
+	
+	
 	.about_banner_image {
 		background: url(<?php the_field( 'about_banner' ); ?>) top center no-repeat;
 		background-size:cover;
 	}
-
 	
+	
+	@media screen and (max-width:1125px) {
+		
+			.section_one_right {
+				background-size: 1197;
+				background: url(<?php the_field( 'section_one_tablet_image_two' ); ?>) top center no-repeat;
+			}
+		
+	} /* Media Query */
+	
+	
+	@media screen and (max-width: 767px) {
+		
+		
+		.section_one_right {
+				background: url(<?php the_field( 'section_one_mobile_image' ); ?>) top center;
+			
+		}
+		
+		
+		
+		
+	} /* Media Query */
+	
+
 	
 </style>
 

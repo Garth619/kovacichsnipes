@@ -11,73 +11,26 @@
 		<div class="testimonials_page_wrapper">
 			
 			
-			<div class="single_testi_page">
-				
-				
-				<span class="testi_page_content">Aenean vitae ullamcorper magna. Mauris auctor quam eget urna auctor tincidunt. Duis at ipsum sed nunc lorime elit luctus. Mauris auctor quam eget urna auctor tinciduntc lorime elit luctus. </span><!-- testi_page_content -->
-				
-				
-				<span class="test_page_name">Client Name</span><!-- test_page_name -->
-				
-				
-			</div><!-- single_testi_page -->
 			
-			<div class="single_testi_page">
+			<?php if(get_field('testimonials')): ?>
+			 
+				<?php while(has_sub_field('testimonials')): ?>
+			 
+					<div class="single_testi_page">
+				
+						<span class="testi_page_content"><?php the_sub_field( 'testimonial_content' ); ?></span><!-- testi_page_content -->
+				
+						<span class="test_page_name"><?php the_sub_field( 'testimonial_name' ); ?></span><!-- test_page_name -->
 				
 				
-				<span class="testi_page_content">Aenean vitae ullamcorper magna. Mauris auctor quam eget urna auctor tincidunt. Duis at ipsum sed nunc lorime elit luctus. Mauris auctor quam eget urna auctor tinciduntc lorime elit luctus. </span><!-- testi_page_content -->
-				
-				
-				<span class="test_page_name">Client Name</span><!-- test_page_name -->
-				
-				
-			</div><!-- single_testi_page -->
-			
-			<div class="single_testi_page">
-				
-				
-				<span class="testi_page_content">Aenean vitae ullamcorper magna. Mauris auctor quam eget urna auctor tincidunt. Duis at ipsum sed nunc lorime elit luctus. Mauris auctor quam eget urna auctor tinciduntc lorime elit luctus. </span><!-- testi_page_content -->
-				
-				
-				<span class="test_page_name">Client Name</span><!-- test_page_name -->
-				
-				
-			</div><!-- single_testi_page -->
-			
-			<div class="single_testi_page">
-				
-				
-				<span class="testi_page_content">Aenean vitae ullamcorper magna. Mauris auctor quam eget urna auctor tincidunt. Duis at ipsum sed nunc lorime elit luctus. Mauris auctor quam eget urna auctor tinciduntc lorime elit luctus. </span><!-- testi_page_content -->
-				
-				
-				<span class="test_page_name">Client Name</span><!-- test_page_name -->
-				
-				
-			</div><!-- single_testi_page -->
-			
-			<div class="single_testi_page">
-				
-				
-				<span class="testi_page_content">Aenean vitae ullamcorper magna. Mauris auctor quam eget urna auctor tincidunt. Duis at ipsum sed nunc lorime elit luctus. Mauris auctor quam eget urna auctor tinciduntc lorime elit luctus. </span><!-- testi_page_content -->
-				
-				
-				<span class="test_page_name">Client Name</span><!-- test_page_name -->
-				
-				
-			</div><!-- single_testi_page -->
-			
-			<div class="single_testi_page">
-				
-				
-				<span class="testi_page_content">Aenean vitae ullamcorper magna. Mauris auctor quam eget urna auctor tincidunt. Duis at ipsum sed nunc lorime elit luctus. Mauris auctor quam eget urna auctor tinciduntc lorime elit luctus. </span><!-- testi_page_content -->
-				
-				
-				<span class="test_page_name">Client Name</span><!-- test_page_name -->
-				
-				
-			</div><!-- single_testi_page -->
+					</div><!-- single_testi_page -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
 			
+						
 		</div><!-- testimonials_page_wrapper -->
 		
 		

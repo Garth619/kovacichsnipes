@@ -8,10 +8,13 @@
 }
 
 .section_one_left {
+/*
 	background: url(#{$themePath}images/hero-img.jpg) top center no-repeat;
+	background-size:cover;
+*/
 	width:calc(100% - 860px);
 	float:left;
-	background-size:cover;
+	
 	position: absolute;
 	top:0;
 	left:0;
@@ -303,7 +306,7 @@ a.start_button {
 		text-align: center;
 		background-size: 1197px;
 		
-		// background-position-y: -100px;
+		
 		span.large_header {
 			margin:0;
 			font-size:50px;
@@ -359,7 +362,7 @@ a.start_button {
 	
 	.section_one_right {
 		background: url(#{$themePath}images/hero-mobile.jpg) top center;
-		// background-position-y: -65px;
+	
 		span.large_header {
 			font-size:39px;
 			line-height: 48px;
