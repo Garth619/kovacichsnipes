@@ -24,8 +24,10 @@
 					
 					
 					<div class="about_page_image_inner">
+						
+						<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
 					
-					<img src="<?php bloginfo('template_directory');?>/images/intl-about-1.jpg"/>
+						<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
 					
 					<div class="about_peace">
 						
@@ -35,32 +37,28 @@
 					
 					</div><!-- about_page_inner -->
 					
-					<blockquote>The Law firm that other firms trust with their toughest cases</blockquote>
+					<blockquote><?php the_field( 'about_sidenote' ); ?></blockquote>
 					
 				</div><!-- about_page_image -->
 				
 				<div class="about_page_content content">
 					
 					
-					<blockquote>Since our firm was founded over three decades ago, our lawyers have developed a reputation as strong litigators. We have held some of the biggest corporations and insurance companies doing business in the state responsible for their acts.</blockquote>
+					<blockquote><?php the_field( 'about_blockquote' ); ?></blockquote>
 					
 					
 					<div class="about_page_col">
 						
-						<span class="about_page_blockquote">The Law firm that other firms trust with their toughest cases</span><!-- about_page_blockquote -->
+						<span class="about_page_blockquote"><?php the_field( 'about_sidenote' ); ?></span><!-- about_page_blockquote -->
 						
-						<p>The law firm of Kovacich Snipes, P.C., is one of the most successful serious injury law firms in Montana. For more than three decades, our attorneys have been aggressive advocates for individuals who have been injured due to the negligence of others. We have a reputation as a firm that takes on the toughest cases, going up against some of the largest corporations in the nation.</p>
-
-						<p>Many of our attorneys have received very prestigious awards and honors from our peers in the local legal community. Attorneys Mark Kovacich, J. David Slovak & Tom L. Lewis have all received Trial Lawyers of the Year awards from the Montana Trial Lawyers Association.</p>
+						<?php the_field( 'about_col_one' ); ?>
 						
 					</div><!-- about_page_col -->
 					
 					
 					<div class="about_page_col">
 						
-						<p>When you work with us, you have more than our experience and skill on your side. You have a law firm that cares about you and your future, and is committed to helping you recover maximum compensation. We are not afraid to take on anyone inside or outside of the courtroom.</p>
-
-						<p>To talk to a member of our team about your serious injury case, please call our Great Falls office at 406-564-1743 or send us an email to arrange a free consultation. Our firm is proud to represent individuals throughout Montana with their claims.</p>
+						<?php the_field( 'about_col_two' ); ?>
 						
 					</div><!-- about_page_col -->
 					
@@ -75,35 +73,25 @@
 				
 				<div class="about_page_slider">
 					
-					<div class="about_page_single_slide">
-						
-						<img src="<?php bloginfo('template_directory');?>/images/aw-01.png"/>
-						
-					</div><!-- about_page_single_slide -->
 					
-					<div class="about_page_single_slide">
+					<?php if(get_field('about_logos')): ?>
+					 
+						<?php while(has_sub_field('about_logos')): ?>
 						
-						<img src="<?php bloginfo('template_directory');?>/images/aw-02.png"/>
 						
-					</div><!-- about_page_single_slide -->
+								<div class="about_page_single_slide">
+									
+									<?php $image = get_sub_field( 'image' ); ?>
+						
+									<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+						
+								</div><!-- about_page_single_slide -->
+							
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
 					
-					<div class="about_page_single_slide">
-						
-						<img src="<?php bloginfo('template_directory');?>/images/aw-03.png"/>
-						
-					</div><!-- about_page_single_slide -->
-					
-					<div class="about_page_single_slide">
-						
-						<img src="<?php bloginfo('template_directory');?>/images/aw-04.png"/>
-						
-					</div><!-- about_page_single_slide -->
-					
-					<div class="about_page_single_slide">
-						
-						<img src="<?php bloginfo('template_directory');?>/images/aw-05.png"/>
-						
-					</div><!-- about_page_single_slide -->
 					
 				</div><!-- about_page_slider -->
 				

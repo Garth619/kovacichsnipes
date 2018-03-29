@@ -29,6 +29,18 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
+
+<style type="text/css">
+	
+	.about_banner_image {
+		background: url(<?php the_field( 'about_banner' ); ?>) top center no-repeat;
+		background-size:cover;
+	}
+
+	
+	
+</style>
+
 <?php wp_head(); ?>
 
 </head>

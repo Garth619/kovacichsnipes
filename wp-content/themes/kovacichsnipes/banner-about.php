@@ -8,7 +8,7 @@
 		
 		<div class="about_banner_content_inner">
 			
-				<span class="about_banner_content">Our firm is one of the most <strong>successful serious injury law firms</strong> in Montana.</span><!-- about_banner_content -->
+				<span class="about_banner_content"><?php the_field( 'about_banner_verbiage' ); ?></span><!-- about_banner_content -->
 		
 				<a class="about_start_button" href="#footer_trigger">Start Free Case Consultation</a><!-- about_start_button -->
 			
