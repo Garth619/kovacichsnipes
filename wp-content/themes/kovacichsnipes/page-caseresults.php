@@ -10,11 +10,11 @@
 		
 		<div class="cr_intro_page">
 			
-			<span class="cr_intro">our results speak for themselves</span><!-- cr_intro -->
+			<span class="cr_intro"><?php the_field( 'case_results_intro_title' ); ?></span><!-- cr_intro -->
 			
 			<div class="cr_intro_content">
 				
-				<p>Our attorneys have recovered more than $300 million in verdicts and settlements for past clients, including a $40 million verdict in an environmental contamination case, one of the largest verdicts in the history of the state.</p>
+				<p><?php the_field( 'case_results_intro' ); ?></p>
 				
 			</div><!-- cr_intro_content -->
 			
@@ -23,213 +23,38 @@
 		<div class="cr_page_wrapper">
 			
 			
-		<div class="single_int_cr">
+			<?php if(get_field('case_results')): ?>
+			 
+				<?php while(has_sub_field('case_results')): ?>
+			 
+					<div class="single_int_cr">
 				
 				<div class="single_cr_inner_first_state">
 				
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_amount"><?php the_sub_field( 'case_amount' ); ?></span><!-- amount_cr -->
 			
-					<span class="cr_int_title">Environmental<br/> Contamination</span><!-- cr_int_title -->
+					<span class="cr_int_title"><?php the_sub_field( 'case_type' ); ?></span><!-- cr_int_title -->
 				
-					<span class="cr_int_result">Verdict</span><!-- cr_int_result -->
+					<span class="cr_int_result"><?php the_sub_field( 'result' ); ?></span><!-- cr_int_result -->
 				
 				</div><!-- single_cr_inner_first_state -->
 				
 				<div class="single_cr_inner_second_state">
 					
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
+					<span class="cr_int_amount"><?php the_sub_field( 'case_amount' ); ?></span><!-- amount_cr -->
 					
-					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-				</div><!-- single_cr_inner_second_state -->
-				
-			</div><!-- single_int_cr -->
-			
-			
-			<div class="single_int_cr">
-				
-				<div class="single_cr_inner_first_state">
-				
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-			
-					<span class="cr_int_title">Environmental<br/> Contamination</span><!-- cr_int_title -->
-				
-					<span class="cr_int_result">Verdict</span><!-- cr_int_result -->
-				
-				</div><!-- single_cr_inner_first_state -->
-				
-				<div class="single_cr_inner_second_state">
-					
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-					
-					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
+					<span class="cr_int_description"><?php the_sub_field( 'case_result_description' ); ?></span><!-- cr_int_description -->
 					
 				</div><!-- single_cr_inner_second_state -->
 				
 			</div><!-- single_int_cr -->
+
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
-			
-			<div class="single_int_cr">
-				
-				<div class="single_cr_inner_first_state">
-				
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-			
-					<span class="cr_int_title">Environmental<br/> Contamination</span><!-- cr_int_title -->
-				
-					<span class="cr_int_result">Verdict</span><!-- cr_int_result -->
-				
-				</div><!-- single_cr_inner_first_state -->
-				
-				<div class="single_cr_inner_second_state">
-					
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-					
-					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-				</div><!-- single_cr_inner_second_state -->
-				
-			</div><!-- single_int_cr -->
-			
-			
-			<div class="single_int_cr">
-				
-				<div class="single_cr_inner_first_state">
-				
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-			
-					<span class="cr_int_title">Environmental<br/> Contamination</span><!-- cr_int_title -->
-				
-					<span class="cr_int_result">Verdict</span><!-- cr_int_result -->
-				
-				</div><!-- single_cr_inner_first_state -->
-				
-				<div class="single_cr_inner_second_state">
-					
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-					
-					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-				</div><!-- single_cr_inner_second_state -->
-				
-			</div><!-- single_int_cr -->
-			
-			
-			<div class="single_int_cr">
-				
-				<div class="single_cr_inner_first_state">
-				
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-			
-					<span class="cr_int_title">Environmental<br/> Contamination</span><!-- cr_int_title -->
-				
-					<span class="cr_int_result">Verdict</span><!-- cr_int_result -->
-				
-				</div><!-- single_cr_inner_first_state -->
-				
-				<div class="single_cr_inner_second_state">
-					
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-					
-					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-				</div><!-- single_cr_inner_second_state -->
-				
-			</div><!-- single_int_cr -->
-			
-			
-			<div class="single_int_cr">
-				
-				<div class="single_cr_inner_first_state">
-				
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-			
-					<span class="cr_int_title">Environmental<br/> Contamination</span><!-- cr_int_title -->
-				
-					<span class="cr_int_result">Verdict</span><!-- cr_int_result -->
-				
-				</div><!-- single_cr_inner_first_state -->
-				
-				<div class="single_cr_inner_second_state">
-					
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-					
-					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-				</div><!-- single_cr_inner_second_state -->
-				
-			</div><!-- single_int_cr -->
-			
-			
-			<div class="single_int_cr">
-				
-				<div class="single_cr_inner_first_state">
-				
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-			
-					<span class="cr_int_title">Environmental<br/> Contamination</span><!-- cr_int_title -->
-				
-					<span class="cr_int_result">Verdict</span><!-- cr_int_result -->
-				
-				</div><!-- single_cr_inner_first_state -->
-				
-				<div class="single_cr_inner_second_state">
-					
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-					
-					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-				</div><!-- single_cr_inner_second_state -->
-				
-			</div><!-- single_int_cr -->
-			
-			
-			<div class="single_int_cr">
-				
-				<div class="single_cr_inner_first_state">
-				
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-			
-					<span class="cr_int_title">Environmental<br/> Contamination</span><!-- cr_int_title -->
-				
-					<span class="cr_int_result">Verdict</span><!-- cr_int_result -->
-				
-				</div><!-- single_cr_inner_first_state -->
-				
-				<div class="single_cr_inner_second_state">
-					
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-					
-					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-				</div><!-- single_cr_inner_second_state -->
-				
-			</div><!-- single_int_cr -->
-			
-			
-			<div class="single_int_cr">
-				
-				<div class="single_cr_inner_first_state">
-				
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-			
-					<span class="cr_int_title">Environmental<br/> Contamination</span><!-- cr_int_title -->
-				
-					<span class="cr_int_result">Verdict</span><!-- cr_int_result -->
-				
-				</div><!-- single_cr_inner_first_state -->
-				
-				<div class="single_cr_inner_second_state">
-					
-					<span class="cr_int_amount">$41.2m</span><!-- amount_cr -->
-					
-					<span class="cr_int_description">Proin ullamcorper molestie velit ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin blandit, nisl quis pulvinar lacinia, justo metus ornare lorem, et pellentesque purus</span><!-- cr_int_description -->
-					
-				</div><!-- single_cr_inner_second_state -->
-				
-			</div><!-- single_int_cr -->
-			
-			
+
 										
 						
 						

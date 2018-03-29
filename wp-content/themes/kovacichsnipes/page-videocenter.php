@@ -11,166 +11,39 @@
 		<div class="video_center">
 			
 			
-			<div class="single_video_wrapper">
+			<?php if(get_field('wistis_videos')): ?>
+			 
+				<?php while(has_sub_field('wistis_videos')): ?>
+			 
+					<div class="single_video_wrapper">
 				
-				<div class="video_inner_wrapper">
+						<div class="video_inner_wrapper">
 					
-					<div class="play_wrapper">
+							<div class="play_wrapper">
 						
-						<div class="play_inner">
+								<div class="play_inner">
 							
-							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
+									<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
 							
-						</div><!-- play_inner -->
+								</div><!-- play_inner -->
 						
-					</div><!-- play_wrapper -->
+							</div><!-- play_wrapper -->
 					
-					<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail">
+							<div class="my_wistia wistia_embed wistia_async_<?php the_sub_field( 'wistia_id' ); ?> popover=true popoverContent=thumbnail">
 						
 						
 						
-					</div><!-- my_wistia -->
+							</div><!-- my_wistia -->
 					
-				</div><!-- video_inner_wrapper -->
+						</div><!-- video_inner_wrapper -->
 				
-				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
+						<span class="video_title"><?php the_sub_field( 'wistia_title' ); ?></span><!-- video_title -->
 				
-			</div><!-- single_video_wrapper -->
-			
-			
-			<div class="single_video_wrapper">
-				
-				<div class="video_inner_wrapper">
-					
-					<div class="play_wrapper">
-						
-						<div class="play_inner">
-							
-							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
-							
-						</div><!-- play_inner -->
-						
-					</div><!-- play_wrapper -->
-					
-					<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail">
-						
-						
-						
-					</div><!-- my_wistia -->
-					
-				</div><!-- video_inner_wrapper -->
-				
-				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
-				
-			</div><!-- single_video_wrapper -->
-			
-			
-			<div class="single_video_wrapper">
-				
-				<div class="video_inner_wrapper">
-					
-					<div class="play_wrapper">
-						
-						<div class="play_inner">
-							
-							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
-							
-						</div><!-- play_inner -->
-						
-					</div><!-- play_wrapper -->
-					
-					<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail">
-						
-						
-						
-					</div><!-- my_wistia -->
-					
-				</div><!-- video_inner_wrapper -->
-				
-				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
-				
-			</div><!-- single_video_wrapper -->
-			
-			
-			<div class="single_video_wrapper">
-				
-				<div class="video_inner_wrapper">
-					
-					<div class="play_wrapper">
-						
-						<div class="play_inner">
-							
-							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
-							
-						</div><!-- play_inner -->
-						
-					</div><!-- play_wrapper -->
-					
-					<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail">
-						
-						
-						
-					</div><!-- my_wistia -->
-					
-				</div><!-- video_inner_wrapper -->
-				
-				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
-				
-			</div><!-- single_video_wrapper -->
-			
-			
-			<div class="single_video_wrapper">
-				
-				<div class="video_inner_wrapper">
-					
-					<div class="play_wrapper">
-						
-						<div class="play_inner">
-							
-							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
-							
-						</div><!-- play_inner -->
-						
-					</div><!-- play_wrapper -->
-					
-					<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail">
-						
-						
-						
-					</div><!-- my_wistia -->
-					
-				</div><!-- video_inner_wrapper -->
-				
-				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
-				
-			</div><!-- single_video_wrapper -->
-			
-			
-			<div class="single_video_wrapper">
-				
-				<div class="video_inner_wrapper">
-					
-					<div class="play_wrapper">
-						
-						<div class="play_inner">
-							
-							<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-play.svg"); ?>
-							
-						</div><!-- play_inner -->
-						
-					</div><!-- play_wrapper -->
-					
-					<div class="my_wistia wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail">
-						
-						
-						
-					</div><!-- my_wistia -->
-					
-				</div><!-- video_inner_wrapper -->
-				
-				<span class="video_title">Video Title Here<br/> Two Lines</span><!-- video_title -->
-				
-			</div><!-- single_video_wrapper -->
+				</div><!-- single_video_wrapper -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 		
 			
 		</div><!-- video_center -->		

@@ -12,7 +12,7 @@
 			
 			<div class="team_intro_content">
 				
-				<p>We have a reputation as a firm that takes on the toughest cases, going up against some of the largest corporations in the nation. Many of our attorneys have received very prestigious awards and honors from our peers in the local legal community.</p>
+				<p><?php the_field( 'attorney_intro' ); ?></p>
 				
 			</div><!-- team_intro_content -->
 			
@@ -21,167 +21,50 @@
 		<div class="meet_the_team">
 			
 			
-			<div class="single_att_wrapper">
-				
-				<a href="<?php the_permalink(16);?>">
-				
-					<div class="single_att_inner">
-						
-						<div class="single_att_overlay"></div><!-- single_att_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/intl-profile-kov.jpg"/>
-					
-					</div><!-- single_att_inner -->
-					
-					<span class="single_att_title">Mark M.Kovacich</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att_wrapper -->
 			
-			<div class="single_att_wrapper no-profile">
-				
-				<a href="<?php the_permalink(16);?>">
-				
-					<div class="single_att_inner">
-						
-						<div class="single_att_overlay"></div><!-- single_att_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
-					
-					</div><!-- single_att_inner -->
-					
-					<span class="single_att_title">Mark M.Kovacich</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att_wrapper -->
+			<?php $posts = get_field('attorney_directory');
 			
-			<div class="single_att_wrapper">
+			if( $posts ): ?>
+			   
+			    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+			        <?php setup_postdata($post); ?>
+			        
+			        
+			        <div class="single_att_wrapper">
 				
-				<a href="<?php the_permalink(16);?>">
+								<a href="<?php the_permalink();?>">
 				
-					<div class="single_att_inner">
+									<div class="single_att_inner">
 						
-						<div class="single_att_overlay"></div><!-- single_att_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/intl-profile-kov.jpg"/>
+										<div class="single_att_overlay"></div><!-- single_att_overlay -->
+										
+										<?php $profile_image = get_field( 'profile_image' ); ?>
+										
+										<?php if ( $profile_image ) : ?>
+										
+											<img src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
+											
+											<?php else:?>
+											
+											<img src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
+										
+										<?php endif; ?>
 					
-					</div><!-- single_att_inner -->
+									</div><!-- single_att_inner -->
 					
-					<span class="single_att_title">Mark M.Kovacich</span><!-- single_att_title -->
+									<span class="single_att_title"><?php the_title();?></span><!-- single_att_title -->
 					
-					<span class="single_att_position">Partner</span><!-- single_att_position -->
+									<span class="single_att_position"><?php the_field( 'profile_position_title' ); ?></span><!-- single_att_position -->
 				
-				</a>
+								</a>
 				
-			</div><!-- single_att_wrapper -->
-			
-			<div class="single_att_wrapper">
-				
-				<a href="<?php the_permalink(16);?>">
-				
-					<div class="single_att_inner">
-						
-						<div class="single_att_overlay"></div><!-- single_att_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/intl-profile-kov.jpg"/>
-					
-					</div><!-- single_att_inner -->
-					
-					<span class="single_att_title">Mark M.Kovacich</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att_wrapper -->
-			
-			<div class="single_att_wrapper">
-				
-				<a href="<?php the_permalink(16);?>">
-				
-					<div class="single_att_inner">
-						
-						<div class="single_att_overlay"></div><!-- single_att_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/intl-profile-kov.jpg"/>
-					
-					</div><!-- single_att_inner -->
-					
-					<span class="single_att_title">Mark M.Kovacich</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att_wrapper -->
-			
-			<div class="single_att_wrapper">
-				
-				<a href="<?php the_permalink(16);?>">
-				
-					<div class="single_att_inner">
-						
-						<div class="single_att_overlay"></div><!-- single_att_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/intl-profile-kov.jpg"/>
-					
-					</div><!-- single_att_inner -->
-					
-					<span class="single_att_title">Mark M.Kovacich</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att_wrapper -->
-			
-			<div class="single_att_wrapper">
-				
-				<a href="<?php the_permalink(16);?>">
-				
-					<div class="single_att_inner">
-						
-						<div class="single_att_overlay"></div><!-- single_att_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/intl-profile-kov.jpg"/>
-					
-					</div><!-- single_att_inner -->
-					
-					<span class="single_att_title">Mark M.Kovacich</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att_wrapper -->
-			
-			<div class="single_att_wrapper">
-				
-				<a href="<?php the_permalink(16);?>">
-				
-					<div class="single_att_inner">
-						
-						<div class="single_att_overlay"></div><!-- single_att_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/intl-profile-kov.jpg"/>
-					
-					</div><!-- single_att_inner -->
-					
-					<span class="single_att_title">Mark M.Kovacich</span><!-- single_att_title -->
-					
-					<span class="single_att_position">Partner</span><!-- single_att_position -->
-				
-				</a>
-				
-			</div><!-- single_att_wrapper -->
-			
-			
+							</div><!-- single_att_wrapper -->
+			        
+			        
+			      <?php endforeach; ?>
+			    
+			    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+			<?php endif; ?>			
 			
 			
 		</div><!-- meet_the_team -->

@@ -15,10 +15,21 @@ get_header(); ?>
 		<div class="profile_wrapper">
 		
 		<div class="profile_img_wrapper profile_desktop">
+			
+			
+			<?php $profile_image = get_field( 'profile_image' ); ?>
+			
+			<?php if ( $profile_image ) : ?>
+
+				<img class="profile_page_img" src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
 				
-				<img class="profile_page_img" src="<?php bloginfo('template_directory');?>/images/intl-profile-snipes.jpg"/>
+				<?php else:?>
 				
-				<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-peace.svg"); ?>
+				<img src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
+				
+			<?php endif; ?>
+
+			<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-peace.svg"); ?>
 				
 			</div><!-- profile_img_wrapper -->
 		
@@ -29,7 +40,7 @@ get_header(); ?>
 			
 			<h1 class="int_intro"><?php the_title();?></h1><!-- int_intro -->
 			
-			<span class="profile_position">Partner</span><!-- profile_position -->
+			<span class="profile_position"><?php the_field( 'profile_position_title' ); ?></span><!-- profile_position -->
 			
 			
 			<div class="profile_img_wrapper profile_mobile">
@@ -41,87 +52,79 @@ get_header(); ?>
 			</div><!-- profile_img_wrapper -->
 			
 			
-			<p>Ben Snipes is a plaintiff's personal injury attorney, specializing in toxic tort claims and employment injuries. His practice presently focuses on asbestos related diseases, mesothelioma cases and catastrophic work injuries. In addition to a traditional tort practice, Mr. Snipes carries a significant Qui Tam/False Claims Act whistleblower and workers' compensation caseload. </p>
-			
-			<p>He is an AV Preeminent rated attorney by Martindale-Hubbell® and has been recognized as one of the Top 100 Trial Lawyers in Montana by The National Trial Lawyers® since 2014. He has participated in educational seminars and published articles for the Montana Trial Lawyers Association. Mr. Snipes has been a shareholder with Kovacich Snipes, P.C., since 2015 and is admitted to practice in all Montana federal and state courts and the 9th Circuit Court of Appeals.</p>
-
-			<blockquote>Cras ac iaculis elit. In facilisis ipsum nec tempor malesuada. Proin in fringilla nisi. Duis fermentum suscipit metus vitae euismod.</blockquote>
-			
-			<p>Ben grew up in Great Falls. He graduated from C.M. Russell High School, and accepted a football scholarship at the University of Montana-Western in Dillon, Montana. Ben enjoyed a successful athletic and academic career at Western, graduating with honors with a B.S. in Business Administration. Ben went on to attend the University of Montana-School of Law, where he graduated in 2008.While attending law school Ben worked at the Cascade County Attorney's Office and with the Missoula law firm of Paoli, Latino and Kutzman. He also interned at ASUM Legal Services, where he represented University of Montana students in a variety of legal matters. Ben was a student member of the American Association of Justice.</p>
-
-			<p>Ben enjoys fishing, hunting, golfing and spending time with his wife, Tori, and their children Elizabeth, Jack, and Calvin.</p>
+			<?php the_field( 'profile_content' ); ?>
 			
 			
 			<div class="accolades">
 				
 				<div class="accolades_col">
-				
-					<div class="single_accolade">
 					
-						<span class="accolade_title">Education</span><!-- accolade_title -->
 					
-						<ul>
-							<li>University of Montana School of Law, Missoula, Montana: J.D. - 2008</li>
-							<li>University of Montana - Western, Dillon, Montana: B.S. magna cum laude, Honors: With Honors, Honors: Football Scholarship, Major: Business Administration</li>
-						</ul>
+					<?php if(get_field('profile_accolades')): ?>
+					 
+						<?php while(has_sub_field('profile_accolades')): ?>
+							
+							<div class="single_accolade">
+					 
+							<span class="accolade_title"><?php the_sub_field( 'list_title' ); ?></span><!-- accolade_title -->
+							
+							
+							<?php if(get_sub_field('list')): ?>
+							 
+							 	<ul>
+							 	
+								<?php while(has_sub_field('list')): ?>
+							 
+									<li><?php the_sub_field( 'single_bullet' ); ?></li>
+							    
+								<?php endwhile; ?>
+								
+							 	</ul>
+							 
+							<?php endif; ?>
+							
+							</div><!-- single_accolade -->
+												    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
 					
-					</div><!-- single_accolade -->
-				
-					<div class="single_accolade">
-					
-						<span class="accolade_title">Honors And awards</span><!-- accolade_title -->
-					
-						<ul>
-							<li> AV (Preeminent) Peer Review Rated</li>
-							<li>National Trial Lawyers Top 100</li>
-							<li>National Trial Lawyers Top 40 Under 40</li>
-						</ul>
-					
-					</div><!-- single_accolade -->
-					
-					<div class="single_accolade">
-					
-						<span class="accolade_title">Professional Associations and memberships</span><!-- accolade_title -->
-					
-						<ul>
-							<li>Montana Trial Lawyers Association, Member, 2008 - Present</li>
-							<li>Montana State Bar, Member, 2008 - Present</li>
-							<li>American Association for Justice, Member</li>
-							<li>Federal Bar Association (Montana Chapter), Board of Directors, 2016 - Present</li>
-							<li>Cascade County Bar Association, Member/Executive Officer (2009)</li>
-						</ul>
-					
-					</div><!-- single_accolade -->
-				
-					
-				
+
 				</div><!-- accolades_col -->
 				
 				
 				<div class="accolades_col">
 				
-					<div class="single_accolade">
+					<?php if(get_field('profile_accolades_column_2')): ?>
+					 
+						<?php while(has_sub_field('profile_accolades_column_2')): ?>
+							
+							<div class="single_accolade">
+					 
+							<span class="accolade_title"><?php the_sub_field( 'list_title' ); ?></span><!-- accolade_title -->
+							
+							
+							<?php if(get_sub_field('list')): ?>
+							 
+							 	<ul>
+							 	
+								<?php while(has_sub_field('list')): ?>
+							 
+									<li><?php the_sub_field( 'single_bullet' ); ?></li>
+							    
+								<?php endwhile; ?>
+								
+							 	</ul>
+							 
+							<?php endif; ?>
+							
+							</div><!-- single_accolade -->
+												    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
 					
-						<span class="accolade_title">Bar Admissions</span><!-- accolade_title -->
-					
-						<ul>
-							<li>Montana, 2008</li>
-							<li>U.S. District Court District of Montana, 2008</li>
-							<li>U.S. Court of Appeals 9th Circuit, 2010</li>
-						</ul>
-					
-					</div><!-- single_accolade -->
-					
-					<div class="single_accolade">
-					
-						<span class="accolade_title">Pro Bono Activities</span><!-- accolade_title -->
-					
-						<ul>
-							<li>Cascade County Law Clinic (Board of Directors)</li>
-							<li>Big Brothers Big Sisters, Great Falls (Board of Directors, President, 2012-2014)</li>
-						</ul>
-					
-					</div><!-- single_accolade -->
+
 				
 				</div><!-- accolades_col -->
 				
