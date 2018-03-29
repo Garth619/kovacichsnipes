@@ -13,10 +13,10 @@
 			
 			<div class="results_inner">
 			
-				<span class="large_header">We’ve recovered over $300 million  for clients</span><!-- large_header -->
+				<span class="large_header"><?php the_field( 'section_three_title' ); ?></span><!-- large_header -->
 			
 			
-				<span class="results_content">Because of our history of success inside the courtroom, our peers in the legal community will frequently reach out to us when they have difficult cases.</span><!-- results_content -->
+				<span class="results_content"><?php the_field( 'section_three_content' ); ?></span><!-- results_content -->
 			
 			</div><!-- results_inner -->
 			
