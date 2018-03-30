@@ -1583,6 +1583,16 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/js\/about-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/about-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/about.js": {
 		"ft": 64,
 		"ma": 0,

@@ -10,41 +10,30 @@
 		
 		</div><!-- buffalo_wrapper -->
 		
-		<span class="sec_six_header">Client Testimonials</span><!-- sec_six_header -->
+		<span class="sec_six_header"><?php the_field( 'section_six_title' ); ?></span><!-- sec_six_header -->
 		
 		<div class="sec_six_slides">
 			
-			<div class="single_slide">
-				
-				<span class="testi_description">Aenean vitae ullamcorper magna. Mauris auctor quam eget urna auctor tincidunt. Duis at ipsum sed nunc lorime elit luctus.</span><!-- testi_description -->
-				
-				<span class="client_name">Client Name 1</span><!-- client_name -->
-				
-			</div><!-- single_slide -->
 			
-			<div class="single_slide">
-				
-				<span class="testi_description">Aenean vitae ullamcorper magna. Mauris auctor quam eget urna auctor tincidunt. Duis at ipsum sed nunc lorime elit luctus.</span><!-- testi_description -->
-				
-				<span class="client_name">Client Name 2</span><!-- client_name -->
-				
-			</div><!-- single_slide -->
 			
-			<div class="single_slide">
+			<?php if(get_field('section_six_testimonials')): ?>
+			 
+				<?php while(has_sub_field('section_six_testimonials')): ?>
+			 
+					<div class="single_slide">
 				
-				<span class="testi_description">Aenean vitae ullamcorper magna. Mauris auctor quam eget urna auctor tincidunt. Duis at ipsum sed nunc lorime elit luctus.</span><!-- testi_description -->
+						<span class="testi_description"><?php the_sub_field( 'testimonial_content' ); ?></span><!-- testi_description -->
 				
-				<span class="client_name">Client Name 3</span><!-- client_name -->
+						<span class="client_name"><?php the_sub_field( 'client_name' ); ?></span><!-- client_name -->
 				
-			</div><!-- single_slide -->
+					</div><!-- single_slide -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
-			<div class="single_slide">
-				
-				<span class="testi_description">Aenean vitae ullamcorper magna. Mauris auctor quam eget urna auctor tincidunt. Duis at ipsum sed nunc lorime elit luctus.</span><!-- testi_description -->
-				
-				<span class="client_name">Client Name 4</span><!-- client_name -->
-				
-			</div><!-- single_slide -->
+			
+			
 			
 		</div><!-- sec_six_slides -->
 		

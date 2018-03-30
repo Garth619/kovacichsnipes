@@ -120,9 +120,9 @@
 			
 			<div class="tel_wrapper">
 			
-				<a class="tel_link" href="tel:(406)564-1743">(406)564-1743</a>
+				<a class="tel_link" href="tel:<?php the_field( 'local_number',24); ?>"><?php the_field( 'local_number',24 ); ?></a>
 			
-				<a class="tel_link" href="tel:(866) 630-8868">(866) 630-8868</a>
+				<a class="tel_link" href="tel:<?php the_field( 'toll_free_number',24); ?>"><?php the_field( 'toll_free_number',24 ); ?></a>
 			
 			</div><!-- tel_wrapper -->
 			
@@ -201,7 +201,7 @@
 			
 			<div class="overlay_right">
 				
-				<span class="menu_form_title">Get Started for Free</span><!-- menu_form_title -->
+				<span class="menu_form_title"><?php the_field( 'get_started_verbiage','option'); ?></span><!-- menu_form_title -->
 				
 				<div class="menu_form_wrapper">
 				
