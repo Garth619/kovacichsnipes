@@ -50,6 +50,11 @@
 		background-size:cover;
 	}
 	
+	
+	.int_banner_image {
+		background: url(<?php the_field( 'internal_banner_image','option' ); ?>) top center no-repeat;
+		background-size:cover;
+	}
 
 	
 @media screen and (max-width:1125px) {
@@ -82,11 +87,15 @@
 		
 	} /* Media Query */
 	
-
+	<?php the_field( 'reviews_text_area','option'); ?>
 	
 </style>
 
 <?php wp_head(); ?>
+
+
+<?php the_field( 'header_scripts','option'); ?>
+
 
 </head>
 
