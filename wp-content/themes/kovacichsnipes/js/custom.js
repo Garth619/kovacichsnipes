@@ -251,6 +251,25 @@ var windowWidth = $(window).width();
 	
 	
 	
+	$('.about_image_slider').slick({
+  	infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows:false,
+		dots:true,
+		slide:'.about_page_single_slide'
+	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	// banner/header conditional
 	
 	

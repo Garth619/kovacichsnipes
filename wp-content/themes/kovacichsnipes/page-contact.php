@@ -43,9 +43,9 @@ get_header(); ?>
 					<a class="get_directions" href="<?php the_field( 'address_link' ); ?>" target="_blank"><?php the_field( 'get_directions_verbiage' ); ?></a><!-- get_directions -->
 				
 				
-					<span class="contact_subheader"><?php the_field( 'follow_us_verbiage' ); ?></span><!-- contact_subheader -->
+					<span class="contact_subheader social_header_desktop"><?php the_field( 'follow_us_verbiage' ); ?></span><!-- contact_subheader -->
 				
-					<ul class="contact_social">
+					<ul class="contact_social social_list_desktop">
 						
 						<?php if(get_field('social_media')): ?>
 						 
@@ -70,6 +70,23 @@ get_header(); ?>
 					<span class="contact_subheader"><?php the_field( 'phone_verbiage' ); ?></span><!-- contact_subheader -->
 				
 					<a class="contact_tel" href="tel:<?php the_field( 'local_number' ); ?>"><?php the_field( 'local_number' ); ?></a><!-- contact_tel -->
+					
+					<span class="contact_subheader social_header_mobile"><?php the_field( 'follow_us_verbiage' ); ?></span><!-- contact_subheader -->
+				
+					<ul class="contact_social social_list_mobile">
+						
+						<?php if(get_field('social_media')): ?>
+						 
+							<?php while(has_sub_field('social_media')): ?>
+						 
+								<li><a href="<?php the_sub_field( 'social_media_link' ); ?>" target="_blank"><?php the_sub_field( 'social_media_title' ); ?></a></li>
+						    
+							<?php endwhile; ?>
+						 
+						<?php endif; ?>
+						
+				</ul>
+
 				
 				</div><!-- contact_col -->
 				

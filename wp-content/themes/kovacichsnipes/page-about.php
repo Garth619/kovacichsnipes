@@ -25,15 +25,57 @@
 					
 					<div class="about_page_image_inner">
 						
-						<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
+						<div class="about_image_slider">
+						
+						<div class="about_page_single_slide">
+						
+							<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
+							
+							<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
+						
+						</div><!-- about_page_single_slide -->
+						
+						<div class="about_page_single_slide">
+						
+							<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
+							
+							<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
+						
+						</div><!-- about_page_single_slide -->
+						
+						<div class="about_page_single_slide">
+						
+							<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
+							
+							<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
+						
+						</div><!-- about_page_single_slide -->
+						
+						<div class="about_page_single_slide">
+						
+							<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
+							
+							<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
+						
+						</div><!-- about_page_single_slide -->
+						
+						<div class="about_page_single_slide">
+						
+							<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
+							
+							<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
+						
+						</div><!-- about_page_single_slide -->
 					
-						<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
+						
 					
 					<div class="about_peace">
 						
 						<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-peace.svg"); ?>
 						
 					</div><!-- about_peace -->
+					
+					</div><!-- about_image_slider -->
 					
 					</div><!-- about_page_inner -->
 					
