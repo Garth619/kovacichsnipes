@@ -26,46 +26,30 @@
 					<div class="about_page_image_inner">
 						
 						<div class="about_image_slider">
-						
-						<div class="about_page_single_slide">
-						
-							<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
 							
-							<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
-						
-						</div><!-- about_page_single_slide -->
-						
-						<div class="about_page_single_slide">
-						
-							<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
 							
-							<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
+							<?php if(get_field('about_slider')): ?>
+							 
+								<?php while(has_sub_field('about_slider')): ?>
+								
+									
+									
+									<div class="about_page_single_slide">
 						
-						</div><!-- about_page_single_slide -->
-						
-						<div class="about_page_single_slide">
-						
-							<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
+										<?php $about_profile_image = get_sub_field( 'about_profile_image' ); ?>
 							
-							<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
+										<img data-lazy="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
 						
-						</div><!-- about_page_single_slide -->
-						
-						<div class="about_page_single_slide">
-						
-							<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
+									</div><!-- about_page_single_slide -->
+							 
+								
+							    
+								<?php endwhile; ?>
+							 
+							<?php endif; ?>
 							
-							<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
 						
-						</div><!-- about_page_single_slide -->
 						
-						<div class="about_page_single_slide">
-						
-							<?php $about_profile_image = get_field( 'about_profile_image' ); ?>
-							
-							<img src="<?php echo $about_profile_image['url']; ?>" alt="<?php echo $about_profile_image['alt']; ?>" />
-						
-						</div><!-- about_page_single_slide -->
 					
 						
 					

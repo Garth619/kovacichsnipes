@@ -257,17 +257,12 @@ var windowWidth = $(window).width();
 		slidesToScroll: 1,
 		arrows:false,
 		dots:true,
-		slide:'.about_page_single_slide'
+		fade:true,
+		slide:'.about_page_single_slide',
+		lazyLoad: 'ondemand'
 	});
 	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 	// banner/header conditional

@@ -119,7 +119,9 @@
 			
 			<a class="logo" href="<?php bloginfo('url');?>">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/ico-logo.png"/>
+<!-- 				<img src="<?php bloginfo('template_directory');?>/images/ico-logo.png"/> -->
+				
+				<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-logo.svg"); ?>
 				
 			</a><!-- logo -->
 			

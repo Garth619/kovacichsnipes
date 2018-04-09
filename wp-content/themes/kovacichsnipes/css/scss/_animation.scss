@@ -91,7 +91,7 @@
 		a.logo {
 			border-left: 1px solid transparent;
 			transition: border-color 500ms ease-in-out;
-			img {
+			svg {
 				transform: translateX(-40px);
 				opacity: 0;
 				transition: opacity 800ms ease-in-out, transform 1300ms cubic-bezier(.17,.66,.34,.98);
@@ -125,7 +125,7 @@
 			a.logo {
 				border-left: 1px solid #18272d;
 				transition-delay: 2000ms;
-				img {
+				svg {
 					opacity: 1;
 					transform: translateX(0px);
 					transition-delay: 1200ms;
