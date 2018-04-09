@@ -23,7 +23,7 @@ function my_jquery_enqueue() {
      
      // Load my stylesheet
      
-     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 4, 'all' ); 
+     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
 
      // Load my javascripts
      
