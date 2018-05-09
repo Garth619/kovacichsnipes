@@ -139,14 +139,14 @@
 		order:2;
 		padding: 78px 45px 28px;
 			ul {
-				display: flex;
+				// display: flex;
 				flex-wrap: wrap;
 				justify-content: space-between;
 				max-width: 800px;
 				margin-left:auto;
 				margin-right:auto;
 				li {
-					flex-basis: 30.333%;
+					// flex-basis: 30.333%;
 				}
 			}
 		}
@@ -169,8 +169,7 @@
 	
 	
 	.sidebar {
-		
-			ul {
+		ul {
 				max-width:630px;
 				li {
 					flex-basis: 43%;
