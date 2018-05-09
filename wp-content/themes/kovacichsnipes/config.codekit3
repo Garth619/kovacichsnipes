@@ -4,10 +4,10 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "0E4A247E-E0D4-4A15-8EAE-0885E647A146"
+		"uuidString": "128A0D6C-E8DA-48C5-9A5B-022FCB6EB314"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -973,6 +973,7 @@
 	"\/images\/banner-one.jpg": {
 		"ft": 16384,
 		"iS": 314210,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/banner-one.jpg",
 		"oF": 0,
@@ -983,6 +984,7 @@
 	"\/images\/hero-img.jpg": {
 		"ft": 16384,
 		"iS": 248957,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-img.jpg",
 		"oF": 0,
@@ -993,6 +995,7 @@
 	"\/images\/hero-intl-about-tablet.jpg": {
 		"ft": 16384,
 		"iS": 374975,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-intl-about-tablet.jpg",
 		"oF": 0,
@@ -1003,6 +1006,7 @@
 	"\/images\/hero-intl-about.jpg": {
 		"ft": 16384,
 		"iS": 200787,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-intl-about.jpg",
 		"oF": 0,
@@ -1013,6 +1017,7 @@
 	"\/images\/hero-intl.jpg": {
 		"ft": 16384,
 		"iS": 885789,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-intl.jpg",
 		"oF": 0,
@@ -1023,6 +1028,7 @@
 	"\/images\/hero-mobile.jpg": {
 		"ft": 16384,
 		"iS": 57485,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-mobile.jpg",
 		"oF": 0,
@@ -1032,17 +1038,19 @@
 		},
 	"\/images\/hero-tablet.jpg": {
 		"ft": 16384,
-		"iS": 461417,
+		"iS": 108678,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero.jpg": {
 		"ft": 16384,
 		"iS": 822772,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero.jpg",
 		"oF": 0,
@@ -1137,6 +1145,7 @@
 	"\/images\/ico-pattern-two.jpg": {
 		"ft": 16384,
 		"iS": 16630,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/ico-pattern-two.jpg",
 		"oF": 0,
@@ -1147,6 +1156,7 @@
 	"\/images\/ico-pattern.jpg": {
 		"ft": 16384,
 		"iS": 19535,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/ico-pattern.jpg",
 		"oF": 0,
@@ -1198,6 +1208,7 @@
 	"\/images\/intl-about-1.jpg": {
 		"ft": 16384,
 		"iS": 161389,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-about-1.jpg",
 		"oF": 0,
@@ -1208,6 +1219,7 @@
 	"\/images\/intl-about-2.jpg": {
 		"ft": 16384,
 		"iS": 941995,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-about-2.jpg",
 		"oF": 0,
@@ -1218,6 +1230,7 @@
 	"\/images\/intl-about-3.jpg": {
 		"ft": 16384,
 		"iS": 786469,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-about-3.jpg",
 		"oF": 0,
@@ -1228,6 +1241,7 @@
 	"\/images\/intl-about-4.jpg": {
 		"ft": 16384,
 		"iS": 1213621,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-about-4.jpg",
 		"oF": 0,
@@ -1238,6 +1252,7 @@
 	"\/images\/intl-img-about.jpg": {
 		"ft": 16384,
 		"iS": 180592,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-img-about.jpg",
 		"oF": 0,
@@ -1248,6 +1263,7 @@
 	"\/images\/intl-img-video.jpg": {
 		"ft": 16384,
 		"iS": 32446,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-img-video.jpg",
 		"oF": 0,
@@ -1258,6 +1274,7 @@
 	"\/images\/intl-profile-kov.jpg": {
 		"ft": 16384,
 		"iS": 259044,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-profile-kov.jpg",
 		"oF": 0,
@@ -1268,6 +1285,7 @@
 	"\/images\/intl-profile-ross.jpg": {
 		"ft": 16384,
 		"iS": 250692,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-profile-ross.jpg",
 		"oF": 0,
@@ -1278,6 +1296,7 @@
 	"\/images\/intl-profile-snipes.jpg": {
 		"ft": 16384,
 		"iS": 280864,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-profile-snipes.jpg",
 		"oF": 0,
@@ -1288,6 +1307,7 @@
 	"\/images\/intl-staff-1.jpg": {
 		"ft": 16384,
 		"iS": 146813,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-staff-1.jpg",
 		"oF": 0,
@@ -1298,6 +1318,7 @@
 	"\/images\/intl-staff-2.jpg": {
 		"ft": 16384,
 		"iS": 227261,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-staff-2.jpg",
 		"oF": 0,
@@ -1308,6 +1329,7 @@
 	"\/images\/intl-staff-3.jpg": {
 		"ft": 16384,
 		"iS": 176400,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl-staff-3.jpg",
 		"oF": 0,
@@ -1449,6 +1471,7 @@
 	"\/images\/placeholder.jpg": {
 		"ft": 16384,
 		"iS": 23386,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/placeholder.jpg",
 		"oF": 0,
@@ -1509,6 +1532,7 @@
 	"\/images\/result-img-tablet.jpg": {
 		"ft": 16384,
 		"iS": 690266,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/result-img-tablet.jpg",
 		"oF": 0,
@@ -1519,6 +1543,7 @@
 	"\/images\/result-img.jpg": {
 		"ft": 16384,
 		"iS": 986510,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/result-img.jpg",
 		"oF": 0,
@@ -1559,6 +1584,7 @@
 	"\/images\/testimonial-mobile.jpg": {
 		"ft": 16384,
 		"iS": 266295,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/testimonial-mobile.jpg",
 		"oF": 0,
@@ -1569,6 +1595,7 @@
 	"\/images\/testimonial-tablet.jpg": {
 		"ft": 16384,
 		"iS": 451686,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/testimonial-tablet.jpg",
 		"oF": 0,
@@ -1579,6 +1606,7 @@
 	"\/images\/testimonial.jpg": {
 		"ft": 16384,
 		"iS": 114650,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/testimonial.jpg",
 		"oF": 0,
@@ -1617,7 +1645,7 @@
 		"oA": 0,
 		"oAP": "\/js\/about-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/custom-min.js": {
@@ -1657,7 +1685,7 @@
 		"oA": 0,
 		"oAP": "\/js\/E-v1-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/home-min.js": {
@@ -2642,10 +2670,11 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 543790587,
+	"creationDate": 547578762,
 	"displayValue": "kovacichsnipes",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-cryingJordan"
+	"iconImageName": "meme-ariel",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3844,7 +3873,7 @@
 			},
 		"object-property-newline": {
 			"active": 0,
-			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
 			},
 		"object-shorthand": {
 			"active": 0,
@@ -4040,7 +4069,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/kovacich-snipes.com",
+	"externalServerAddress": "http:\/\/kovacich-demo.com",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -4448,6 +4477,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

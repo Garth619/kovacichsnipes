@@ -309,7 +309,28 @@ $(function() {
   
   
   
+  // sidebars 
   
+  // current page
+ 
+
+  
+  
+  $('.sidebar ul > li.menu-item-has-children > a').on('click', function(e) {
+    
+    $(this).next('ul.sub-menu').toggleClass('open');
+    
+    $(this).toggleClass('active');
+    
+  });
+  
+  
+  
+  $('.current-menu-ancestor > a').toggleClass('active');
+  
+   $('.current-menu-ancestor > ul.sub-menu').toggleClass('open');
+
+
   
   
   

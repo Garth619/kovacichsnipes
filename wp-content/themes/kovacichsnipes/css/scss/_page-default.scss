@@ -5,7 +5,7 @@
 	flex-basis: 485px;
 	flex-shrink:0;
 	background: url(#{$themePath}images/ico-pattern.jpg) top left repeat;
-	padding:123px 4% 100px 6%;
+	padding: 123px 4% 100px 5%;
 	ul {
 		list-style: none;
 		margin: 0;
@@ -36,6 +36,72 @@
 				}
 			}
 		}
+	}
+	ul.menu {
+		
+		>li {
+			> a.active {
+					color:$orangered;
+					&:after {
+						background: $orangered;
+					}
+			}
+		}
+		> li {
+			margin-bottom:0px;
+			> a {
+					color:$gold;
+					font-size:30px;
+					line-height: 32px;
+					font-family: $actabook;
+					text-transform: none;
+					letter-spacing: 0;
+					position: relative;
+					padding-right: 15px;
+					padding-bottom:25px;
+					border-bottom:2px solid $gold;
+// 					margin-bottom:30px;
+					display: block;
+					transition: color 200ms ease-in-out;
+					cursor: pointer;
+					&:after {
+						content:"";
+						display: block;
+						width:5px;
+						height:5px;
+						background: $gold;
+						border-radius: 50%;
+						position: absolute;
+						top:12px;
+						right:0;
+						transition: background 200ms ease-in-out;
+					}
+					&:hover {
+						color:$orangered;
+						&:after {
+							background: $orangered;
+						}
+					}
+			}
+		}
+	}
+	ul.sub-menu {
+		max-height: 0px;
+		padding-top:0px;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 600ms ease-in-out;
+		li {
+			&:last-of-type {
+				padding-bottom: 31px;
+			}
+		}
+	}
+	ul.sub-menu.open {
+		max-height: 3000px;
+		padding-top:30px;
+		opacity: 1;
+		visibility: visible;
 	}
 }
 
