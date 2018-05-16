@@ -45,7 +45,20 @@ get_header(); ?>
 			
 			<div class="profile_img_wrapper profile_mobile">
 				
-				<img class="profile_page_img" src="<?php bloginfo('template_directory');?>/images/intl-profile-snipes.jpg"/>
+				<?php $profile_image = get_field( 'profile_image' ); ?>
+			
+			<?php if ( $profile_image ) : ?>
+
+				<img class="profile_page_img" src="<?php echo $profile_image['url']; ?>" alt="<?php echo $profile_image['alt']; ?>" />
+				
+				<?php else:?>
+				
+				<img src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
+				
+			<?php endif; ?>
+
+				
+<!-- 				<img class="profile_page_img" src="<?php bloginfo('template_directory');?>/images/intl-profile-snipes.jpg"/> -->
 				
 				<?php echo file_get_contents("wp-content/themes/kovacichsnipes/images/new-peace.svg"); ?>
 				

@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "128A0D6C-E8DA-48C5-9A5B-022FCB6EB314"
+		"uuidString": "5DB8ED60-1533-4FCF-8F61-B67B7DB6A7BB"
 		}
 	],
 "creatorBuild": "26680",
@@ -1665,7 +1665,7 @@
 		"oA": 0,
 		"oAP": "\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/E-v1-min.js": {
@@ -1705,7 +1705,7 @@
 		"oA": 0,
 		"oAP": "\/js\/home-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/internal-min.js": {
@@ -1725,7 +1725,7 @@
 		"oA": 0,
 		"oAP": "\/js\/internal-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/slick\/.gitignore": {
@@ -2670,10 +2670,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 547578762,
+	"creationDate": 548179433,
 	"displayValue": "kovacichsnipes",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ariel",
+	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
