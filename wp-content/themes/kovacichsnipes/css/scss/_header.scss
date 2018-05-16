@@ -255,6 +255,7 @@ body:not(.page-template-page-home) {
 		.header_left {
 			background: $bluedark;
 			flex-basis: 400px;
+			flex-shrink: 0;
 			a.logo {
 			border-left:0;
 			
@@ -273,6 +274,7 @@ body:not(.page-template-page-home) {
 				background: $orangered;
 				height:100%;
 				padding-top:25px;
+				flex-shrink:0;
 				transition: all .2s ease-in-out;
 				&:hover {
 					background:$gold;
