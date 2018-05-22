@@ -26,6 +26,63 @@
 }
 
 
+.sidenote_wrapper {
+	width:290px;
+/*
+	flex-shrink: 0;
+	flex-grow: 0;
+*/
+}
+
+
+.badge_wrapper {
+	margin-top:20px;
+	margin-bottom:130px;
+}
+
+.badge_slider {
+	width:100%;
+	.single_badge_slide {
+		text-align: center;
+		img {
+			max-width: 100%;
+			height:auto;
+
+		}
+	}
+	.slick-dots {
+		bottom: -35px;
+		li.slick-active {
+			button {
+				&:before {
+					color:$gold;
+				}
+			}
+		}
+		li:hover {
+			button {
+				&:before {
+					color:$gold;
+				}
+			}
+		}
+		li {
+			margin:0;
+			width:16px;
+			button {
+				width:16px;
+				&:before {
+					width:16px;
+					opacity: 1;
+					color: $bluedark;
+					font-size:26px;
+				}
+			}
+		}
+	}
+}
+
+
 .sidenote {
 	font-family: $tradegothic;
 	text-transform: uppercase;
@@ -36,9 +93,7 @@
 	display: inline-block;
 	border-top:7px solid $orangered;
 	padding:27px 0 0;
-	flex-basis:275px;
-	flex-shrink: 0;
-	flex-grow: 0;
+	
 	margin-top:5px;
 }
 
@@ -48,7 +103,8 @@
 	display: flex;
 	justify-content: space-between;
 	padding-left:7%;
-	flex-grow:1;
+	width:calc(100% - 290px);
+// 	flex-grow:1;
 }
 
 
@@ -87,7 +143,7 @@
 	
 	
 	.sidenote {
-		flex-basis:200px;
+		//flex-basis:200px;
 	}
 	
 	
@@ -107,7 +163,7 @@
 	
 	.sec_five_content_wrapper {
 		flex-direction: column;
-		margin: 65px 0;
+		margin: 33px 0 65px;
 	}
 	
 	.sec_five_inner {
@@ -118,15 +174,38 @@
 		}
 	} 
 	
-	.sidenote {
-		flex-basis:100%;
-		max-width:275px;
+	
+	.sidenote_wrapper {
+		width:100%;
+		display: flex;
+		justify-content: space-between;
 	}
+	
+	.sidenote {
+		// flex-basis:100%;
+		// max-width:275px;
+		order:1;
+		flex-grow: 1;
+		margin-top: 59px;
+		max-width: 500px;
+		margin-right:40px;
+	}
+	
+	
+	
+	.badge_wrapper {
+		width:290px;
+		order:2;
+		margin-top:0;
+		margin-bottom: 96px;
+	}
+	
 	
 	.sec_five_content {
 		padding-left:0;
 		flex-direction: column;
-		margin-top:68px;
+		margin-top:0px;
+		width:100%;
 	}
 	
 	.sec_five_col {
@@ -160,10 +239,24 @@
 	
 	
 	.sec_five_content {
-		margin-top: 49px;
+		margin-top: 65px;
 	} 
 	
+	.sidenote_wrapper {
+		flex-direction: column;
+		align-items: center;
+		
+	}
 	
+	.sidenote {
+		margin-right: 0;
+		order:2;
+		margin-top: 30px;
+	}
+	
+	.badge_wrapper {
+		order: 1;
+	}
 	
 	
 } /* Media Query */

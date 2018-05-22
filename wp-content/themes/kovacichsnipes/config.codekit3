@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "5DB8ED60-1533-4FCF-8F61-B67B7DB6A7BB"
+		"uuidString": "B05D6436-8D57-44F6-A769-322EFE3F6D62"
 		}
 	],
 "creatorBuild": "26680",
@@ -429,7 +429,7 @@
 		"uL": 1
 		},
 	"\/css\/scss\/style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -968,6 +968,94 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/b1.jpg": {
+		"ft": 16384,
+		"iS": 11480,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/b2.jpg": {
+		"ft": 16384,
+		"iS": 14502,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/b2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/b3.jpg": {
+		"ft": 16384,
+		"iS": 10754,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/b3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/b4.jpg": {
+		"ft": 16384,
+		"iS": 15027,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/b4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/b5.jpg": {
+		"ft": 16384,
+		"iS": 15975,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/b5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/b6.jpg": {
+		"ft": 16384,
+		"iS": 12897,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/b6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/b7.jpg": {
+		"ft": 16384,
+		"iS": 13527,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/b7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/b8.jpg": {
+		"ft": 16384,
+		"iS": 8646,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/b8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/banner-one.jpg": {
@@ -1665,7 +1753,7 @@
 		"oA": 0,
 		"oAP": "\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/E-v1-min.js": {
@@ -2670,10 +2758,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 548179433,
+	"creationDate": 548702591,
 	"displayValue": "kovacichsnipes",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-fry",
+	"iconImageName": "brackets_green",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -4069,7 +4157,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/kovacich-demo.com",
+	"externalServerAddress": "http:\/\/kovacich-snipes.com\/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

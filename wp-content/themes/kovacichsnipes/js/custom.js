@@ -202,6 +202,20 @@ var windowWidth = $(window).width();
 	
 	
 	
+	$('.badge_slider').slick({
+  	infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows:false,
+		dots:true,
+		fade:true,
+		autoplay:true,
+		speed:800
+	});
+	
+	
+	
+	
 	
 	$('.sec_six_slides').slick({
   	infinite: true,
