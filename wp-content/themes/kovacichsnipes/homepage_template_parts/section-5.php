@@ -15,53 +15,25 @@
 					
 					<div class="badge_slider">
 						
-						<div class="single_badge_slide">
+						<?php if(get_field('section_five_badges')): ?>
+						 
+							<?php while(has_sub_field('section_five_badges')): ?>
+						 
+								<div class="single_badge_slide">
 							
-							<img src="<?php bloginfo('template_directory');?>/images/b1.jpg"/>
+									<?php $badge_image = get_sub_field( 'badge_image' ); ?>
+		
+									<?php if ( $badge_image ) { ?>
+			
+										<img src="<?php echo $badge_image['url']; ?>" alt="<?php echo $badge_image['alt']; ?>" />
+		
+									<?php } ?>
 						
-						</div><!-- single_badge_slide -->
-						
-						<div class="single_badge_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/b2.jpg"/>
-						
-						</div><!-- single_badge_slide -->
-						
-						<div class="single_badge_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/b3.jpg"/>
-						
-						</div><!-- single_badge_slide -->
-						
-						<div class="single_badge_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/b4.jpg"/>
-						
-						</div><!-- single_badge_slide -->
-							
-						<div class="single_badge_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/b5.jpg"/>
-						
-						</div><!-- single_badge_slide -->
-						
-						<div class="single_badge_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/b6.jpg"/>
-						
-						</div><!-- single_badge_slide -->
-						
-						<div class="single_badge_slide">
-							
-								<img src="<?php bloginfo('template_directory');?>/images/b7.jpg"/>
-						
-						</div><!-- single_badge_slide -->
-						
-						<div class="single_badge_slide">
-							
-							<img src="<?php bloginfo('template_directory');?>/images/b8.jpg"/>
-						
-						</div><!-- single_badge_slide -->
+								</div><!-- single_badge_slide -->
+						    
+							<?php endwhile; ?>
+						 
+						<?php endif; ?>
 						
 						
 					</div><!-- badge_slider -->
